@@ -12,7 +12,7 @@ jobs:
     - name: Fetch data
       uses: actions/checkout@v2
       with:
-        repository: itpas2020/news
+        repository: misogynyX/news
         path: news
     - name: Analyze
       uses: abatilo/actions-poetry@v1.5.0
