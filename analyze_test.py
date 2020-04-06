@@ -93,6 +93,24 @@ def test_porn():
         assert not analyze.analyze_porn(text), description
 
 
+def test_abuse():
+    positives = [
+        ('아동 포르노', '김모씨가 아동 포르노를 촬영한 혐의로...'),
+        ('아동 음란물', '김모씨가 아동 음란물을 촬영한 혐의로...'),
+        ('청소년 음란물', '김모씨가 청소년 음란물을 촬영한 혐의로...'),
+        ('미성년자 음란물', '김모씨가 미성년자 음란물을 촬영한 혐의로...'),
+    ]
+    for description, text in positives:
+        assert analyze.analyze_abuse(text), description
+
+    negatives = [
+        ('관련 키워드 없음', '무해하고 좋은 제목'),
+        ('잘못을 지적하는 기사', '아동 음란물이 아니라 성착취물...'),
+    ]
+    for description, text in negatives:
+        assert not analyze.analyze_abuse(text), description
+
+
 def test_bearing():
     positives = [
         ('저출산', '국내 저출산 문제가 심각...'),
