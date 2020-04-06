@@ -6,7 +6,7 @@
     <div class="author">{{ article.author }}</div>
     <div class="date">/ {{ article.date }}</div>
     <h3 class="title">
-      <a href="{{ article.daum_url }}" target="_blank">
+      <a href="{{ article.daum_url }}" target="_blank" class="{{ include.tag }}">
       {{ article.title }}
       </a>
     </h3>
@@ -14,7 +14,7 @@
   <div class="description">
     {{article.description}}...
   </div>
-  <a class="more" href="{{ article.daum_url }}" target="_blank">더 읽기</a>
+  <a href="{{ article.daum_url }}" target="_blank" class="{{ include.tag }}">더 읽기</a>
 </li>
 {% endfor %}
 </ul>
