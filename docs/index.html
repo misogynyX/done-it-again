@@ -184,6 +184,25 @@
         {% include section.html articles=section_articles tag="porn" %}
       </section>
 
+      <section class="box" id="porn">
+        <h2>아동/청소년 음란물</h2>
+        <div class="guide">
+          <p>
+          <span class="bad">아동 음란물</span>,
+          <span class="bad">청소년 음란물</span>은 "음란물"이 아니라 아동/청소년
+          학대 행위를 담은 범죄 영상입니다. 따라서 영상을 촬영하는 행위는
+          <span class="good">아동/청소년 성착취</span>로, 촬영된 범죄 영상물은
+          <span class="good">아동/청소년 성착취물</span>로 표현해야 합니다.
+          </p>
+        </div>
+        {%
+        assign section_articles = articles
+        | where_exp:"item", "item.tags contains 'abuse'"
+        | slice: 0, 50
+        %}
+        {% include section.html articles=section_articles tag="abuse" %}
+      </section>
+
       <section class="box" id="bearing">
         <h2>저출산</h2>
         <div class="guide">
