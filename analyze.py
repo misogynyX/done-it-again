@@ -19,7 +19,7 @@ def analyze_article(article):
     if analyze_porn(text):
         tags.add('porn')
     if analyze_abuse(text):
-        tags.add('porn')
+        tags.add('abuse')
     if analyze_metoo(text):
         tags.add('metoo')
     if analyze_bearing(text):
