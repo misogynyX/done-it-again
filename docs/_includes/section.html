@@ -1,0 +1,20 @@
+<ul class="articles">
+{% for article in include.articles %}
+<li class="article">
+  <div>
+    <div class="cp_name">{{ article.cp_name }}</div>
+    <div class="author">{{ article.author }}</div>
+    <div class="date">/ {{ article.date }}</div>
+    <h3 class="title">
+      <a href="{{ article.daum_url }}" target="_blank">
+      {{ article.title }}
+      </a>
+    </h3>
+  </div>
+  <div class="description">
+    {{article.description}}...
+  </div>
+  <a class="more" href="{{ article.daum_url }}" target="_blank">더 읽기</a>
+</li>
+{% endfor %}
+</ul>

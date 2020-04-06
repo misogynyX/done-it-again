@@ -1,0 +1,32 @@
+name: Update data
+
+on:
+  schedule:
+      - cron: "10 0 * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Fetch data
+      uses: actions/checkout@v2
+      with:
+        repository: itpas2020/news
+        path: news
+    - name: Analyze
+      uses: abatilo/actions-poetry@v1.5.0
+      with:
+        python_version: 3.8.0
+        poetry_version: 1.0.5
+        args: run ./update.sh
+    - name: Commit
+      run: |
+        git add docs/_data
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m '새로 추가된 뉴스 분석' || true
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

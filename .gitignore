@@ -1,0 +1,10 @@
+# Project
+news/
+
+# Python
+.mypy_cache/**
+.python-version
+__pycache__/
+
+# Misc.
+*.swp

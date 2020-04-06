@@ -1,0 +1,116 @@
+import re
+
+
+def analyze_article(article):
+    """제목, 본문, 키워드를 분석해서 분류용 태그들을 추출"""
+    text = ';'.join([
+        article['title'],
+        article['description'],
+        article['keywords'],
+    ])
+
+    tags = set()
+    if analyze_trivialize(text):
+        tags.add('trivialize')
+    if analyze_demonize(text):
+        tags.add('demonize')
+    if analyze_molka(text):
+        tags.add('molka')
+    if analyze_porn(text):
+        tags.add('porn')
+    if analyze_metoo(text):
+        tags.add('metoo')
+    if analyze_bearing(text):
+        tags.add('bearing')
+    if analyze_gender(text):
+        tags.add('gender')
+    if analyze_profession(text):
+        tags.add('profession')
+
+    return sorted(tags)
+
+
+def analyze_trivialize(text):
+    """'몹쓸 짓' 등 성범죄를 미화하거나 축소하는 표현이 나오는지 검사"""
+    return (
+        analyze(text, r'몹쓸\s?짓|검은\s?손|홧김에') and
+        is_gender_related(text)
+    )
+
+
+def analyze_demonize(text):
+    """'인면수심' 등 범죄자를 악마화하거나 비일상적 인물로 묘사하는지 검사"""
+    return (
+        analyze(
+            text,
+            r'인면수심|악마|괴물|인간의 탈을',
+            r'최(영미)?\s시인|봉준호'
+        ) and
+        is_gender_related(text)
+    )
+
+
+def analyze_molka(text):
+    """'몰카', '몰래카메라'라는 표현이 나오는지 검사"""
+    return analyze(
+        text,
+        r'몰카|몰래\s?카메라',
+        r'파파라치\s?학원',
+    )
+
+
+def analyze_porn(text):
+    """'리벤지 포르노'라는 표현이 나오는지 검사"""
+    return analyze(text, r'리벤지\s*포르노')
+
+
+def analyze_metoo(text):
+    """'미투'를 '나도 당했다'라고 잘못 풀이하는지 검사"""
+    return analyze(text, r'(미투|me\s?too).{1,5}당했다')
+
+
+def analyze_monster(text):
+    """'인면수심'처럼 가해자를 비일상적 인물로 묘사하는지 검사"""
+    # TODO
+    return False
+
+
+def analyze_gender(text):
+    """여성만 성별 표기를 하는지 검사"""
+    return analyze(
+        text,
+        r'(\w+\((\d{0,3}.?[여|女]성?|[여|女]성?.?\d{0,3})\)|' \
+        r'\b[여女][자성]?\s?(중생|고생|대생|학생))',
+        r'(\w+\((\d{0,3}.?[남|男]성?|[남|男]성?.?\d{0,3})\)|' \
+        r'\b[남男][자성]?\s?(교사|교수|배우|의사|중생|고생|대생|학생))',
+    )
+
+
+def analyze_profession(text):
+    """여의사 등 여성 전문직만 차별적으로 표현하는지 검사"""
+    return analyze(
+        text,
+        r'\b[여女][자성]?\s?(교사|교수|배우|의사)',
+        r'\b[남男][자성]?\s?(교사|교수|배우|의사|중생|고생|대생|학생)',
+    )
+
+
+def analyze_bearing(text):
+    """'저출산'이라는 용어를 쓰는지 검사"""
+    return analyze(text, r'저출산', r'저출생')
+
+
+def analyze(text, p_pos, p_neg=None):
+    """텍스트가 p_pos와 일치하고 p_neg와 불일치하는지 검사"""
+    return bool(
+        re.search(p_pos, text, re.I) and
+        (p_neg is None or not re.search(p_neg, text, re.I))
+    )
+
+
+def is_gender_related(text):
+    return analyze(
+        text,
+        r'성[매매|범죄|추행|폭력|행위]|임신|' \
+        r'여(성|중생|고생|대생|학생)|(친|의붓)딸|동생|동료|제자|후배'
+    )

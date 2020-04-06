@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #060606;
+  color: #acacac;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+strong {
+  color: #ffffff;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+header {
+  max-width: 60rem;
+  margin: 3rem auto;
+  padding: 0 1em;
+  font-size: 1.2rem;
+
+  @media (max-width: 600px) {
+    font-size: 1.0rem;
+  }
+
+  h1 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 6rem;
+    border-bottom: 4px solid #981a1a;
+
+    @media (max-width: 600px) {
+      font-size: 5rem;
+    }
+  }
+
+  .brief {
+    .title {
+      font-size: 1.5em;
+    }
+  }
+
+  blockquote {
+    animation: 1.5s ease-in-out 0s 1 fadeIn;
+
+    position: relative;
+    margin: 4rem 0 4rem 40%;
+    font-style: italic;
+
+    .quote::before{
+      content: "\201C";
+      font-family: serif;
+      position: absolute;
+      left: -0.6em;
+    }
+    .quote::after{
+      content: "\201D";
+      font-family: serif;
+      position: absolute;
+    }
+
+    .source {
+      text-align: right;
+    }
+
+    @media (max-width: 600px) {
+      margin-left: 20%;
+    }
+  }
+}
+
+main {
+  max-width: 60rem;
+  margin: 3rem auto;
+  padding: 0 1em;
+
+  h2 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 2rem;
+    margin: 5rem 0 2rem;
+    padding: 0 1rem 0.1rem;
+    border-left: 6px solid #981a1a;
+  }
+
+}
+
+footer {
+  max-width: 60rem;
+  margin: 6rem auto;
+  padding: 0 1em;
+  text-align: center;
+  font-size: 1rem;
+  color: #888;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+
+  /* styling scrollbar for windows chrome and windows safari { */
+  &::-webkit-scrollbar {
+    height: 16px;
+    background-color: #333;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #666;
+  }
+  /* } */
+
+  /* styling scrollbar for firefox and old IEs { */
+  scrollbar-track-color: #333;
+  scrollbar-color: #666;
+  /* } */
+
+  /* auto-hide scrollbar on windows edge since it doesn't support for custom
+   * styling { */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  /* } */
+
+  margin: 1rem 0;
+  padding: 1rem 0;
+  height: 25rem;
+
+  list-style-type: none;
+
+  .article {
+    position: relative;
+    flex: 0 0 auto;
+    width: 16rem;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 1rem 0 0;
+    padding: 1rem;
+    border: 1px solid #333;
+    box-shadow: 1px 1px 3px #000;
+    scroll-snap-align: start;
+
+    .cp_name {
+      display: inline-block;
+      border: 1px solid currentColor;
+      padding: 1px 4px;
+      margin-right: 0.2rem;
+      border-radius: 2px;
+      font-size: 0.8rem;
+    }
+
+    .date, .author {
+      display: inline;
+      font-size: 0.85em;
+    }
+
+    .title {
+      font-weight: normal;
+      font-size: 1em;
+      padding: 0.4rem 0;
+      margin: 0;
+    }
+
+    .description {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    .more {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4rem;
+      line-height: 4rem;
+      text-align: center;
+
+      background: linear-gradient(
+        180deg,
+        rgba(20,20,20,0.0) 0%,
+        rgba(20,20,20,0.5) 15%,
+        rgba(20,20,20,1.0) 70%
+      );
+    }
+  }
+}
+
+.guide {
+  font-size: 1.0rem;
+  word-break: keep-all;
+  padding-left: 1.5rem;
+}
+
+.good, .bad {
+  padding: 1px 3px;
+  border-radius: 2px;
+  font-weight: bold;
+  word-break: keep-all;
+  color: #ffffff;
+}
+
+.good {
+  background-color: #158e23;
+}
+.bad {
+  background-color: #981a1a;
+}
+
