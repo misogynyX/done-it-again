@@ -19,14 +19,50 @@ FIELDS = [
 
 class CLI:
     """News analyzer"""
-    def analyze(self):
+    def tag(self):
         """기사 전체를 분석하여 분류 태그를 추가한 후 별도 파일로 저장"""
         articles = self._analyze_articles(self._get_articles())
         os.makedirs(DATA_DIR, exist_ok=True)
         with open(os.path.join(DATA_DIR, 'articles.csv'), 'w') as f:
             csvw = csv.DictWriter(f, FIELDS)
             csvw.writeheader()
-            csvw.writerows(articles)
+            for article in articles:
+                if len(article['tags']) == 0:
+                    continue
+                article['tags'] = ';'.join(article['tags'])
+                csvw.writerow(article)
+
+    def stats(self):
+        """통계분석"""
+        articles = self._analyze_articles(self._get_articles())
+        os.makedirs(DATA_DIR, exist_ok=True)
+
+        # 집계
+        counters = {}
+        for article in articles:
+            if len(article['tags']) == 0:
+                # 태그가 없으면 "clean"으로 분류
+                key = (article['date'], article['cp_name'], 'clean')
+                counters[key] = counters.get(key, 0) + 1
+            else:
+                # 태그가 있으면 각 태그별로 집계
+                for tag in article['tags']:
+                    key = (article['date'], article['cp_name'], tag)
+                    counters[key] = counters.get(key, 0) + 1
+
+        keys = sorted(counters.keys())
+        with open(os.path.join(DATA_DIR, 'stats.csv'), 'w') as f:
+            csvw = csv.DictWriter(f, ['date', 'cp_name', 'tag', 'count'])
+            csvw.writeheader()
+            csvw.writerows(
+                {
+                    'date': date,
+                    'cp_name': cp_name,
+                    'tag': tag,
+                    'count': counters[(date, cp_name, tag)],
+                }
+                for date, cp_name, tag in keys
+            )
 
     def test(self, tag):
         """기사 전체 중 특정 분류에 속하는 기사만 출력. 개발 중 테스트용"""
@@ -52,9 +88,8 @@ class CLI:
         """Analyze articles"""
         for article in articles:
             tags = analyze.analyze_article(article)
-            if len(tags) > 0:
-                article['tags'] = ';'.join(tags)
-                yield article
+            article['tags'] = tags
+            yield article
 
 
 if __name__ == '__main__':
