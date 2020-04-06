@@ -18,6 +18,8 @@ def analyze_article(article):
         tags.add('molka')
     if analyze_porn(text):
         tags.add('porn')
+    if analyze_abuse(text):
+        tags.add('abuse')
     if analyze_metoo(text):
         tags.add('metoo')
     if analyze_bearing(text):
@@ -64,15 +66,18 @@ def analyze_porn(text):
     return analyze(text, r'리벤지\s*포르노')
 
 
+def analyze_abuse(text):
+    """'아동 포르노'라는 표현이 나오는지 검사"""
+    return analyze(
+        text,
+        r'(아동|청소년|미성년자)\s?(포르노|음란물?)',
+        r'착취',
+    )
+
+
 def analyze_metoo(text):
     """'미투'를 '나도 당했다'라고 잘못 풀이하는지 검사"""
     return analyze(text, r'(미투|me\s?too).{1,5}당했다')
-
-
-def analyze_monster(text):
-    """'인면수심'처럼 가해자를 비일상적 인물로 묘사하는지 검사"""
-    # TODO
-    return False
 
 
 def analyze_gender(text):
