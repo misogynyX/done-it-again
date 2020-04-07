@@ -194,6 +194,52 @@
       </p>
       {% endcapture %}
       {% include section.html articles=articles tag="gender" guide=guide %}
+
+      <section class='haf'>
+        <h2>(불)명예의 전당</h2>
+
+        {% assign stats = site.data.stats_worst_cps[0] %}
+        <section class='worst'>
+          <h3>부적절한 표현을 <span class="bad">가장 많이 쓴</span> 언론사</h3>
+          <p>
+          각 언론사별로 최근 6개월 이내에 수집된 기사 중에서 부적절한 표현이
+          담긴 기사의 비율이 가장 높은 언론사를 꼽았습니다.
+          <strong>1위</strong>는 수집된 기사 총
+          <strong>{{ stats.total }}</strong>건 중 부적절한 표현이 담긴 기사가
+          <strong>{{ stats.bad }}</strong>건으로 전체 기사의
+          <strong>{{ stats.ratio | times: 100 | round: 2 }}%</strong>를 기록한
+          <span class="bad">{{ stats.cp_name }}</span> 입니다.
+          </p>
+          {% assign ref = site.data.stats_worst_cps[0] %}
+          {% assign rankers = site.data.stats_worst_cps | slice: 0, 10 %}
+          {% include cp_ranks.html ref=ref rankers=rankers %}
+
+        </section>
+
+        {% assign stats = site.data.stats_best_cps[0] %}
+        <section class='best'>
+          <h3>부적절한 표현을 <span class="good">가장 적게 쓴</span> 언론사</h3>
+          <p>
+          각 언론사별로 최근 6개월 이내에 수집된 기사 중에서 부적절한 표현이
+          담긴 기사의 비율이 가장 낮은 언론사를 꼽았습니다.
+          <strong>1위</strong>는 수집된 기사 총
+          <strong>{{ stats.total }}</strong>건 중 부적절한 표현이 담긴 기사가
+          <strong>{{ stats.bad }}</strong>건으로 전체 기사의
+          <strong>{{ stats.ratio | times: 100 | round: 2 }}%</strong>를 기록한
+          <span class="good">{{ stats.cp_name }}</span> 입니다.
+          </p>
+
+          {% assign ref = site.data.stats_best_cps[9] %}
+          {% assign rankers = site.data.stats_best_cps | slice: 0, 10 %}
+          {% include cp_ranks.html ref=ref rankers=rankers %}
+        </section>
+
+        <p>
+        전체 기사를 대상으로 분석한 결과가 아니며 각 언론사의 기사 중
+        일부만 샘플링하여 수집한 결과입니다. '부적절한 표현'의 분류는
+        알고리즘에 의해 자동으로 수행되므로 오분류가 있을 수 있습니다.
+        </p>
+      </section>
     </main>
 
     <footer>

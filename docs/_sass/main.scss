@@ -36,13 +36,29 @@ strong {
   color: #ffffff;
 }
 
+.good, .bad {
+  padding: 1px 3px;
+  border-radius: 2px;
+  font-weight: bold;
+  word-break: keep-all;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.good {
+  background-color: #157e23;
+}
+.bad {
+  background-color: #a81a1a;
+}
+
 @keyframes fadeIn {
-    0% {
-        opacity: 0%;
-    }
-    100% {
-        opacity: 100%;
-    }
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 header {
@@ -58,7 +74,7 @@ header {
   h1 {
     font-family: 'Noto Serif KR', serif;
     font-size: 6rem;
-    border-bottom: 4px solid #981a1a;
+    border-bottom: 4px solid #a81a1a;
 
     @media (max-width: 600px) {
       font-size: 5rem;
@@ -110,17 +126,22 @@ main {
     font-size: 2rem;
     margin: 5rem 0 2rem;
     padding: 0 1rem 0.1rem;
-    border-left: 6px solid #981a1a;
+    border-left: 6px solid #a81a1a;
   }
 
+  .guide {
+    font-size: 1.1rem;
+    word-break: keep-all;
+  }
 }
 
 footer {
   max-width: 60rem;
   margin: 6rem auto;
-  padding: 0 1em;
+  padding: 3rem 1rem 0;
   text-align: center;
   font-size: 1rem;
+  border-top: 1px solid #a81a1a;
   color: #888;
 }
 
@@ -212,24 +233,69 @@ footer {
   }
 }
 
-.guide {
-  font-size: 1.1rem;
-  word-break: keep-all;
-}
+.haf {
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    border: none;
+  }
 
-.good, .bad {
-  padding: 1px 3px;
-  border-radius: 2px;
-  font-weight: bold;
-  word-break: keep-all;
-  color: #ffffff;
-}
+  h3 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 2rem;
+    margin: 5rem 0 2rem;
+    padding: 0 1rem 0.1rem;
+    border-left: 6px solid #a81a1a;
+  }
 
-.good {
-  background-color: #156e23;
-}
-.bad {
-  background-color: #781a1a;
+  .best h3 {
+    border-left-color: #157e23;
+  }
+
+  .chart {
+    margin: 3rem 0;
+
+    li {
+      height: 2rem;
+      line-height: 2rem;
+      margin: 0.8rem 0;
+
+      .name {
+        display: block;
+        float: left;
+        width: 7em;
+        height: 2rem;
+      }
+      .bar-container {
+        position: relative;
+        display: block;
+        float: left;
+        width: calc(100% - 5rem - 2rem);
+        height: 2rem;
+      }
+      .bar {
+        position: absolute;
+        display: block;
+        height: 2rem;
+        min-width: 1px;
+        background-color: #a81a1a;
+      }
+      .label {
+        position: absolute;
+        height: 2rem;
+        padding: 0 0.5rem;
+
+        .percent {
+          display: inline-block;
+          width: 3.5em;
+        }
+      }
+    }
+    li:first-child {
+      color: #ffffff;
+      font-weight: bold;
+    }
+  }
 }
 
 .stats {
