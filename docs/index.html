@@ -26,6 +26,16 @@
       <a name="#home"></a>
       <h1>언론이 또</h1>
 
+      {% assign latest = site.data.stats_daily | reverse %}
+      {% assign latest = latest[0] %}
+      <div class="daily-stats">
+        {% assign month = latest.date | slice: 4, 2 | plus: 0 %}
+        {% assign date =  latest.date | slice: 6, 2 | plus: 0 %}
+        {{ month }}월 {{ date }}일에 수집된 기사
+        <strong>{{ latest.total }}건</strong> 중 부적절한 표현
+        <strong>{{ latest.bad }}건</strong>
+      </div>
+
       <blockquote>
 
         <p class="quote">

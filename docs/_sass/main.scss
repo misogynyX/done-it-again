@@ -75,9 +75,18 @@ header {
     font-family: 'Noto Serif KR', serif;
     font-size: 6rem;
     border-bottom: 4px solid #a81a1a;
+    margin-bottom: 0.2rem;
 
     @media (max-width: 600px) {
       font-size: 5rem;
+    }
+  }
+
+  .daily-stats {
+    text-align: right;
+
+    strong {
+      color: #5c8eff;
     }
   }
 
