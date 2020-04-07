@@ -1,5 +1,25 @@
+<section class="box" id="{{ include.tag }}">
+<h2>
+{% if include.tag == 'latest' %}
+  최근 기사
+{% else %}
+  {{ site.data.tag_defs[include.tag].name }}
+{% endif %}
+</h2>
+
+<div class="guide">
+{{ include.guide }}
+</div>
 <ul class="articles">
-{% for article in include.articles %}
+{% if include.tag == 'latest' %}
+{%   assign section_articles = include.articles | slice: 0, 50 %}
+{% else %}
+{%  assign section_articles = articles
+    | where_exp:"item", "item.tags contains include.tag"
+    | slice: 0, 50
+%}
+{% endif %}
+{% for article in section_articles %}
 <li class="article">
   <div>
     <div class="cp_name">{{ article.cp_name }}</div>
@@ -18,3 +38,4 @@
 </li>
 {% endfor %}
 </ul>
+</section>
