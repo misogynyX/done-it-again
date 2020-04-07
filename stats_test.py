@@ -1,0 +1,54 @@
+import stats
+
+
+def test_aggregate_by_date_cp_tag():
+    raw = [
+        {'date': '20200101', 'cp_name': 'A', 'tags': ['t0', 't1']},
+        {'date': '20200101', 'cp_name': 'A', 'tags': ['t1']},
+        {'date': '20200101', 'cp_name': 'B', 'tags': ['t1']},
+        {'date': '20200102', 'cp_name': 'C', 'tags': ['t1']},
+        {'date': '20200102', 'cp_name': 'C', 'tags': ['t1']},
+        {'date': '20200102', 'cp_name': 'C', 'tags': []},
+    ]
+    actual = stats.aggregate_by_date_cp_tag(raw)
+    expected = [
+        {'date': '20200101', 'cp_name': 'A', 'tag': 't0', 'count': 1},
+        {'date': '20200101', 'cp_name': 'A', 'tag': 't1', 'count': 2},
+        {'date': '20200101', 'cp_name': 'B', 'tag': 't1', 'count': 1},
+        {'date': '20200102', 'cp_name': 'C', 'tag': 'clean', 'count': 1},
+        {'date': '20200102', 'cp_name': 'C', 'tag': 't1', 'count': 2},
+    ]
+    assert expected == actual
+
+
+def test_most_frequent_tags():
+    table = [
+        {'date': '20200101', 'cp_name': 'A', 'tag': 't0', 'count': 1},
+        {'date': '20200101', 'cp_name': 'A', 'tag': 't1', 'count': 2},
+        {'date': '20200102', 'cp_name': 'B', 'tag': 't1', 'count': 1},
+        {'date': '20200102', 'cp_name': 'C', 'tag': 'clean', 'count': 1},
+        {'date': '20200102', 'cp_name': 'C', 'tag': 't1', 'count': 2},
+    ]
+    actual = stats.frequent_tags(table)
+    expected = [
+        {'tag': 't1', 'count': 5, 'total': 6, 'ratio': 5 / 6},
+        {'tag': 't0', 'count': 1, 'total': 6, 'ratio': 1 / 6},
+    ]
+    assert expected == actual
+
+
+def test_worst_cps():
+    table = [
+        {'date': '20200101', 'cp_name': 'A', 'tag': 't0', 'count': 1},
+        {'date': '20200101', 'cp_name': 'A', 'tag': 't1', 'count': 2},
+        {'date': '20200102', 'cp_name': 'B', 'tag': 't1', 'count': 1},
+        {'date': '20200102', 'cp_name': 'C', 'tag': 'clean', 'count': 1},
+        {'date': '20200102', 'cp_name': 'C', 'tag': 't1', 'count': 2},
+    ]
+    actual = stats.worst_cps(table, min_count=0)
+    expected = [
+        {'cp_name': 'A', 'bad': 3, 'clean': 0, 'total': 3, 'ratio': 3 / 3},
+        {'cp_name': 'B', 'bad': 1, 'clean': 0, 'total': 1, 'ratio': 1 / 1},
+        {'cp_name': 'C', 'bad': 2, 'clean': 1, 'total': 3, 'ratio': 2 / 3},
+    ]
+    assert expected == actual
