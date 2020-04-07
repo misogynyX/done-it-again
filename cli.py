@@ -60,6 +60,15 @@ class CLI:
             csvw.writeheader()
             csvw.writerows(freq_tags)
 
+        # 최근 6개월 이내에 가장 부적절한 표현이 담긴 기사의 비율이 낮은
+        # 언론사 집계 (단, 최근 6개월 이내에 기사가 50개 이상인 경우만)
+        best_cps = stats.best_cps(recent_table, min_count=50)
+        with open(os.path.join(DATA_DIR, 'stats_best_cps.csv'), 'w') as f:
+            fields = ['cp_name', 'clean', 'bad', 'total', 'ratio']
+            csvw = csv.DictWriter(f, fields)
+            csvw.writeheader()
+            csvw.writerows(best_cps)
+
         # 최근 6개월 이내에 가장 부적절한 표현이 담긴 기사의 비율이 높은
         # 언론사 집계 (단, 최근 6개월 이내에 기사가 50개 이상인 경우만)
         worst_cps = stats.worst_cps(recent_table, min_count=50)

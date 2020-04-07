@@ -29,9 +29,22 @@ def frequent_tags(table):
     return sorted(results, key=lambda row: (-row['ratio'], row['tag']))
 
 
+def best_cps(table, min_count):
+    """일별/언론별/태그별 집계 테이블을 받아서 언론사별로 재집계한 후 가장
+    부적절한 표현의 비율이 낮은 순으로 정렬"""
+    results = _cps(table, min_count)
+    return sorted(results, key=lambda row: (row['ratio'], -row['total']))
+
+
 def worst_cps(table, min_count):
     """일별/언론별/태그별 집계 테이블을 받아서 언론사별로 재집계한 후 가장
     부적절한 표현의 비율이 높은 순으로 정렬"""
+    results = _cps(table, min_count)
+    return sorted(results, key=lambda row: (-row['ratio'], -row['total']))
+
+
+def _cps(table, min_count):
+    """일별/언론별/태그별 집계 테이블을 받아서 언론사별로 재집계"""
     counters = {}
     for row in table:
         counter = counters.get(row['cp_name'], {'clean': 0, 'bad': 0})
@@ -41,7 +54,7 @@ def worst_cps(table, min_count):
             counter['bad'] += row['count']
         counters[row['cp_name']] = counter
 
-    results = (
+    return (
         {
             'cp_name': cp_name,
             'clean': counter['clean'],
@@ -52,5 +65,4 @@ def worst_cps(table, min_count):
         for cp_name, counter in counters.items()
         if counter['clean'] + counter['bad'] >= min_count
     )
-    return sorted(results, key=lambda row: (-row['ratio'], -row['total']))
 
