@@ -46,10 +46,10 @@ strong {
 }
 
 .good {
-  background-color: #156e23;
+  background-color: #157e23;
 }
 .bad {
-  background-color: #781a1a;
+  background-color: #a81a1a;
 }
 
 @keyframes fadeIn {
@@ -74,7 +74,7 @@ header {
   h1 {
     font-family: 'Noto Serif KR', serif;
     font-size: 6rem;
-    border-bottom: 4px solid #981a1a;
+    border-bottom: 4px solid #a81a1a;
 
     @media (max-width: 600px) {
       font-size: 5rem;
@@ -126,7 +126,7 @@ main {
     font-size: 2rem;
     margin: 5rem 0 2rem;
     padding: 0 1rem 0.1rem;
-    border-left: 6px solid #981a1a;
+    border-left: 6px solid #a81a1a;
   }
 
   .guide {
@@ -244,7 +244,11 @@ footer {
     font-size: 2rem;
     margin: 5rem 0 2rem;
     padding: 0 1rem 0.1rem;
-    border-left: 6px solid #981a1a;
+    border-left: 6px solid #a81a1a;
+  }
+
+  .best h3 {
+    border-left-color: #157e23;
   }
 
   .chart {
@@ -292,11 +296,11 @@ footer {
   }
 
   .worst .bar {
-    background-color: #981a1a;
+    background-color: #a81a1a;
   }
 
   .best .bar {
-    background-color: #156e23;
+    background-color: #157e23;
   }
 }
 
