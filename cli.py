@@ -5,6 +5,7 @@ import sys
 import fire
 
 import analyze
+import stats
 
 
 SRC_DIR = 'news/docs/data'
@@ -38,31 +39,11 @@ class CLI:
         os.makedirs(DATA_DIR, exist_ok=True)
 
         # 집계
-        counters = {}
-        for article in articles:
-            if len(article['tags']) == 0:
-                # 태그가 없으면 "clean"으로 분류
-                key = (article['date'], article['cp_name'], 'clean')
-                counters[key] = counters.get(key, 0) + 1
-            else:
-                # 태그가 있으면 각 태그별로 집계
-                for tag in article['tags']:
-                    key = (article['date'], article['cp_name'], tag)
-                    counters[key] = counters.get(key, 0) + 1
-
-        keys = sorted(counters.keys())
+        grouped = stats.aggregate_by_date_cp_tag(articles)
         with open(os.path.join(DATA_DIR, 'stats.csv'), 'w') as f:
             csvw = csv.DictWriter(f, ['date', 'cp_name', 'tag', 'count'])
             csvw.writeheader()
-            csvw.writerows(
-                {
-                    'date': date,
-                    'cp_name': cp_name,
-                    'tag': tag,
-                    'count': counters[(date, cp_name, tag)],
-                }
-                for date, cp_name, tag in keys
-            )
+            csvw.writerows(articles)
 
     def test(self, tag):
         """기사 전체 중 특정 분류에 속하는 기사만 출력. 개발 중 테스트용"""
