@@ -1,5 +1,6 @@
 import csv
 import os
+import statistics
 import sys
 from datetime import datetime, timedelta
 
@@ -55,7 +56,7 @@ class CLI:
         # 일별 집계
         daily = stats.daily_articles(recent_table)
         with open(os.path.join(DATA_DIR, 'stats_daily.csv'), 'w') as f:
-            fields = ['date', 'clean', 'bad', 'total', 'ratio']
+            fields = ['date', 'clean', 'bad', 'total', 'ratio', 'z']
             csvw = csv.DictWriter(f, fields)
             csvw.writeheader()
             csvw.writerows(daily)

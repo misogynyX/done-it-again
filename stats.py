@@ -1,3 +1,5 @@
+import statistics
+
 from itertools import groupby
 
 
@@ -35,6 +37,8 @@ def frequent_tags(table):
 def daily_articles(table):
     """일별/언론별/태그별 집계 테이블을 받아서 일별로 재집계"""
     results = []
+
+    # 일별 단순 집계
     for date, group in groupby(table, key=lambda row: row['date']):
         day = {'date': date, 'bad': 0, 'clean': 0, 'total': 0, 'ratio': 0}
         for row in group:
@@ -45,7 +49,13 @@ def daily_articles(table):
             day['total'] += row['count']
         day['ratio'] = day['bad'] / day['total']
         results.append(day)
-    return results
+
+    # 평균과 표준편차 구하기
+    ratio_mean = statistics.mean(d['ratio'] for d in results)
+    ratio_sd = statistics.stdev(d['ratio'] for d in results)
+
+    # 일별 표준점수 추가
+    return [{**d, 'z': (d['ratio'] - ratio_mean) / ratio_sd} for d in results]
 
 
 def best_cps(table, min_count):

@@ -73,6 +73,11 @@ def test_daily_articles():
     ]
 
     actual = stats.daily_articles(table)
+
+    # 테스트 편의를 위해 z-score는 제외
+    for a in actual:
+        del a['z']
+
     expected = [
         {'date': '20200101', 'bad': 3, 'clean': 0, 'total': 3, 'ratio': 3 / 3},
         {'date': '20200102', 'bad': 3, 'clean': 1, 'total': 4, 'ratio': 3 / 4},
