@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+p {
+  margin: 1.5em 0;
+}
+
 a, a:visited {
   text-decoration: none;
   color: #eeeeee;
@@ -211,7 +215,6 @@ footer {
 .guide {
   font-size: 1.2rem;
   word-break: keep-all;
-  padding-left: 1.5rem;
 }
 
 .good, .bad {
@@ -229,3 +232,17 @@ footer {
   background-color: #781a1a;
 }
 
+.stats {
+  .sparkline-pie {
+    float: left;
+    margin: 0.5em 0.8em 0.5em 0;
+    transform: rotate(-90deg);
+    border-radius: 50%;
+    background-color: #333333;
+
+    circle {
+      stroke: #c81a1a;
+      stroke-width: 100; fill: none;
+    }
+  }
+}
