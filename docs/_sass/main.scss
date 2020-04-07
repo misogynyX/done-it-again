@@ -3,11 +3,15 @@
 }
 
 html {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #060606;
-  color: #acacac;
+  background-color: #000000;
+  color: #bbbbbb;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
 }
 
 body {
@@ -187,7 +191,6 @@ footer {
 
     .description {
       margin: 0;
-      font-size: 0.9rem;
     }
 
     & > a {
@@ -210,7 +213,8 @@ footer {
 }
 
 .guide {
-  font-size: 1.0rem;
+  font-size: 1.1rem;
+  word-break: keep-all;
 }
 
 .good, .bad {
@@ -222,16 +226,16 @@ footer {
 }
 
 .good {
-  background-color: #158e23;
+  background-color: #156e23;
 }
 .bad {
-  background-color: #981a1a;
+  background-color: #781a1a;
 }
 
 .stats {
   .sparkline-pie {
     float: left;
-    margin: 0.5em 0.8em 0.5em 0;
+    margin: 0.5em 0.8em 0.2em 0;
     transform: rotate(-90deg);
     border-radius: 50%;
     background-color: #333333;
