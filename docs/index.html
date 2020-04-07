@@ -210,6 +210,10 @@
           <strong>{{ stats.ratio | times: 100 | round: 2 }}%</strong>를 기록한
           <span class="bad">{{ stats.cp_name }}</span> 입니다.
           </p>
+          {% assign ref = site.data.stats_worst_cps[0] %}
+          {% assign rankers = site.data.stats_worst_cps | slice: 0, 10 %}
+          {% include cp_ranks.html ref=ref rankers=rankers %}
+
         </section>
 
         {% assign stats = site.data.stats_best_cps[0] %}
@@ -224,8 +228,11 @@
           <strong>{{ stats.ratio | times: 100 | round: 2 }}%</strong>를 기록한
           <span class="good">{{ stats.cp_name }}</span> 입니다.
           </p>
-        </section>
 
+          {% assign ref = site.data.stats_best_cps[9] %}
+          {% assign rankers = site.data.stats_best_cps | slice: 0, 10 %}
+          {% include cp_ranks.html ref=ref rankers=rankers %}
+        </section>
       </section>
     </main>
 

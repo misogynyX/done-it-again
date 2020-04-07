@@ -246,6 +246,58 @@ footer {
     padding: 0 1rem 0.1rem;
     border-left: 6px solid #981a1a;
   }
+
+  .chart {
+    margin: 3rem 0;
+
+    li {
+      height: 2rem;
+      line-height: 2rem;
+      margin: 0.8rem 0;
+
+      .name {
+        display: block;
+        float: left;
+        width: 7em;
+        height: 2rem;
+      }
+      .bar-container {
+        position: relative;
+        display: block;
+        float: left;
+        width: calc(100% - 5rem - 2rem);
+        height: 2rem;
+      }
+      .bar {
+        position: absolute;
+        display: block;
+        height: 2rem;
+        min-width: 1px;
+      }
+      .label {
+        position: absolute;
+        height: 2rem;
+        padding: 0 0.5rem;
+
+        .percent {
+          display: inline-block;
+          width: 3.5em;
+        }
+      }
+    }
+    li:first-child {
+      color: #ffffff;
+      font-weight: bold;
+    }
+  }
+
+  .worst .bar {
+    background-color: #981a1a;
+  }
+
+  .best .bar {
+    background-color: #156e23;
+  }
 }
 
 .stats {
