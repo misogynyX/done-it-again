@@ -3,11 +3,15 @@
 }
 
 html {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.7;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #060606;
-  color: #acacac;
+  background-color: #000000;
+  color: #bbbbbb;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
 }
 
 body {
@@ -21,11 +25,11 @@ h1, h2, h3, h4, h5, h6 {
 
 a, a:visited {
   text-decoration: none;
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 strong {
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 @keyframes fadeIn {
@@ -183,7 +187,6 @@ footer {
 
     .description {
       margin: 0;
-      font-size: 0.9rem;
     }
 
     & > a {
@@ -206,7 +209,7 @@ footer {
 }
 
 .guide {
-  font-size: 1.0rem;
+  font-size: 1.2rem;
   word-break: keep-all;
   padding-left: 1.5rem;
 }
@@ -216,13 +219,13 @@ footer {
   border-radius: 2px;
   font-weight: bold;
   word-break: keep-all;
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 .good {
-  background-color: #158e23;
+  background-color: #156e23;
 }
 .bad {
-  background-color: #981a1a;
+  background-color: #781a1a;
 }
 
