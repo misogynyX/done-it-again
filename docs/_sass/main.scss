@@ -75,9 +75,18 @@ header {
     font-family: 'Noto Serif KR', serif;
     font-size: 6rem;
     border-bottom: 4px solid #a81a1a;
+    margin-bottom: 0.2rem;
 
     @media (max-width: 600px) {
       font-size: 5rem;
+    }
+  }
+
+  .daily-stats {
+    text-align: right;
+
+    strong {
+      color: #5c8eff;
     }
   }
 
@@ -141,7 +150,7 @@ footer {
   padding: 3rem 1rem 0;
   text-align: center;
   font-size: 1rem;
-  border-top: 1px solid #a81a1a;
+  border-top: 1px solid #333;
   color: #888;
 }
 
@@ -184,9 +193,9 @@ footer {
     height: 100%;
     overflow: hidden;
     margin: 0 1rem 0 0;
-    padding: 1rem;
+    padding: 1.2rem 1rem;
     border: 1px solid #333;
-    box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #222;
     scroll-snap-align: start;
 
     .cp_name {

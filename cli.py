@@ -1,5 +1,6 @@
 import csv
 import os
+import statistics
 import sys
 from datetime import datetime, timedelta
 
@@ -51,6 +52,14 @@ class CLI:
         latest = datetime.strptime(max(t['date'] for t in table), '%Y%m%d')
         window = (latest - timedelta(days=180)).strftime('%Y%m%d')
         recent_table = [t for t in table if t['date'] >= window]
+
+        # 일별 집계
+        daily = stats.daily_articles(recent_table)
+        with open(os.path.join(DATA_DIR, 'stats_daily.csv'), 'w') as f:
+            fields = ['date', 'clean', 'bad', 'total', 'ratio', 'z']
+            csvw = csv.DictWriter(f, fields)
+            csvw.writeheader()
+            csvw.writerows(daily)
 
         # 최근 6개월 이내에 가장 빈도가 높은 태그 집계
         freq_tags = stats.frequent_tags(recent_table)
