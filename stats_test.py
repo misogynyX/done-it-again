@@ -61,3 +61,20 @@ def test_worst_and_best_cps():
         {'cp_name': 'B', 'bad': 1, 'clean': 0, 'total': 1, 'ratio': 1 / 1},
     ]
     assert expected_best == actual_best
+
+
+def test_daily_articles():
+    table = [
+        {'date': '20200101', 'cp_name': 'A', 'tag': 't0', 'count': 1},
+        {'date': '20200101', 'cp_name': 'A', 'tag': 't1', 'count': 2},
+        {'date': '20200102', 'cp_name': 'B', 'tag': 't1', 'count': 1},
+        {'date': '20200102', 'cp_name': 'C', 'tag': 'clean', 'count': 1},
+        {'date': '20200102', 'cp_name': 'C', 'tag': 't1', 'count': 2},
+    ]
+
+    actual = stats.daily_articles(table)
+    expected = [
+        {'date': '20200101', 'bad': 3, 'clean': 0, 'total': 3, 'ratio': 3 / 3},
+        {'date': '20200102', 'bad': 3, 'clean': 1, 'total': 4, 'ratio': 3 / 4},
+    ]
+    assert expected == actual
