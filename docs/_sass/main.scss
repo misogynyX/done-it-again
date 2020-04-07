@@ -4,7 +4,7 @@
 
 html {
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #000000;
   color: #bbbbbb;
@@ -29,11 +29,11 @@ p {
 
 a, a:visited {
   text-decoration: none;
-  color: #eeeeee;
+  color: #ffffff;
 }
 
 strong {
-  color: #eeeeee;
+  color: #ffffff;
 }
 
 @keyframes fadeIn {
@@ -213,7 +213,7 @@ footer {
 }
 
 .guide {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   word-break: keep-all;
 }
 
@@ -222,7 +222,7 @@ footer {
   border-radius: 2px;
   font-weight: bold;
   word-break: keep-all;
-  color: #eeeeee;
+  color: #ffffff;
 }
 
 .good {
@@ -235,7 +235,7 @@ footer {
 .stats {
   .sparkline-pie {
     float: left;
-    margin: 0.5em 0.8em 0.5em 0;
+    margin: 0.5em 0.8em 0.2em 0;
     transform: rotate(-90deg);
     border-radius: 50%;
     background-color: #333333;
