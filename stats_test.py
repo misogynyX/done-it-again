@@ -83,3 +83,7 @@ def test_daily_articles():
         {'date': '20200102', 'bad': 3, 'clean': 1, 'total': 4, 'ratio': 3 / 4},
     ]
     assert expected == actual
+
+
+def test_masking():
+    assert stats.mask('new오my') == 'n○○ᄋ○○'

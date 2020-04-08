@@ -94,3 +94,21 @@ def _cps(table, min_count):
         for cp_name, counter in counters.items()
         if counter['clean'] + counter['bad'] >= min_count
     )
+
+
+def mask(name):
+    masked = []
+    for i, c in enumerate(name):
+        if '가' <= c <= '힣':
+            # 한글이면 자음 추출
+            ch1 = (ord(c) - ord('가')) // 588
+            ## 중성은 총 28가지 종류
+            ch2 = ((ord(c) - ord('가')) - (588 * ch1)) // 28
+            ch3 = (ord(c) - ord('가')) - (588 * ch1) - 28 * ch2
+            masked.append(chr(ch1 + 0x1100))
+        else:
+            # 영숫자이면 첫글자 뺴고 마스킹
+            masked.append(c if i == 0 else '○')
+
+    return ''.join(masked)
+
