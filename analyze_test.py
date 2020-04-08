@@ -63,6 +63,7 @@ def test_metoo():
     positives = [
         ('한글표기', '김뫄뫄씨 미투(나도 당했다) 기자회견'),
         ('영문표기', '김뫄뫄씨 Me Too(나도 당했다) 기자회견'),
+        ('피해를 고백', '김뫄뫄씨도 성폭력 피해를 고백했다'),
     ]
     for description, text in positives:
         assert analyze.analyze_metoo(text), description
