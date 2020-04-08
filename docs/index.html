@@ -209,6 +209,7 @@
         <h2>(불)명예의 전당</h2>
 
         {% assign stats = site.data.stats_worst_cps[0] %}
+        {% assign ref = site.data.stats_worst_cps[0] %}
         <section class='worst'>
           <h3>부적절한 표현을 <span class="bad">가장 많이 쓴</span> 언론사</h3>
           <p>
@@ -220,7 +221,6 @@
           <strong>{{ stats.ratio | times: 100 | round: 2 }}%</strong>를 기록한
           <span class="bad">{{ stats.cp_name }}</span> 입니다.
           </p>
-          {% assign ref = site.data.stats_worst_cps[0] %}
           {% assign rankers = site.data.stats_worst_cps | slice: 0, 10 %}
           {% include cp_ranks.html ref=ref rankers=rankers %}
 
@@ -239,7 +239,6 @@
           <span class="good">{{ stats.cp_name }}</span> 입니다.
           </p>
 
-          {% assign ref = site.data.stats_best_cps[9] %}
           {% assign rankers = site.data.stats_best_cps | slice: 0, 10 %}
           {% include cp_ranks.html ref=ref rankers=rankers %}
         </section>
