@@ -256,6 +256,7 @@
     </footer>
 
     <script>
+      // 부적절한 표현에 강조표시 넣기
       (function() {
         const patterns = {
           trivialize: /(몹쓸\s?짓|검은\s?손|홧김에)/i,
@@ -269,7 +270,6 @@
           profession: /([여女][자성]?\s?(가수|교사|교수|배우|연예인|의사))/i,
         }
 
-        // highlight wrong expressions
         const allPatterns = [];
         for(let tag in patterns) {
           allPatterns.push(patterns[tag]);
