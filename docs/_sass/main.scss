@@ -272,14 +272,14 @@ footer {
       .name {
         display: block;
         float: left;
-        width: 8em;
+        width: 7em;
         height: 2rem;
       }
       .bar-container {
         position: relative;
         display: block;
         float: left;
-        width: calc(100% - 8rem - 2rem);
+        width: calc(100% - 7rem - 2rem);
         height: 2rem;
       }
       .bar {
@@ -297,6 +297,10 @@ footer {
         .percent {
           display: inline-block;
           width: 3.5em;
+        }
+
+        .counts {
+          font-size: 0.85em;
         }
       }
     }

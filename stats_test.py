@@ -86,4 +86,4 @@ def test_daily_articles():
 
 
 def test_masking():
-    assert stats.mask('new오my') == 'n••ᄋ••'
+    assert stats.mask('new오my1') == 'n○○ᄋ○○1'

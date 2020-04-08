@@ -106,9 +106,12 @@ def mask(name):
             ch2 = ((ord(c) - ord('가')) - (588 * ch1)) // 28
             ch3 = (ord(c) - ord('가')) - (588 * ch1) - 28 * ch2
             masked.append(chr(ch1 + 0x1100))
+        elif '0' <= c <= '9':
+            # 숫자는 그대로
+            masked.append(c)
         else:
-            # 영숫자이면 첫글자 뺴고 마스킹
-            masked.append(c if i == 0 else '•')
+            # 나머지는 첫글자 뺴고 마스킹
+            masked.append(c if i == 0 else '○')
 
     return ''.join(masked)
 
