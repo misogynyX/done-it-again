@@ -1,11 +1,11 @@
 <section class="box" id="{{ include.tag }}">
-<h2>
+<h3>
 {% if include.tag == 'latest' %}
   최근 기사
 {% else %}
   {{ site.data.tag_defs[include.tag].name }}
 {% endif %}
-</h2>
+</h3>
 
 <div class="guide">
 {{ include.guide }}
@@ -55,11 +55,11 @@
     {% assign month = article.date | slice: 4, 2 %}
     {% assign date = article.date | slice: 6, 2 %}
     <div class="date">{{ year }}.{{ month }}.{{ date }}</div>
-    <h3 class="title">
+    <h4 class="title">
       <a href="{{ article.daum_url }}" target="_blank" class="{{ include.tag }}">
       {{ article.title }}
       </a>
-    </h3>
+    </h4>
   </div>
   <div class="description">
     {{article.description}}...

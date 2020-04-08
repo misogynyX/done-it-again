@@ -23,6 +23,34 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+h1, h2, h3 {
+  font-family: 'Noto Serif KR', serif;
+}
+
+h1 {
+  font-size: 6rem;
+  border-bottom: 4px solid #a81a1a;
+  margin-bottom: 0.2rem;
+
+  @media (max-width: 600px) {
+    font-size: 5rem;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 3em 0 1.5em;
+  text-align: center;
+  border: none;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 3em 0 1.5em;
+  padding: 0 1rem 0.1rem;
+  border-left: 6px solid #a81a1a;
+}
+
 p {
   margin: 1.5em 0;
 }
@@ -71,17 +99,6 @@ header {
     font-size: 1.0rem;
   }
 
-  h1 {
-    font-family: 'Noto Serif KR', serif;
-    font-size: 6rem;
-    border-bottom: 4px solid #a81a1a;
-    margin-bottom: 0.2rem;
-
-    @media (max-width: 600px) {
-      font-size: 5rem;
-    }
-  }
-
   .daily-stats {
     text-align: right;
 
@@ -103,18 +120,6 @@ header {
     margin: 4rem 0 4rem 40%;
     font-style: italic;
 
-    .quote::before{
-      content: "\201C";
-      font-family: serif;
-      position: absolute;
-      left: -0.6em;
-    }
-    .quote::after{
-      content: "\201D";
-      font-family: serif;
-      position: absolute;
-    }
-
     .source {
       text-align: right;
     }
@@ -129,14 +134,6 @@ main {
   max-width: 60rem;
   margin: 3rem auto;
   padding: 0 1em;
-
-  h2 {
-    font-family: 'Noto Serif KR', serif;
-    font-size: 2rem;
-    margin: 5rem 0 2rem;
-    padding: 0 1rem 0.1rem;
-    border-left: 6px solid #a81a1a;
-  }
 
   .guide {
     font-size: 1.1rem;
@@ -243,26 +240,13 @@ footer {
 }
 
 .haf {
-  h2 {
-    font-size: 3rem;
-    text-align: center;
-    border: none;
-  }
-
-  h3 {
-    font-family: 'Noto Serif KR', serif;
-    font-size: 2rem;
-    margin: 5rem 0 2rem;
-    padding: 0 1rem 0.1rem;
-    border-left: 6px solid #a81a1a;
-  }
-
   .best h3 {
     border-left-color: #157e23;
   }
 
   .chart {
     margin: 3rem 0;
+    padding-left: 1.4rem;
 
     li {
       height: 2rem;
@@ -270,21 +254,19 @@ footer {
       margin: 0.8rem 0;
 
       .name {
-        display: block;
         float: left;
-        width: 7em;
+        width: 9em;
         height: 2rem;
       }
       .bar-container {
         position: relative;
         display: block;
         float: left;
-        width: calc(100% - 7rem - 2rem);
+        width: calc(100% - 9rem);
         height: 2rem;
       }
       .bar {
         position: absolute;
-        display: block;
         height: 2rem;
         min-width: 1px;
         background-color: #a81a1a;
@@ -292,22 +274,32 @@ footer {
       .label {
         position: absolute;
         height: 2rem;
-        padding: 0 0.5rem;
+        padding: 0 0rem 0 0.5rem;
 
         .percent {
-          display: inline-block;
+          float: left;
           width: 3.5em;
         }
 
         .counts {
-          font-size: 0.85em;
+          float: left;
+          font-size: 1rem;
         }
       }
     }
     li:first-child {
       color: #ffffff;
-      font-weight: bold;
     }
+  }
+}
+
+.best-practices {
+  p {
+    font-size: 1.2rem;
+  }
+
+  a {
+    border-bottom: 1px solid #fff;
   }
 }
 
