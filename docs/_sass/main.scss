@@ -1,3 +1,8 @@
+$point-color: #a81a1a;
+$bad-color: #a81a1a;
+$good-color: #157e23;
+
+/* global */
 * {
   box-sizing: border-box;
 }
@@ -5,7 +10,7 @@
 html {
   font-size: 16px;
   line-height: 1.6;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Dotum, '돋움', Helvetica, "Apple SD Gothic Neo", sans-serif;
   background-color: #000000;
   color: #bbbbbb;
 
@@ -21,34 +26,31 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-}
-
-h1, h2, h3 {
   font-family: 'Noto Serif KR', serif;
 }
 
 h1 {
-  font-size: 6rem;
-  border-bottom: 4px solid #a81a1a;
+  font-size: 6em;
+  border-bottom: 4px solid $point-color;
   margin-bottom: 0.2rem;
 
   @media (max-width: 600px) {
-    font-size: 5rem;
+    font-size: 5em;
   }
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 3em;
   margin: 3em 0 1.5em;
   text-align: center;
   border: none;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2em;
   margin: 3em 0 1.5em;
   padding: 0 1rem 0.1rem;
-  border-left: 6px solid #a81a1a;
+  border-left: 6px solid $point-color;
 }
 
 p {
@@ -74,10 +76,10 @@ strong {
 }
 
 .good {
-  background-color: #157e23;
+  background-color: $good-color;
 }
 .bad {
-  background-color: #a81a1a;
+  background-color: $bad-color;
 }
 
 @keyframes fadeIn {
@@ -89,16 +91,36 @@ strong {
   }
 }
 
+/* layout */
 header {
   max-width: 60rem;
   margin: 3rem auto;
   padding: 0 1em;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 
   @media (max-width: 600px) {
-    font-size: 1.0rem;
+    font-size: 1.0em;
   }
+}
 
+main {
+  max-width: 60rem;
+  margin: 3rem auto;
+  padding: 0 1em;
+}
+
+footer {
+  max-width: 60rem;
+  margin: 6rem auto;
+  padding: 3rem 1rem 0;
+  text-align: center;
+  font-size: 1em;
+  border-top: 1px solid #333;
+  color: #888;
+}
+
+/* details */
+header {
   .daily-stats {
     text-align: right;
 
@@ -131,189 +153,170 @@ header {
 }
 
 main {
-  max-width: 60rem;
-  margin: 3rem auto;
-  padding: 0 1em;
-
   .guide {
-    font-size: 1.1rem;
+    font-size: 1.1em;
     word-break: keep-all;
   }
-}
 
-footer {
-  max-width: 60rem;
-  margin: 6rem auto;
-  padding: 3rem 1rem 0;
-  text-align: center;
-  font-size: 1rem;
-  border-top: 1px solid #333;
-  color: #888;
-}
+  .articles {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 
-.articles {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-
-  /* styling scrollbar for windows chrome and windows safari { */
-  &::-webkit-scrollbar {
-    height: 16px;
-    background-color: #333;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: #666;
-  }
-  /* } */
-
-  /* styling scrollbar for firefox and old IEs { */
-  scrollbar-track-color: #333;
-  scrollbar-color: #666;
-  /* } */
-
-  /* auto-hide scrollbar on windows edge since it doesn't support for custom
-   * styling { */
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  /* } */
-
-  margin: 1rem 0;
-  padding: 1rem 0;
-  height: 25rem;
-
-  list-style-type: none;
-
-  .article {
-    position: relative;
-    flex: 0 0 auto;
-    width: 16rem;
-    height: 100%;
-    overflow: hidden;
-    margin: 0 1rem 0 0;
-    padding: 1.2rem 1rem;
-    border: 1px solid #333;
-    box-shadow: 1px 1px 3px #222;
-    scroll-snap-align: start;
-
-    .cp_name {
-      display: inline-block;
-      border: 1px solid currentColor;
-      padding: 1px 4px;
-      margin-right: 0.2rem;
-      border-radius: 2px;
-      font-size: 0.8rem;
+    /* styling scrollbar for windows chrome and windows safari */
+    &::-webkit-scrollbar {
+      height: 16px;
+      background-color: #333;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #666;
     }
 
-    .date, .author {
-      display: inline;
-      font-size: 0.85em;
-    }
+    /* styling scrollbar for firefox and old IEs */
+    scrollbar-track-color: #333;
+    scrollbar-color: #666;
 
-    .title {
-      font-weight: normal;
-      font-size: 1em;
-      padding: 0.4rem 0;
-      margin: 0;
-    }
+    /* auto-hide scrollbar on windows edge */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 
-    .description {
-      margin: 0;
-    }
+    margin: 1rem 0;
+    padding: 1rem 0;
+    height: 25rem;
 
-    & > a {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 4rem;
-      line-height: 4rem;
-      text-align: center;
+    list-style-type: none;
 
-      background: linear-gradient(
-        180deg,
-        rgba(20,20,20,0.0) 0%,
-        rgba(20,20,20,0.5) 15%,
-        rgba(20,20,20,1.0) 70%
-      );
-    }
-  }
-}
+    .article {
+      position: relative;
+      flex: 0 0 auto;
+      width: 16rem;
+      height: 100%;
+      overflow: hidden;
+      margin: 0 1rem 0 0;
+      padding: 1.2rem 1rem;
+      border: 1px solid #333;
+      box-shadow: 1px 1px 3px #222;
+      scroll-snap-align: start;
 
-.haf {
-  .best h3 {
-    border-left-color: #157e23;
-  }
-
-  .chart {
-    margin: 3rem 0;
-    padding-left: 1.4rem;
-
-    li {
-      height: 2rem;
-      line-height: 2rem;
-      margin: 0.8rem 0;
-
-      .name {
-        float: left;
-        width: 9em;
-        height: 2rem;
+      .cp_name {
+        display: inline-block;
+        border: 1px solid currentColor;
+        padding: 1px 4px;
+        margin-right: 0.2rem;
+        border-radius: 2px;
+        font-size: 0.8em;
       }
-      .bar-container {
-        position: relative;
-        display: block;
-        float: left;
-        width: calc(100% - 9rem);
-        height: 2rem;
+
+      .date, .author {
+        display: inline;
+        font-size: 0.85em;
       }
-      .bar {
+
+      .title {
+        font-weight: normal;
+        font-size: 1em;
+        padding: 0.4rem 0;
+        margin: 0;
+      }
+
+      .description {
+        margin: 0;
+      }
+
+      & > a {
         position: absolute;
-        height: 2rem;
-        min-width: 1px;
-        background-color: #a81a1a;
-      }
-      .label {
-        position: absolute;
-        height: 2rem;
-        padding: 0 0rem 0 0.5rem;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 4rem;
+        line-height: 4rem;
+        text-align: center;
 
-        .percent {
+        background: linear-gradient(
+          180deg,
+          rgba(20,20,20,0.0) 0%,
+          rgba(20,20,20,0.5) 15%,
+          rgba(20,20,20,1.0) 70%
+        );
+      }
+    }
+  }
+
+  .haf {
+    .best h3 {
+      border-left-color: $good-color;
+    }
+
+    .chart {
+      margin: 3rem 0;
+      padding-left: 1.4rem;
+
+      li {
+        height: 2rem;
+        line-height: 2rem;
+        margin: 0.8rem 0;
+
+        .name {
           float: left;
-          width: 3.5em;
+          width: 9em;
+          height: 2rem;
         }
-
-        .counts {
+        .bar-container {
+          position: relative;
+          display: block;
           float: left;
-          font-size: 1rem;
+          width: calc(100% - 9rem);
+          height: 2rem;
+        }
+        .bar {
+          position: absolute;
+          height: 2rem;
+          min-width: 1px;
+          background-color: $bad-color;
+        }
+        .label {
+          position: absolute;
+          height: 2rem;
+          padding: 0 0rem 0 0.5rem;
+
+          .percent {
+            float: left;
+            width: 3.5em;
+          }
+
+          .counts {
+            float: left;
+          }
         }
       }
+      li:first-child {
+        color: #ffffff;
+      }
     }
-    li:first-child {
-      color: #ffffff;
+  }
+
+  .best-practices {
+    p {
+      font-size: 1.2rem;
+    }
+
+    a {
+      border-bottom: 1px solid #fff;
     }
   }
-}
 
-.best-practices {
-  p {
-    font-size: 1.2rem;
-  }
+  .stats {
+    .sparkline-pie {
+      float: left;
+      margin: 0.5em 0.8em 0.2em 0;
+      transform: rotate(-90deg);
+      border-radius: 50%;
+      background-color: #333333;
 
-  a {
-    border-bottom: 1px solid #fff;
-  }
-}
-
-.stats {
-  .sparkline-pie {
-    float: left;
-    margin: 0.5em 0.8em 0.2em 0;
-    transform: rotate(-90deg);
-    border-radius: 50%;
-    background-color: #333333;
-
-    circle {
-      stroke: #c81a1a;
-      stroke-width: 100; fill: none;
+      circle {
+        stroke: #c81a1a;
+        stroke-width: 100; fill: none;
+      }
     }
   }
 }
