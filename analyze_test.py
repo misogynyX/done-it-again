@@ -63,17 +63,15 @@ def test_metoo():
     positives = [
         ('한글표기', '김뫄뫄씨 미투(나도 당했다) 기자회견'),
         ('영문표기', '김뫄뫄씨 Me Too(나도 당했다) 기자회견'),
-        ('피해를 고백', '김뫄뫄씨도 성폭력 피해를 고백했다'),
+        ('미투를 고백', '김뫄뫄씨도 미투 피해 사실을 고백했다'),
     ]
     for description, text in positives:
         assert analyze.analyze_metoo(text), description
 
     negatives = [
         ('관련 키워드 없음', '무해하고 좋은 제목'),
-        (
-            '"미투"와 "당했다"가 나오지만 연이어 나오지 않는 경우',
-            '미투(나도 고발한다)에 고발 당했다는 이유로',
-        ),
+        ('미투와 당했다가 이어지지 않음', '미투(나도 고발한다)에 고발 당했다'),
+        ('심경을 고백', '김뫄뫄씨도 당시의 심경을 고백했다'),
     ]
     for description, text in negatives:
         assert not analyze.analyze_metoo(text), description

@@ -80,7 +80,7 @@ def analyze_metoo(text):
     검사"""
     return analyze(
         text,
-        r'(미투|me\s?too).{1,5}당했다|(미투|성폭력).+피해.{1,5}고백'
+        r'(미투|me\s?too).{1,5}당했다|미투.+피해.{1,5}고백|피해.{1,5}고백.+미투'
     )
 
 
