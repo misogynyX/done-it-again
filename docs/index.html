@@ -219,7 +219,7 @@
           <strong>{{ stats.total }}</strong>건 중 부적절한 표현이 담긴 기사가
           <strong>{{ stats.bad }}</strong>건으로 전체 기사의
           <strong>{{ stats.ratio | times: 100 | round: 2 }}%</strong>를 기록한
-          <span class="bad">{{ stats.cp_name }}</span> 입니다.
+          <span class="bad">{{ stats.cp_name_masked }}</span> 입니다.
           </p>
           {% assign rankers = site.data.stats_worst_cps | slice: 0, 10 %}
           {% include cp_ranks.html ref=ref rankers=rankers %}
@@ -236,7 +236,7 @@
           <strong>{{ stats.total }}</strong>건 중 부적절한 표현이 담긴 기사가
           <strong>{{ stats.bad }}</strong>건으로 전체 기사의
           <strong>{{ stats.ratio | times: 100 | round: 2 }}%</strong>를 기록한
-          <span class="good">{{ stats.cp_name }}</span> 입니다.
+          <span class="good">{{ stats.cp_name_masked }}</span> 입니다.
           </p>
 
           {% assign rankers = site.data.stats_best_cps | slice: 0, 10 %}

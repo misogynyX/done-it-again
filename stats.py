@@ -108,7 +108,7 @@ def mask(name):
             masked.append(chr(ch1 + 0x1100))
         else:
             # 영숫자이면 첫글자 뺴고 마스킹
-            masked.append(c if i == 0 else '○')
+            masked.append(c if i == 0 else '•')
 
     return ''.join(masked)
 
