@@ -62,6 +62,7 @@ def test_metoo():
         # positives
         ('한글표기', '김뫄뫄씨 {metoo}미투(나도 당했다){/metoo} 기자회견'),
         ('영문표기', '김뫄뫄씨 {metoo}me too (나도 당했다){/metoo} 기자회견'),
+        ('괄호 안 설명', '김뫄뫄씨 {metoo}미투(metoo, 나도 당했다){/metoo}'),
         ('미투를 고백', '김뫄뫄씨도 {metoo}미투 피해 사실을 고백{/metoo}했다'),
         # negatives
         ('관련 키워드 없음', '무해하고 좋은 제목'),
