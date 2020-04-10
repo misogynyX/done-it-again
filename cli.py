@@ -14,9 +14,8 @@ SRC_DIR = 'news/docs/data'
 DATA_DIR = 'docs/_data'
 
 FIELDS = [
-    'date', 'article_id', 'original_url', 'daum_url', 'image_url',
-    'cp_url', 'cp_name', 'title', 'description', 'author', 'keywords',
-    'tags',
+    'article_id', 'cp_name', 'title', 'description', 'authors',
+    'keywords', 'date', 'url', 'tags',
 ]
 
 
@@ -109,9 +108,10 @@ class CLI:
             date = filename[:-4]
             with open(os.path.join(SRC_DIR, filename), 'r') as f:
                 csvr = csv.DictReader(f)
-                for article in csvr:
-                    article['date'] = date
-                    yield article
+                for a in csvr:
+                    a['url'] = 'https://news.v.daum.net/v/' + a['article_id']
+                    a['date'] = date
+                    yield a
 
     def _analyze_articles(self, articles, overrides):
         """Analyze articles"""
