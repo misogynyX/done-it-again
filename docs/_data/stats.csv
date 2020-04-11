@@ -8,7 +8,6 @@ date,cp_name,tag,count
 20191014,MBN,clean,47
 20191014,SBS,clean,109
 20191014,YTN,clean,208
-20191014,bnt뉴스,clean,1
 20191014,ize,clean,1
 20191014,게임톡,clean,1
 20191014,경향신문,clean,86
@@ -93,7 +92,6 @@ date,cp_name,tag,count
 20191015,SBS,profession,1
 20191015,YTN,clean,196
 20191015,YTN,profession,1
-20191015,bnt뉴스,clean,1
 20191015,경향신문,bearing,1
 20191015,경향신문,clean,102
 20191015,경향신문,gender,2
@@ -409,7 +407,6 @@ date,cp_name,tag,count
 20191018,YTN,clean,200
 20191018,YTN,molka,1
 20191018,YTN,profession,1
-20191018,bnt뉴스,clean,4
 20191018,경향신문,clean,72
 20191018,국민일보,bearing,1
 20191018,국민일보,clean,71
@@ -626,7 +623,6 @@ date,cp_name,tag,count
 20191021,YTN,abuse,1
 20191021,YTN,clean,186
 20191021,YTN,gender,5
-20191021,bnt뉴스,clean,1
 20191021,ize,clean,1
 20191021,경향신문,clean,99
 20191021,경향신문,gender,3
@@ -729,7 +725,6 @@ date,cp_name,tag,count
 20191022,YTN,gender,4
 20191022,YTN,molka,1
 20191022,YTN,profession,1
-20191022,bnt뉴스,clean,2
 20191022,경향신문,clean,89
 20191022,국민일보,abuse,1
 20191022,국민일보,clean,104
@@ -832,7 +827,6 @@ date,cp_name,tag,count
 20191023,SBS,clean,98
 20191023,YTN,clean,216
 20191023,YTN,gender,1
-20191023,bnt뉴스,clean,4
 20191023,경향신문,clean,93
 20191023,경향신문,profession,1
 20191023,국민일보,clean,96
@@ -925,7 +919,6 @@ date,cp_name,tag,count
 20191024,SBS funE,clean,1
 20191024,YTN,abuse,1
 20191024,YTN,clean,172
-20191024,bnt뉴스,clean,1
 20191024,경향신문,clean,96
 20191024,국민일보,abuse,1
 20191024,국민일보,clean,98
@@ -1018,7 +1011,6 @@ date,cp_name,tag,count
 20191025,YTN,abuse,1
 20191025,YTN,clean,185
 20191025,YTN,gender,4
-20191025,bnt뉴스,clean,1
 20191025,게임톡,clean,1
 20191025,경향신문,clean,78
 20191025,국민일보,abuse,1
@@ -1239,7 +1231,6 @@ date,cp_name,tag,count
 20191028,SBS,gender,2
 20191028,YTN,clean,185
 20191028,YTN,molka,1
-20191028,bnt뉴스,clean,1
 20191028,ize,clean,1
 20191028,경향신문,bearing,1
 20191028,경향신문,clean,77
@@ -1337,7 +1328,6 @@ date,cp_name,tag,count
 20191029,YTN,clean,201
 20191029,YTN,molka,1
 20191029,YTN,profession,1
-20191029,bnt뉴스,clean,15
 20191029,경향신문,clean,104
 20191029,국민일보,clean,93
 20191029,국민일보,gender,2
@@ -1431,7 +1421,6 @@ date,cp_name,tag,count
 20191030,YTN,abuse,2
 20191030,YTN,clean,184
 20191030,YTN,profession,1
-20191030,bnt뉴스,clean,1
 20191030,경향신문,clean,81
 20191030,경향신문,gender,1
 20191030,국민일보,clean,97
@@ -1522,7 +1511,6 @@ date,cp_name,tag,count
 20191031,YTN,bearing,2
 20191031,YTN,clean,204
 20191031,YTN,molka,1
-20191031,bnt뉴스,clean,1
 20191031,경향신문,clean,92
 20191031,국민일보,clean,98
 20191031,국민일보,gender,1
@@ -1613,7 +1601,6 @@ date,cp_name,tag,count
 20191101,SBS,gender,1
 20191101,SBS,molka,1
 20191101,YTN,clean,216
-20191101,bnt뉴스,clean,1
 20191101,게임톡,clean,1
 20191101,경향신문,clean,77
 20191101,국민일보,clean,76
@@ -1893,7 +1880,6 @@ date,cp_name,tag,count
 20191105,SBS,clean,98
 20191105,SBS,profession,1
 20191105,YTN,clean,218
-20191105,bnt뉴스,clean,1
 20191105,경향신문,clean,93
 20191105,경향신문,gender,1
 20191105,국민일보,clean,85
@@ -1982,7 +1968,6 @@ date,cp_name,tag,count
 20191106,SBS,clean,96
 20191106,SBS,profession,1
 20191106,YTN,clean,198
-20191106,bnt뉴스,clean,3
 20191106,경향신문,clean,87
 20191106,국민일보,clean,96
 20191106,기자협회보,clean,10
@@ -2158,7 +2143,6 @@ date,cp_name,tag,count
 20191108,MBN,clean,34
 20191108,SBS,clean,96
 20191108,YTN,clean,204
-20191108,bnt뉴스,clean,8
 20191108,경향신문,clean,71
 20191108,경향신문,profession,1
 20191108,국민일보,bearing,1
@@ -2358,7 +2342,6 @@ date,cp_name,tag,count
 20191111,SBS,clean,92
 20191111,YTN,abuse,1
 20191111,YTN,clean,214
-20191111,bnt뉴스,clean,1
 20191111,ize,clean,1
 20191111,경향신문,clean,90
 20191111,경향신문,gender,1
@@ -2442,7 +2425,6 @@ date,cp_name,tag,count
 20191112,SBS,clean,75
 20191112,YTN,abuse,1
 20191112,YTN,clean,174
-20191112,bnt뉴스,clean,16
 20191112,경향신문,bearing,1
 20191112,경향신문,clean,104
 20191112,국민일보,clean,111
@@ -2524,7 +2506,6 @@ date,cp_name,tag,count
 20191113,MBN,clean,46
 20191113,SBS,clean,86
 20191113,YTN,clean,197
-20191113,bnt뉴스,clean,3
 20191113,경향신문,clean,81
 20191113,국민일보,clean,80
 20191113,기자협회보,clean,6
@@ -2697,7 +2678,6 @@ date,cp_name,tag,count
 20191115,MBN,clean,44
 20191115,SBS,clean,93
 20191115,YTN,clean,210
-20191115,bnt뉴스,clean,1
 20191115,경향신문,clean,80
 20191115,국민일보,clean,62
 20191115,기자협회보,clean,1
@@ -2899,7 +2879,6 @@ date,cp_name,tag,count
 20191118,SBS,gender,1
 20191118,YTN,clean,199
 20191118,YTN,gender,1
-20191118,bnt뉴스,clean,2
 20191118,ize,clean,1
 20191118,게임톡,clean,1
 20191118,경향신문,clean,83
@@ -2988,7 +2967,6 @@ date,cp_name,tag,count
 20191119,OSEN,clean,1
 20191119,SBS,clean,104
 20191119,YTN,clean,196
-20191119,bnt뉴스,clean,2
 20191119,경향신문,clean,89
 20191119,국민일보,clean,98
 20191119,노컷뉴스,clean,181
@@ -3073,7 +3051,6 @@ date,cp_name,tag,count
 20191120,SBS,clean,88
 20191120,SBS funE,clean,5
 20191120,YTN,clean,200
-20191120,bnt뉴스,clean,2
 20191120,경향신문,bearing,1
 20191120,경향신문,clean,99
 20191120,경향신문,gender,2
@@ -3464,7 +3441,6 @@ date,cp_name,tag,count
 20191125,SBS,clean,113
 20191125,SBS funE,clean,4
 20191125,YTN,clean,210
-20191125,bnt뉴스,clean,1
 20191125,경향신문,clean,101
 20191125,국민일보,clean,92
 20191125,국민일보,gender,1
@@ -3545,7 +3521,6 @@ date,cp_name,tag,count
 20191126,SBS,clean,103
 20191126,SBS funE,clean,3
 20191126,YTN,clean,190
-20191126,bnt뉴스,clean,14
 20191126,ize,clean,1
 20191126,게임톡,clean,1
 20191126,경향신문,clean,101
@@ -3726,7 +3701,6 @@ date,cp_name,tag,count
 20191128,SBS,molka,1
 20191128,SBS funE,clean,4
 20191128,YTN,clean,188
-20191128,bnt뉴스,clean,1
 20191128,게임톡,clean,1
 20191128,경향신문,clean,105
 20191128,국민일보,bearing,1
@@ -3819,7 +3793,6 @@ date,cp_name,tag,count
 20191129,SBS funE,clean,8
 20191129,YTN,clean,175
 20191129,YTN,molka,4
-20191129,bnt뉴스,clean,3
 20191129,경향신문,clean,84
 20191129,국민일보,clean,59
 20191129,국민일보,molka,1
@@ -4031,7 +4004,6 @@ date,cp_name,tag,count
 20191202,SBS,profession,1
 20191202,SBS funE,clean,5
 20191202,YTN,clean,187
-20191202,bnt뉴스,clean,11
 20191202,ize,clean,1
 20191202,경향신문,clean,109
 20191202,국민일보,clean,107
@@ -4209,7 +4181,6 @@ date,cp_name,tag,count
 20191204,SBS,profession,1
 20191204,SBS funE,clean,2
 20191204,YTN,clean,216
-20191204,bnt뉴스,clean,16
 20191204,경향신문,clean,117
 20191204,경향신문,gender,1
 20191204,경향신문,profession,2
@@ -4296,7 +4267,6 @@ date,cp_name,tag,count
 20191205,SBS,gender,3
 20191205,SBS funE,clean,4
 20191205,YTN,clean,243
-20191205,bnt뉴스,clean,1
 20191205,게임톡,clean,2
 20191205,경향신문,clean,108
 20191205,국민일보,clean,137
@@ -4777,7 +4747,6 @@ date,cp_name,tag,count
 20191211,SBS funE,clean,4
 20191211,YTN,bearing,1
 20191211,YTN,clean,199
-20191211,bnt뉴스,clean,11
 20191211,경향신문,clean,120
 20191211,경향신문,gender,1
 20191211,국민일보,clean,108
@@ -5201,7 +5170,6 @@ date,cp_name,tag,count
 20191216,SBS,clean,117
 20191216,SBS funE,clean,9
 20191216,YTN,clean,207
-20191216,bnt뉴스,clean,3
 20191216,경향신문,clean,119
 20191216,국민일보,clean,105
 20191216,국민일보,gender,1
@@ -5390,7 +5358,6 @@ date,cp_name,tag,count
 20191218,SBS,molka,1
 20191218,SBS funE,clean,11
 20191218,YTN,clean,195
-20191218,bnt뉴스,clean,1
 20191218,경향신문,clean,107
 20191218,경향신문,gender,3
 20191218,경향신문,profession,1
@@ -5494,7 +5461,6 @@ date,cp_name,tag,count
 20191219,SBS funE,profession,1
 20191219,YTN,clean,173
 20191219,YTN,gender,1
-20191219,bnt뉴스,clean,12
 20191219,게임톡,clean,1
 20191219,경향신문,bearing,1
 20191219,경향신문,clean,102
@@ -5797,7 +5763,6 @@ date,cp_name,tag,count
 20191223,YTN,gender,1
 20191223,YTN,molka,1
 20191223,YTN,profession,2
-20191223,bnt뉴스,clean,1
 20191223,경향신문,clean,111
 20191223,경향신문,gender,2
 20191223,국민일보,clean,100
@@ -5847,10 +5812,9 @@ date,cp_name,tag,count
 20191223,아이뉴스24,clean,12
 20191223,엘르,clean,1
 20191223,연합뉴스,bearing,2
-20191223,연합뉴스,clean,674
+20191223,연합뉴스,clean,675
 20191223,연합뉴스,gender,1
 20191223,연합뉴스,profession,1
-20191223,연합뉴스 보도자료,clean,2
 20191223,연합뉴스TV,clean,114
 20191223,오마이뉴스,clean,75
 20191223,오마이뉴스,profession,1
@@ -5897,7 +5861,6 @@ date,cp_name,tag,count
 20191224,SBS funE,clean,10
 20191224,YTN,clean,200
 20191224,YTN,profession,1
-20191224,bnt뉴스,clean,5
 20191224,경향신문,clean,98
 20191224,경향신문,gender,2
 20191224,국민일보,clean,103
@@ -5945,10 +5908,8 @@ date,cp_name,tag,count
 20191224,아이뉴스24,clean,4
 20191224,엘르,clean,1
 20191224,연합뉴스,bearing,1
-20191224,연합뉴스,clean,634
+20191224,연합뉴스,clean,636
 20191224,연합뉴스,gender,4
-20191224,연합뉴스 보도자료,clean,94
-20191224,연합뉴스 보도자료,gender,1
 20191224,연합뉴스TV,clean,118
 20191224,오마이뉴스,clean,58
 20191224,우먼센스,clean,1
@@ -6019,7 +5980,6 @@ date,cp_name,tag,count
 20191225,아시아경제,gender,2
 20191225,엘르,clean,2
 20191225,연합뉴스,clean,258
-20191225,연합뉴스 보도자료,clean,6
 20191225,연합뉴스TV,clean,60
 20191225,오마이뉴스,clean,20
 20191225,이데일리,clean,55
@@ -6089,20 +6049,19 @@ date,cp_name,tag,count
 20191226,시티라이프,clean,4
 20191226,신동아,clean,2
 20191226,아레나,clean,1
-20191226,아시아경제,clean,178
+20191226,아시아경제,clean,179
 20191226,아이뉴스24,clean,7
 20191226,엘르,clean,1
-20191226,연합뉴스,clean,656
+20191226,연합뉴스,clean,657
 20191226,연합뉴스,gender,2
 20191226,연합뉴스,metoo,2
 20191226,연합뉴스,molka,1
-20191226,연합뉴스 보도자료,clean,97
 20191226,연합뉴스TV,clean,96
 20191226,오마이뉴스,clean,64
 20191226,오마이뉴스,gender,1
 20191226,우먼동아일보,clean,8
 20191226,우먼센스,clean,1
-20191226,이데일리,clean,125
+20191226,이데일리,clean,126
 20191226,이데일리,gender,2
 20191226,일간스포츠,clean,2
 20191226,전자신문,clean,22
@@ -6138,7 +6097,6 @@ date,cp_name,tag,count
 20191227,SBS,clean,92
 20191227,SBS funE,clean,3
 20191227,YTN,clean,201
-20191227,bnt뉴스,clean,1
 20191227,게임톡,clean,1
 20191227,경향신문,clean,79
 20191227,경향신문,gender,1
@@ -6182,10 +6140,9 @@ date,cp_name,tag,count
 20191227,아이뉴스24,clean,4
 20191227,엘르,clean,1
 20191227,연합뉴스,bearing,1
-20191227,연합뉴스,clean,542
+20191227,연합뉴스,clean,543
 20191227,연합뉴스,gender,1
 20191227,연합뉴스,metoo,1
-20191227,연합뉴스 보도자료,clean,83
 20191227,연합뉴스TV,clean,99
 20191227,연합뉴스TV,gender,1
 20191227,연합뉴스TV,molka,1
@@ -6253,7 +6210,6 @@ date,cp_name,tag,count
 20191228,아시아경제,clean,35
 20191228,연합뉴스,clean,222
 20191228,연합뉴스,demonize,1
-20191228,연합뉴스 보도자료,clean,4
 20191228,연합뉴스TV,clean,62
 20191228,연합뉴스TV,gender,1
 20191228,오마이뉴스,clean,27
@@ -6322,7 +6278,6 @@ date,cp_name,tag,count
 20191229,엘르,clean,1
 20191229,연합뉴스,clean,243
 20191229,연합뉴스,gender,1
-20191229,연합뉴스 보도자료,clean,4
 20191229,연합뉴스TV,clean,57
 20191229,연합뉴스TV,gender,1
 20191229,오마이뉴스,clean,26
@@ -6356,7 +6311,6 @@ date,cp_name,tag,count
 20191230,SBS,clean,88
 20191230,SBS funE,clean,6
 20191230,YTN,clean,210
-20191230,bnt뉴스,clean,1
 20191230,게임톡,clean,1
 20191230,경향신문,clean,101
 20191230,국민일보,clean,110
@@ -6364,7 +6318,7 @@ date,cp_name,tag,count
 20191230,노컷뉴스,bearing,1
 20191230,노컷뉴스,clean,164
 20191230,뉴스1,bearing,1
-20191230,뉴스1,clean,892
+20191230,뉴스1,clean,893
 20191230,뉴스1,gender,2
 20191230,뉴스1,profession,2
 20191230,뉴시스,clean,639
@@ -6405,11 +6359,10 @@ date,cp_name,tag,count
 20191230,아시아경제,clean,166
 20191230,아시아경제,gender,2
 20191230,아이뉴스24,clean,3
-20191230,연합뉴스,clean,794
+20191230,연합뉴스,clean,796
 20191230,연합뉴스,gender,3
 20191230,연합뉴스,molka,1
 20191230,연합뉴스,profession,1
-20191230,연합뉴스 보도자료,clean,97
 20191230,연합뉴스TV,clean,115
 20191230,오마이뉴스,clean,76
 20191230,우먼센스,clean,1
@@ -6423,7 +6376,7 @@ date,cp_name,tag,count
 20191230,조선일보,gender,2
 20191230,중앙일보,clean,133
 20191230,채널A,clean,25
-20191230,쿠키뉴스,clean,156
+20191230,쿠키뉴스,clean,157
 20191230,쿠키뉴스,gender,1
 20191230,티브이데일리,clean,1
 20191230,파이낸셜뉴스,bearing,2
@@ -6449,7 +6402,6 @@ date,cp_name,tag,count
 20191231,SBS,gender,1
 20191231,SBS funE,clean,2
 20191231,YTN,clean,178
-20191231,bnt뉴스,clean,13
 20191231,게임톡,clean,2
 20191231,경향신문,clean,90
 20191231,국민일보,clean,99
@@ -6457,7 +6409,7 @@ date,cp_name,tag,count
 20191231,노컷뉴스,clean,120
 20191231,노컷뉴스,gender,1
 20191231,뉴스1,bearing,2
-20191231,뉴스1,clean,497
+20191231,뉴스1,clean,498
 20191231,뉴스1,gender,1
 20191231,뉴시스,bearing,1
 20191231,뉴시스,clean,522
@@ -6496,9 +6448,7 @@ date,cp_name,tag,count
 20191231,아시아경제,clean,136
 20191231,아이뉴스24,clean,4
 20191231,엘르,clean,1
-20191231,연합뉴스,clean,525
-20191231,연합뉴스 보도자료,bearing,1
-20191231,연합뉴스 보도자료,clean,68
+20191231,연합뉴스,clean,527
 20191231,연합뉴스TV,clean,115
 20191231,연합뉴스TV,molka,1
 20191231,오마이뉴스,clean,61
@@ -6561,9 +6511,8 @@ date,cp_name,tag,count
 20200101,신동아,clean,2
 20200101,아시아경제,bearing,1
 20200101,아시아경제,clean,61
-20200101,연합뉴스,clean,383
+20200101,연합뉴스,clean,384
 20200101,연합뉴스,gender,1
-20200101,연합뉴스 보도자료,clean,4
 20200101,연합뉴스TV,clean,69
 20200101,오마이뉴스,clean,29
 20200101,이데일리,clean,75
@@ -6607,7 +6556,7 @@ date,cp_name,tag,count
 20200102,뉴스1,clean,647
 20200102,뉴스1,gender,8
 20200102,뉴시스,bearing,2
-20200102,뉴시스,clean,598
+20200102,뉴시스,clean,599
 20200102,뉴시스,gender,6
 20200102,뉴시스,profession,1
 20200102,더팩트,clean,29
@@ -6621,7 +6570,7 @@ date,cp_name,tag,count
 20200102,리빙센스,clean,1
 20200102,마리끌레르,clean,2
 20200102,매일경제,clean,44
-20200102,머니S,clean,90
+20200102,머니S,clean,91
 20200102,머니투데이,bearing,1
 20200102,머니투데이,clean,167
 20200102,머니투데이,gender,2
@@ -6646,9 +6595,6 @@ date,cp_name,tag,count
 20200102,연합뉴스,bearing,1
 20200102,연합뉴스,clean,639
 20200102,연합뉴스,gender,2
-20200102,연합뉴스 보도자료,bearing,1
-20200102,연합뉴스 보도자료,clean,73
-20200102,연합뉴스 보도자료,gender,1
 20200102,연합뉴스TV,clean,118
 20200102,오마이뉴스,clean,63
 20200102,우먼동아일보,clean,9
@@ -6689,7 +6635,7 @@ date,cp_name,tag,count
 20200103,뉴스1,clean,529
 20200103,뉴스1,gender,3
 20200103,뉴스타파,clean,1
-20200103,뉴시스,clean,473
+20200103,뉴시스,clean,474
 20200103,뉴시스,gender,2
 20200103,더팩트,clean,31
 20200103,데일리안,clean,17
@@ -6719,13 +6665,12 @@ date,cp_name,tag,count
 20200103,시사IN,clean,3
 20200103,시사저널,clean,15
 20200103,아시아경제,bearing,1
-20200103,아시아경제,clean,153
+20200103,아시아경제,clean,154
 20200103,아이뉴스24,clean,14
 20200103,엘르,clean,1
 20200103,연합뉴스,bearing,1
 20200103,연합뉴스,clean,524
 20200103,연합뉴스,gender,4
-20200103,연합뉴스 보도자료,clean,83
 20200103,연합뉴스TV,clean,107
 20200103,오마이뉴스,clean,57
 20200103,우먼동아일보,clean,1
@@ -6785,8 +6730,7 @@ date,cp_name,tag,count
 20200104,아시아경제,clean,35
 20200104,아이뉴스24,clean,1
 20200104,엘르,clean,1
-20200104,연합뉴스,clean,187
-20200104,연합뉴스 보도자료,clean,1
+20200104,연합뉴스,clean,188
 20200104,연합뉴스TV,clean,59
 20200104,오마이뉴스,clean,20
 20200104,이데일리,clean,55
@@ -6855,7 +6799,6 @@ date,cp_name,tag,count
 20200105,연합뉴스,bearing,1
 20200105,연합뉴스,clean,284
 20200105,연합뉴스,gender,1
-20200105,연합뉴스 보도자료,clean,2
 20200105,연합뉴스TV,bearing,1
 20200105,연합뉴스TV,clean,55
 20200105,연합뉴스TV,gender,1
@@ -6903,7 +6846,7 @@ date,cp_name,tag,count
 20200106,노컷뉴스,clean,154
 20200106,노컷뉴스,gender,7
 20200106,뉴스1,bearing,1
-20200106,뉴스1,clean,695
+20200106,뉴스1,clean,696
 20200106,뉴스1,gender,6
 20200106,뉴시스,bearing,1
 20200106,뉴시스,clean,547
@@ -6921,7 +6864,7 @@ date,cp_name,tag,count
 20200106,매일경제,clean,45
 20200106,매일경제,gender,1
 20200106,머니S,bearing,1
-20200106,머니S,clean,67
+20200106,머니S,clean,68
 20200106,머니투데이,bearing,1
 20200106,머니투데이,clean,176
 20200106,머니투데이,profession,1
@@ -6956,7 +6899,6 @@ date,cp_name,tag,count
 20200106,연합뉴스,clean,575
 20200106,연합뉴스,gender,1
 20200106,연합뉴스,profession,1
-20200106,연합뉴스 보도자료,clean,95
 20200106,연합뉴스TV,clean,125
 20200106,연합뉴스TV,gender,1
 20200106,오마이뉴스,clean,72
@@ -6974,7 +6916,7 @@ date,cp_name,tag,count
 20200106,채널A,abuse,1
 20200106,채널A,clean,21
 20200106,채널A,gender,1
-20200106,쿠키뉴스,clean,166
+20200106,쿠키뉴스,clean,167
 20200106,파이낸셜뉴스,bearing,1
 20200106,파이낸셜뉴스,clean,153
 20200106,파이낸셜뉴스,gender,1
@@ -7027,7 +6969,7 @@ date,cp_name,tag,count
 20200107,마리끌레르,clean,2
 20200107,매일경제,clean,31
 20200107,매일경제,molka,1
-20200107,머니S,clean,79
+20200107,머니S,clean,80
 20200107,머니S,gender,1
 20200107,머니투데이,clean,204
 20200107,메종,clean,1
@@ -7035,7 +6977,7 @@ date,cp_name,tag,count
 20200107,문화일보,clean,63
 20200107,미디어오늘,clean,12
 20200107,베스트베이비,clean,1
-20200107,서울경제,clean,99
+20200107,서울경제,clean,100
 20200107,서울경제,molka,1
 20200107,서울신문,clean,118
 20200107,서울신문,demonize,1
@@ -7058,7 +7000,6 @@ date,cp_name,tag,count
 20200107,엘르,clean,1
 20200107,연합뉴스,clean,692
 20200107,연합뉴스,metoo,1
-20200107,연합뉴스 보도자료,clean,99
 20200107,연합뉴스TV,clean,111
 20200107,연합뉴스TV,molka,1
 20200107,오마이뉴스,clean,88
@@ -7082,7 +7023,7 @@ date,cp_name,tag,count
 20200107,쿠키뉴스,clean,168
 20200107,쿠키뉴스,molka,1
 20200107,쿠키뉴스,profession,1
-20200107,파이낸셜뉴스,clean,129
+20200107,파이낸셜뉴스,clean,130
 20200107,프레시안,clean,121
 20200107,프레시안,gender,1
 20200107,한겨레,clean,71
@@ -7090,7 +7031,7 @@ date,cp_name,tag,count
 20200107,한국경제,clean,43
 20200107,한국일보,clean,146
 20200107,한국일보,molka,1
-20200107,헤럴드경제,clean,157
+20200107,헤럴드경제,clean,158
 20200107,헤럴드경제,gender,2
 20200107,헤럴드경제,profession,1
 20200108,EBS,clean,8
@@ -7107,7 +7048,6 @@ date,cp_name,tag,count
 20200108,SBS funE,clean,8
 20200108,YTN,clean,239
 20200108,YTN,molka,1
-20200108,bnt뉴스,clean,1
 20200108,경향신문,clean,109
 20200108,경향신문,profession,1
 20200108,국민일보,clean,118
@@ -7118,7 +7058,7 @@ date,cp_name,tag,count
 20200108,노컷뉴스,gender,3
 20200108,노컷뉴스,profession,1
 20200108,뉴스1,bearing,5
-20200108,뉴스1,clean,711
+20200108,뉴스1,clean,712
 20200108,뉴스1,gender,4
 20200108,뉴스1,molka,1
 20200108,뉴시스,abuse,1
@@ -7166,11 +7106,10 @@ date,cp_name,tag,count
 20200108,아이뉴스24,clean,22
 20200108,엘르,clean,1
 20200108,연합뉴스,bearing,1
-20200108,연합뉴스,clean,759
+20200108,연합뉴스,clean,760
 20200108,연합뉴스,gender,5
 20200108,연합뉴스,metoo,1
 20200108,연합뉴스,profession,1
-20200108,연합뉴스 보도자료,clean,102
 20200108,연합뉴스TV,clean,131
 20200108,오마이뉴스,clean,56
 20200108,우먼센스,clean,1
@@ -7265,7 +7204,6 @@ date,cp_name,tag,count
 20200109,연합뉴스,clean,761
 20200109,연합뉴스,gender,1
 20200109,연합뉴스,profession,4
-20200109,연합뉴스 보도자료,clean,69
 20200109,연합뉴스TV,clean,109
 20200109,연합뉴스TV,gender,3
 20200109,오마이뉴스,clean,55
@@ -7353,15 +7291,13 @@ date,cp_name,tag,count
 20200110,시사IN,clean,3
 20200110,시사저널,clean,18
 20200110,아레나,clean,1
-20200110,아시아경제,clean,189
+20200110,아시아경제,clean,190
 20200110,아시아경제,gender,1
 20200110,아이뉴스24,clean,10
 20200110,엘르,clean,1
-20200110,연합뉴스,clean,540
+20200110,연합뉴스,clean,542
 20200110,연합뉴스,gender,4
 20200110,연합뉴스,profession,1
-20200110,연합뉴스 보도자료,bearing,1
-20200110,연합뉴스 보도자료,clean,69
 20200110,연합뉴스TV,clean,115
 20200110,오마이뉴스,clean,57
 20200110,우먼동아일보,profession,1
@@ -7386,7 +7322,7 @@ date,cp_name,tag,count
 20200110,한국일보,clean,134
 20200110,한국일보,profession,1
 20200110,헤럴드경제,bearing,1
-20200110,헤럴드경제,clean,112
+20200110,헤럴드경제,clean,113
 20200110,헤럴드경제,gender,1
 20200111,JTBC,clean,19
 20200111,KBS,bearing,1
@@ -7425,7 +7361,6 @@ date,cp_name,tag,count
 20200111,아이뉴스24,clean,2
 20200111,엘르,clean,1
 20200111,연합뉴스,clean,221
-20200111,연합뉴스 보도자료,clean,3
 20200111,연합뉴스TV,clean,72
 20200111,연합뉴스TV,gender,1
 20200111,오마이뉴스,clean,14
@@ -7491,7 +7426,6 @@ date,cp_name,tag,count
 20200112,아시아경제,clean,51
 20200112,아이뉴스24,clean,14
 20200112,연합뉴스,clean,325
-20200112,연합뉴스 보도자료,clean,2
 20200112,연합뉴스TV,bearing,1
 20200112,연합뉴스TV,clean,56
 20200112,연합뉴스TV,profession,1
@@ -7557,7 +7491,7 @@ date,cp_name,tag,count
 20200113,문화일보,gender,1
 20200113,미디어오늘,clean,10
 20200113,서울경제,bearing,1
-20200113,서울경제,clean,108
+20200113,서울경제,clean,109
 20200113,서울신문,clean,150
 20200113,서울신문,gender,1
 20200113,서울신문,profession,1
@@ -7568,14 +7502,13 @@ date,cp_name,tag,count
 20200113,시사IN,clean,2
 20200113,시사저널,clean,17
 20200113,아레나,clean,1
-20200113,아시아경제,clean,198
+20200113,아시아경제,clean,199
 20200113,아시아경제,gender,1
 20200113,아이뉴스24,bearing,1
 20200113,아이뉴스24,clean,17
 20200113,엘르,clean,1
 20200113,연합뉴스,bearing,1
 20200113,연합뉴스,clean,676
-20200113,연합뉴스 보도자료,clean,96
 20200113,연합뉴스TV,clean,123
 20200113,오마이뉴스,clean,70
 20200113,우먼센스,clean,1
@@ -7617,10 +7550,10 @@ date,cp_name,tag,count
 20200114,경향신문,clean,97
 20200114,국민일보,clean,93
 20200114,기자협회보,clean,2
-20200114,노컷뉴스,clean,176
+20200114,노컷뉴스,clean,177
 20200114,뉴스1,clean,572
 20200114,뉴스1,gender,4
-20200114,뉴시스,clean,540
+20200114,뉴시스,clean,541
 20200114,뉴시스,gender,1
 20200114,더팩트,clean,33
 20200114,데일리안,clean,32
@@ -7630,7 +7563,7 @@ date,cp_name,tag,count
 20200114,리빙센스,clean,1
 20200114,마리끌레르,clean,2
 20200114,매일경제,clean,34
-20200114,머니S,clean,93
+20200114,머니S,clean,94
 20200114,머니투데이,bearing,1
 20200114,머니투데이,clean,172
 20200114,메종,clean,1
@@ -7657,7 +7590,6 @@ date,cp_name,tag,count
 20200114,연합뉴스,clean,682
 20200114,연합뉴스,gender,2
 20200114,연합뉴스,profession,1
-20200114,연합뉴스 보도자료,clean,81
 20200114,연합뉴스TV,abuse,1
 20200114,연합뉴스TV,clean,110
 20200114,오마이뉴스,clean,53
@@ -7673,7 +7605,7 @@ date,cp_name,tag,count
 20200114,채널A,clean,24
 20200114,쿠키뉴스,clean,128
 20200114,티브이데일리,clean,1
-20200114,파이낸셜뉴스,clean,128
+20200114,파이낸셜뉴스,clean,129
 20200114,프레시안,clean,102
 20200114,프레시안,gender,1
 20200114,한겨레,clean,49
@@ -7692,7 +7624,6 @@ date,cp_name,tag,count
 20200115,SBS,clean,83
 20200115,SBS funE,clean,8
 20200115,YTN,clean,217
-20200115,bnt뉴스,clean,1
 20200115,경향신문,clean,90
 20200115,경향신문,gender,1
 20200115,국민일보,clean,98
@@ -7714,7 +7645,7 @@ date,cp_name,tag,count
 20200115,마리끌레르,clean,2
 20200115,마이데일리,clean,1
 20200115,매일경제,clean,39
-20200115,머니S,clean,80
+20200115,머니S,clean,81
 20200115,머니투데이,bearing,1
 20200115,머니투데이,clean,146
 20200115,머니투데이,gender,1
@@ -7736,14 +7667,12 @@ date,cp_name,tag,count
 20200115,시티라이프,clean,2
 20200115,아레나,clean,1
 20200115,아시아경제,bearing,2
-20200115,아시아경제,clean,126
+20200115,아시아경제,clean,127
 20200115,아이뉴스24,clean,16
 20200115,엘르,clean,1
 20200115,연합뉴스,bearing,3
 20200115,연합뉴스,clean,662
 20200115,연합뉴스,gender,5
-20200115,연합뉴스 보도자료,bearing,1
-20200115,연합뉴스 보도자료,clean,84
 20200115,연합뉴스TV,clean,118
 20200115,오마이뉴스,clean,64
 20200115,우먼센스,clean,1
@@ -7758,14 +7687,14 @@ date,cp_name,tag,count
 20200115,채널A,clean,19
 20200115,채널A,gender,1
 20200115,쿠키뉴스,clean,159
-20200115,파이낸셜뉴스,clean,128
+20200115,파이낸셜뉴스,clean,129
 20200115,프레시안,clean,98
 20200115,프레시안,gender,2
 20200115,한겨레,clean,53
 20200115,한겨레21,clean,1
 20200115,한국경제,clean,31
 20200115,한국일보,clean,125
-20200115,헤럴드경제,clean,122
+20200115,헤럴드경제,clean,123
 20200115,헤럴드경제,gender,1
 20200116,EBS,clean,11
 20200116,JTBC,clean,55
@@ -7779,7 +7708,6 @@ date,cp_name,tag,count
 20200116,SBS,clean,87
 20200116,SBS funE,clean,6
 20200116,YTN,clean,188
-20200116,bnt뉴스,clean,13
 20200116,경향신문,clean,80
 20200116,국민일보,clean,89
 20200116,노컷뉴스,bearing,1
@@ -7826,8 +7754,6 @@ date,cp_name,tag,count
 20200116,연합뉴스,clean,648
 20200116,연합뉴스,gender,3
 20200116,연합뉴스,profession,2
-20200116,연합뉴스 보도자료,bearing,1
-20200116,연합뉴스 보도자료,clean,92
 20200116,연합뉴스TV,clean,120
 20200116,연합뉴스TV,gender,2
 20200116,오마이뉴스,bearing,1
@@ -7843,7 +7769,7 @@ date,cp_name,tag,count
 20200116,지디넷코리아,clean,2
 20200116,채널A,clean,25
 20200116,쿠키뉴스,bearing,1
-20200116,쿠키뉴스,clean,135
+20200116,쿠키뉴스,clean,136
 20200116,티브이데일리,clean,3
 20200116,파이낸셜뉴스,clean,135
 20200116,파이낸셜뉴스,gender,1
@@ -7866,7 +7792,6 @@ date,cp_name,tag,count
 20200117,SBS,molka,1
 20200117,SBS funE,clean,8
 20200117,YTN,clean,209
-20200117,bnt뉴스,clean,5
 20200117,경향신문,clean,59
 20200117,국민일보,clean,82
 20200117,국민일보,gender,1
@@ -7877,7 +7802,7 @@ date,cp_name,tag,count
 20200117,뉴스1,clean,516
 20200117,뉴스1,gender,3
 20200117,뉴시스,bearing,2
-20200117,뉴시스,clean,434
+20200117,뉴시스,clean,436
 20200117,뉴시스,gender,3
 20200117,뉴시스,molka,2
 20200117,더팩트,clean,37
@@ -7916,10 +7841,8 @@ date,cp_name,tag,count
 20200117,아이뉴스24,clean,19
 20200117,엘르,clean,1
 20200117,연합뉴스,bearing,1
-20200117,연합뉴스,clean,539
+20200117,연합뉴스,clean,543
 20200117,연합뉴스,gender,3
-20200117,연합뉴스 보도자료,bearing,1
-20200117,연합뉴스 보도자료,clean,82
 20200117,연합뉴스TV,clean,115
 20200117,연합뉴스TV,gender,1
 20200117,오마이뉴스,clean,58
@@ -7943,7 +7866,7 @@ date,cp_name,tag,count
 20200117,한겨레21,clean,2
 20200117,한국경제,clean,77
 20200117,한국일보,clean,101
-20200117,헤럴드경제,clean,97
+20200117,헤럴드경제,clean,98
 20200117,헤럴드경제,gender,1
 20200118,JTBC,clean,19
 20200118,KBS,clean,80
@@ -7982,7 +7905,6 @@ date,cp_name,tag,count
 20200118,엘르,clean,1
 20200118,연합뉴스,clean,221
 20200118,연합뉴스,profession,1
-20200118,연합뉴스 보도자료,clean,2
 20200118,연합뉴스TV,clean,66
 20200118,연합뉴스TV,molka,1
 20200118,오마이뉴스,clean,19
@@ -8044,7 +7966,6 @@ date,cp_name,tag,count
 20200119,아이뉴스24,clean,5
 20200119,연합뉴스,clean,323
 20200119,연합뉴스,gender,1
-20200119,연합뉴스 보도자료,clean,5
 20200119,연합뉴스TV,clean,72
 20200119,오마이뉴스,clean,18
 20200119,우먼동아일보,clean,4
@@ -8077,7 +7998,6 @@ date,cp_name,tag,count
 20200120,SBS funE,profession,1
 20200120,YTN,bearing,2
 20200120,YTN,clean,202
-20200120,bnt뉴스,clean,1
 20200120,게임톡,clean,2
 20200120,경향신문,clean,85
 20200120,국민일보,clean,102
@@ -8089,7 +8009,7 @@ date,cp_name,tag,count
 20200120,뉴스1,clean,685
 20200120,뉴스1,gender,4
 20200120,뉴시스,bearing,2
-20200120,뉴시스,clean,540
+20200120,뉴시스,clean,542
 20200120,뉴시스,gender,8
 20200120,더팩트,clean,12
 20200120,데일리안,clean,59
@@ -8100,7 +8020,7 @@ date,cp_name,tag,count
 20200120,마리끌레르,clean,2
 20200120,매일경제,clean,35
 20200120,매일경제,gender,1
-20200120,머니S,clean,106
+20200120,머니S,clean,108
 20200120,머니투데이,bearing,3
 20200120,머니투데이,clean,138
 20200120,메종,clean,1
@@ -8124,9 +8044,8 @@ date,cp_name,tag,count
 20200120,아시아경제,profession,1
 20200120,아이뉴스24,clean,20
 20200120,엘르,clean,2
-20200120,연합뉴스,clean,658
+20200120,연합뉴스,clean,659
 20200120,연합뉴스,gender,2
-20200120,연합뉴스 보도자료,clean,87
 20200120,연합뉴스TV,clean,132
 20200120,오마이뉴스,bearing,1
 20200120,오마이뉴스,clean,57
@@ -8144,9 +8063,9 @@ date,cp_name,tag,count
 20200120,쿠키뉴스,clean,179
 20200120,티브이데일리,clean,3
 20200120,파이낸셜뉴스,bearing,1
-20200120,파이낸셜뉴스,clean,148
+20200120,파이낸셜뉴스,clean,149
 20200120,파이낸셜뉴스,gender,1
-20200120,프레시안,clean,104
+20200120,프레시안,clean,105
 20200120,한겨레,clean,64
 20200120,한겨레21,clean,3
 20200120,한국경제,clean,90
@@ -8176,7 +8095,7 @@ date,cp_name,tag,count
 20200121,기자협회보,clean,1
 20200121,노컷뉴스,clean,207
 20200121,뉴스1,bearing,1
-20200121,뉴스1,clean,644
+20200121,뉴스1,clean,645
 20200121,뉴스1,gender,3
 20200121,뉴시스,bearing,2
 20200121,뉴시스,clean,558
@@ -8190,7 +8109,7 @@ date,cp_name,tag,count
 20200121,마리끌레르,clean,2
 20200121,매일경제,clean,28
 20200121,매일경제,gender,2
-20200121,머니S,clean,102
+20200121,머니S,clean,103
 20200121,머니투데이,clean,156
 20200121,메종,clean,1
 20200121,문화일보,clean,49
@@ -8215,7 +8134,6 @@ date,cp_name,tag,count
 20200121,연합뉴스,bearing,1
 20200121,연합뉴스,clean,700
 20200121,연합뉴스,gender,2
-20200121,연합뉴스 보도자료,clean,106
 20200121,연합뉴스TV,clean,137
 20200121,오마이뉴스,clean,75
 20200121,우먼센스,clean,1
@@ -8251,7 +8169,6 @@ date,cp_name,tag,count
 20200122,SBS funE,clean,6
 20200122,YTN,clean,207
 20200122,YTN,gender,1
-20200122,bnt뉴스,clean,1
 20200122,경향신문,clean,84
 20200122,국민일보,clean,102
 20200122,기자협회보,clean,11
@@ -8293,9 +8210,8 @@ date,cp_name,tag,count
 20200122,아시아경제,clean,175
 20200122,아이뉴스24,clean,20
 20200122,연합뉴스,bearing,1
-20200122,연합뉴스,clean,669
+20200122,연합뉴스,clean,670
 20200122,연합뉴스,trivialize,1
-20200122,연합뉴스 보도자료,clean,101
 20200122,연합뉴스TV,clean,125
 20200122,연합뉴스TV,gender,1
 20200122,오마이뉴스,clean,61
@@ -8309,8 +8225,8 @@ date,cp_name,tag,count
 20200122,중앙일보,gender,2
 20200122,채널A,clean,28
 20200122,쿠키뉴스,bearing,1
-20200122,쿠키뉴스,clean,201
-20200122,파이낸셜뉴스,clean,149
+20200122,쿠키뉴스,clean,203
+20200122,파이낸셜뉴스,clean,150
 20200122,프레시안,bearing,1
 20200122,프레시안,clean,100
 20200122,프레시안,gender,1
@@ -8319,7 +8235,7 @@ date,cp_name,tag,count
 20200122,한국경제,bearing,1
 20200122,한국경제,clean,63
 20200122,한국일보,clean,121
-20200122,헤럴드경제,clean,140
+20200122,헤럴드경제,clean,142
 20200123,EBS,clean,13
 20200123,JTBC,clean,53
 20200123,JTBC,gender,2
@@ -8337,7 +8253,6 @@ date,cp_name,tag,count
 20200123,SBS funE,clean,6
 20200123,YTN,clean,194
 20200123,YTN,gender,5
-20200123,bnt뉴스,clean,18
 20200123,경향신문,clean,76
 20200123,국민일보,clean,81
 20200123,국민일보,gender,1
@@ -8382,16 +8297,14 @@ date,cp_name,tag,count
 20200123,시사저널,gender,1
 20200123,신동아,clean,2
 20200123,아레나,clean,1
-20200123,아시아경제,clean,125
+20200123,아시아경제,clean,127
 20200123,아시아경제,gender,1
 20200123,아이뉴스24,clean,8
 20200123,엘르,clean,2
 20200123,연합뉴스,bearing,1
-20200123,연합뉴스,clean,518
+20200123,연합뉴스,clean,519
 20200123,연합뉴스,gender,4
 20200123,연합뉴스,metoo,1
-20200123,연합뉴스 보도자료,bearing,1
-20200123,연합뉴스 보도자료,clean,86
 20200123,연합뉴스TV,clean,124
 20200123,연합뉴스TV,gender,1
 20200123,연합뉴스TV,profession,1
@@ -8467,11 +8380,10 @@ date,cp_name,tag,count
 20200124,아시아경제,clean,40
 20200124,아이뉴스24,clean,9
 20200124,아이뉴스24,gender,1
-20200124,연합뉴스,clean,273
+20200124,연합뉴스,clean,275
 20200124,연합뉴스,gender,1
 20200124,연합뉴스,molka,1
 20200124,연합뉴스,profession,1
-20200124,연합뉴스 보도자료,clean,8
 20200124,연합뉴스TV,clean,80
 20200124,오마이뉴스,clean,25
 20200124,우먼센스,clean,1
@@ -8527,9 +8439,8 @@ date,cp_name,tag,count
 20200125,신동아,clean,4
 20200125,아시아경제,clean,52
 20200125,아이뉴스24,clean,1
-20200125,연합뉴스,clean,214
+20200125,연합뉴스,clean,215
 20200125,연합뉴스,gender,1
-20200125,연합뉴스 보도자료,clean,3
 20200125,연합뉴스TV,clean,91
 20200125,오마이뉴스,clean,20
 20200125,이데일리,clean,61
@@ -8583,7 +8494,6 @@ date,cp_name,tag,count
 20200126,아이뉴스24,clean,6
 20200126,연합뉴스,clean,235
 20200126,연합뉴스,gender,1
-20200126,연합뉴스 보도자료,clean,1
 20200126,연합뉴스TV,clean,89
 20200126,오마이뉴스,clean,13
 20200126,우먼동아일보,clean,8
@@ -8657,7 +8567,6 @@ date,cp_name,tag,count
 20200127,연합뉴스,clean,366
 20200127,연합뉴스,gender,2
 20200127,연합뉴스,metoo,1
-20200127,연합뉴스 보도자료,clean,3
 20200127,연합뉴스TV,clean,104
 20200127,오마이뉴스,clean,24
 20200127,이데일리,clean,71
@@ -8692,7 +8601,6 @@ date,cp_name,tag,count
 20200128,SBS,metoo,1
 20200128,SBS funE,clean,2
 20200128,YTN,clean,221
-20200128,bnt뉴스,clean,1
 20200128,경향신문,clean,93
 20200128,국민일보,clean,104
 20200128,국민일보,metoo,1
@@ -8746,7 +8654,7 @@ date,cp_name,tag,count
 20200128,시사저널,clean,13
 20200128,아레나,clean,1
 20200128,아시아경제,bearing,1
-20200128,아시아경제,clean,197
+20200128,아시아경제,clean,199
 20200128,아시아경제,metoo,9
 20200128,아이뉴스24,clean,13
 20200128,아이뉴스24,metoo,4
@@ -8754,7 +8662,6 @@ date,cp_name,tag,count
 20200128,연합뉴스,clean,675
 20200128,연합뉴스,gender,1
 20200128,연합뉴스,metoo,8
-20200128,연합뉴스 보도자료,clean,83
 20200128,연합뉴스TV,clean,131
 20200128,오마이뉴스,clean,74
 20200128,우먼동아일보,clean,5
@@ -8773,7 +8680,7 @@ date,cp_name,tag,count
 20200128,쿠키뉴스,gender,2
 20200128,티브이데일리,clean,1
 20200128,파이낸셜뉴스,bearing,1
-20200128,파이낸셜뉴스,clean,197
+20200128,파이낸셜뉴스,clean,198
 20200128,파이낸셜뉴스,metoo,1
 20200128,프레시안,clean,109
 20200128,프레시안,gender,1
@@ -8782,7 +8689,7 @@ date,cp_name,tag,count
 20200128,한국경제,metoo,10
 20200128,한국일보,clean,136
 20200128,한국일보,metoo,2
-20200128,헤럴드경제,clean,158
+20200128,헤럴드경제,clean,159
 20200128,헤럴드경제,gender,4
 20200129,EBS,clean,13
 20200129,JTBC,clean,65
@@ -8794,7 +8701,6 @@ date,cp_name,tag,count
 20200129,SBS,clean,117
 20200129,SBS funE,clean,4
 20200129,YTN,clean,219
-20200129,bnt뉴스,clean,19
 20200129,경향신문,clean,83
 20200129,국민일보,clean,102
 20200129,노컷뉴스,clean,177
@@ -8817,7 +8723,7 @@ date,cp_name,tag,count
 20200129,마리끌레르,clean,2
 20200129,마이데일리,clean,2
 20200129,매일경제,clean,44
-20200129,머니S,clean,107
+20200129,머니S,clean,108
 20200129,머니S,gender,1
 20200129,머니S,metoo,3
 20200129,머니투데이,clean,158
@@ -8840,16 +8746,15 @@ date,cp_name,tag,count
 20200129,시티라이프,clean,4
 20200129,신동아,clean,2
 20200129,아레나,clean,1
-20200129,아시아경제,clean,178
+20200129,아시아경제,clean,180
 20200129,아시아경제,metoo,3
 20200129,아이뉴스24,clean,21
 20200129,아이뉴스24,metoo,3
-20200129,연합뉴스,clean,784
+20200129,연합뉴스,clean,785
 20200129,연합뉴스,gender,1
 20200129,연합뉴스,metoo,2
 20200129,연합뉴스,molka,3
 20200129,연합뉴스,profession,1
-20200129,연합뉴스 보도자료,clean,101
 20200129,연합뉴스TV,clean,134
 20200129,오마이뉴스,clean,69
 20200129,우먼센스,clean,1
@@ -8877,7 +8782,7 @@ date,cp_name,tag,count
 20200129,한국일보,clean,135
 20200129,한국일보,metoo,1
 20200129,한국일보,molka,1
-20200129,헤럴드경제,clean,148
+20200129,헤럴드경제,clean,150
 20200129,헤럴드경제,gender,1
 20200130,EBS,clean,10
 20200130,JTBC,clean,66
@@ -8894,12 +8799,11 @@ date,cp_name,tag,count
 20200130,SBS funE,clean,3
 20200130,YTN,clean,231
 20200130,YTN,molka,1
-20200130,bnt뉴스,clean,2
 20200130,경향신문,bearing,1
 20200130,경향신문,clean,99
 20200130,국민일보,clean,89
 20200130,국민일보,metoo,1
-20200130,노컷뉴스,clean,176
+20200130,노컷뉴스,clean,177
 20200130,뉴스1,bearing,1
 20200130,뉴스1,clean,862
 20200130,뉴스1,gender,3
@@ -8945,14 +8849,13 @@ date,cp_name,tag,count
 20200130,시사저널,clean,11
 20200130,신동아,clean,1
 20200130,아레나,clean,2
-20200130,아시아경제,clean,166
+20200130,아시아경제,clean,167
 20200130,아이뉴스24,clean,17
 20200130,엘르,clean,2
 20200130,연합뉴스,bearing,2
 20200130,연합뉴스,clean,835
 20200130,연합뉴스,gender,3
 20200130,연합뉴스,metoo,1
-20200130,연합뉴스 보도자료,clean,101
 20200130,연합뉴스TV,clean,121
 20200130,오마이뉴스,clean,61
 20200130,우먼센스,clean,1
@@ -8971,7 +8874,7 @@ date,cp_name,tag,count
 20200130,쿠키뉴스,clean,232
 20200130,쿠키뉴스,gender,2
 20200130,티브이데일리,clean,1
-20200130,파이낸셜뉴스,clean,163
+20200130,파이낸셜뉴스,clean,164
 20200130,파이낸셜뉴스,gender,1
 20200130,프레시안,clean,105
 20200130,한겨레,bearing,1
@@ -8992,7 +8895,6 @@ date,cp_name,tag,count
 20200131,SBS funE,clean,6
 20200131,YTN,clean,214
 20200131,YTN,molka,1
-20200131,bnt뉴스,clean,12
 20200131,경향신문,clean,81
 20200131,국민일보,clean,73
 20200131,기자협회보,clean,1
@@ -9000,7 +8902,7 @@ date,cp_name,tag,count
 20200131,노컷뉴스,gender,1
 20200131,뉴스1,abuse,1
 20200131,뉴스1,bearing,1
-20200131,뉴스1,clean,693
+20200131,뉴스1,clean,694
 20200131,뉴스1,gender,3
 20200131,뉴시스,bearing,3
 20200131,뉴시스,clean,486
@@ -9030,7 +8932,7 @@ date,cp_name,tag,count
 20200131,신동아,clean,1
 20200131,아레나,clean,2
 20200131,아시아경제,bearing,1
-20200131,아시아경제,clean,157
+20200131,아시아경제,clean,158
 20200131,아이뉴스24,clean,7
 20200131,엘르,clean,1
 20200131,연합뉴스,abuse,1
@@ -9038,8 +8940,6 @@ date,cp_name,tag,count
 20200131,연합뉴스,clean,672
 20200131,연합뉴스,gender,1
 20200131,연합뉴스,metoo,1
-20200131,연합뉴스 보도자료,bearing,1
-20200131,연합뉴스 보도자료,clean,87
 20200131,연합뉴스TV,clean,112
 20200131,오마이뉴스,clean,70
 20200131,우먼동아일보,clean,11
@@ -9105,7 +9005,6 @@ date,cp_name,tag,count
 20200201,아이뉴스24,clean,4
 20200201,연합뉴스,clean,298
 20200201,연합뉴스,gender,4
-20200201,연합뉴스 보도자료,clean,1
 20200201,연합뉴스TV,clean,74
 20200201,오마이뉴스,clean,27
 20200201,이데일리,clean,47
@@ -9164,7 +9063,6 @@ date,cp_name,tag,count
 20200202,아이뉴스24,gender,1
 20200202,연합뉴스,clean,399
 20200202,연합뉴스,gender,6
-20200202,연합뉴스 보도자료,clean,1
 20200202,연합뉴스TV,clean,69
 20200202,오마이뉴스,clean,22
 20200202,우먼동아일보,clean,6
@@ -9218,7 +9116,7 @@ date,cp_name,tag,count
 20200203,마리끌레르,clean,2
 20200203,매일경제,clean,30
 20200203,머니S,bearing,2
-20200203,머니S,clean,93
+20200203,머니S,clean,94
 20200203,머니S,gender,1
 20200203,머니투데이,clean,140
 20200203,머니투데이,gender,2
@@ -9238,12 +9136,11 @@ date,cp_name,tag,count
 20200203,시사저널,clean,11
 20200203,시사저널,metoo,1
 20200203,신동아,clean,1
-20200203,아시아경제,clean,152
+20200203,아시아경제,clean,154
 20200203,아이뉴스24,clean,8
 20200203,연합뉴스,clean,685
 20200203,연합뉴스,gender,5
 20200203,연합뉴스,metoo,3
-20200203,연합뉴스 보도자료,clean,73
 20200203,연합뉴스TV,clean,142
 20200203,오마이뉴스,clean,63
 20200203,오마이뉴스,profession,1
@@ -9266,7 +9163,7 @@ date,cp_name,tag,count
 20200203,파이낸셜뉴스,clean,175
 20200203,파이낸셜뉴스,gender,1
 20200203,프레시안,bearing,2
-20200203,프레시안,clean,119
+20200203,프레시안,clean,120
 20200203,프레시안,gender,1
 20200203,한겨레,clean,55
 20200203,한국경제,clean,81
@@ -9283,7 +9180,6 @@ date,cp_name,tag,count
 20200204,SBS,clean,112
 20200204,SBS funE,clean,4
 20200204,YTN,clean,229
-20200204,bnt뉴스,clean,1
 20200204,경향신문,clean,82
 20200204,국민일보,clean,86
 20200204,노컷뉴스,clean,173
@@ -9293,7 +9189,7 @@ date,cp_name,tag,count
 20200204,뉴스1,clean,662
 20200204,뉴스1,gender,16
 20200204,뉴스1,metoo,1
-20200204,뉴시스,clean,608
+20200204,뉴시스,clean,609
 20200204,뉴시스,gender,5
 20200204,뉴시스,metoo,1
 20200204,더팩트,clean,31
@@ -9326,18 +9222,16 @@ date,cp_name,tag,count
 20200204,스포츠조선,gender,1
 20200204,시사IN,clean,1
 20200204,시사저널,clean,20
-20200204,아시아경제,clean,146
+20200204,아시아경제,clean,147
 20200204,아시아경제,gender,2
 20200204,아이뉴스24,clean,16
 20200204,아이뉴스24,metoo,1
 20200204,엘르,clean,1
 20200204,연합뉴스,bearing,1
-20200204,연합뉴스,clean,697
+20200204,연합뉴스,clean,698
 20200204,연합뉴스,gender,10
 20200204,연합뉴스,metoo,2
 20200204,연합뉴스,profession,1
-20200204,연합뉴스 보도자료,bearing,1
-20200204,연합뉴스 보도자료,clean,82
 20200204,연합뉴스TV,clean,133
 20200204,오마이뉴스,bearing,1
 20200204,오마이뉴스,clean,64
@@ -9369,7 +9263,7 @@ date,cp_name,tag,count
 20200204,한국경제,metoo,2
 20200204,한국일보,clean,110
 20200204,한국일보,gender,3
-20200204,헤럴드경제,clean,121
+20200204,헤럴드경제,clean,122
 20200204,헤럴드경제,gender,2
 20200205,EBS,clean,11
 20200205,JTBC,clean,67
@@ -9382,7 +9276,6 @@ date,cp_name,tag,count
 20200205,SBS,metoo,1
 20200205,SBS funE,clean,10
 20200205,YTN,clean,228
-20200205,bnt뉴스,clean,2
 20200205,경향신문,clean,89
 20200205,경향신문,gender,1
 20200205,국민일보,clean,77
@@ -9405,7 +9298,7 @@ date,cp_name,tag,count
 20200205,마리끌레르,clean,2
 20200205,매일경제,clean,34
 20200205,매일경제,gender,1
-20200205,머니S,clean,106
+20200205,머니S,clean,107
 20200205,머니S,gender,1
 20200205,머니S,molka,1
 20200205,머니S,profession,1
@@ -9428,15 +9321,12 @@ date,cp_name,tag,count
 20200205,신동아,clean,1
 20200205,아레나,clean,1
 20200205,아시아경제,bearing,1
-20200205,아시아경제,clean,166
+20200205,아시아경제,clean,167
 20200205,아시아경제,metoo,1
 20200205,아이뉴스24,clean,14
 20200205,엠스플뉴스,clean,1
-20200205,연합뉴스,clean,805
+20200205,연합뉴스,clean,806
 20200205,연합뉴스,gender,5
-20200205,연합뉴스 보도자료,bearing,1
-20200205,연합뉴스 보도자료,clean,89
-20200205,연합뉴스 보도자료,molka,1
 20200205,연합뉴스TV,clean,138
 20200205,오마이뉴스,clean,74
 20200205,우먼동아일보,clean,1
@@ -9456,7 +9346,7 @@ date,cp_name,tag,count
 20200205,쿠키뉴스,clean,213
 20200205,쿠키뉴스,molka,1
 20200205,티브이데일리,clean,2
-20200205,파이낸셜뉴스,clean,175
+20200205,파이낸셜뉴스,clean,176
 20200205,파이낸셜뉴스,gender,3
 20200205,프레시안,clean,105
 20200205,한겨레,clean,45
@@ -9478,7 +9368,6 @@ date,cp_name,tag,count
 20200206,SBS,gender,3
 20200206,SBS funE,clean,5
 20200206,YTN,clean,191
-20200206,bnt뉴스,clean,2
 20200206,경향신문,clean,96
 20200206,경향신문,molka,1
 20200206,국민일보,clean,107
@@ -9529,7 +9418,6 @@ date,cp_name,tag,count
 20200206,연합뉴스,clean,813
 20200206,연합뉴스,gender,4
 20200206,연합뉴스,molka,1
-20200206,연합뉴스 보도자료,clean,90
 20200206,연합뉴스TV,clean,112
 20200206,연합뉴스TV,gender,1
 20200206,오마이뉴스,clean,75
@@ -9568,8 +9456,6 @@ date,cp_name,tag,count
 20200207,SBS,clean,116
 20200207,SBS funE,clean,2
 20200207,YTN,clean,191
-20200207,bnt뉴스,clean,1
-20200207,bnt뉴스,profession,1
 20200207,경향신문,clean,64
 20200207,경향신문,gender,1
 20200207,국민일보,clean,66
@@ -9577,7 +9463,7 @@ date,cp_name,tag,count
 20200207,국민일보,molka,1
 20200207,기자협회보,clean,4
 20200207,노컷뉴스,clean,158
-20200207,뉴스1,clean,570
+20200207,뉴스1,clean,571
 20200207,뉴스1,gender,9
 20200207,뉴스타파,clean,5
 20200207,뉴시스,clean,454
@@ -9617,8 +9503,6 @@ date,cp_name,tag,count
 20200207,연합뉴스,clean,605
 20200207,연합뉴스,gender,3
 20200207,연합뉴스,metoo,1
-20200207,연합뉴스 보도자료,clean,83
-20200207,연합뉴스 보도자료,gender,1
 20200207,연합뉴스TV,clean,121
 20200207,연합뉴스TV,molka,1
 20200207,오마이뉴스,clean,60
@@ -9690,7 +9574,6 @@ date,cp_name,tag,count
 20200208,연합뉴스,clean,219
 20200208,연합뉴스,gender,4
 20200208,연합뉴스,molka,1
-20200208,연합뉴스 보도자료,clean,2
 20200208,연합뉴스TV,clean,51
 20200208,연합뉴스TV,molka,1
 20200208,오마이뉴스,clean,29
@@ -9794,7 +9677,6 @@ date,cp_name,tag,count
 20200210,SBS,gender,2
 20200210,SBS funE,clean,1
 20200210,YTN,clean,193
-20200210,bnt뉴스,clean,1
 20200210,게임톡,clean,1
 20200210,경향신문,clean,81
 20200210,경향신문,gender,1
@@ -9803,13 +9685,13 @@ date,cp_name,tag,count
 20200210,국민일보,gender,2
 20200210,노컷뉴스,clean,173
 20200210,뉴스1,bearing,1
-20200210,뉴스1,clean,760
+20200210,뉴스1,clean,761
 20200210,뉴스1,gender,10
 20200210,뉴스1,metoo,1
 20200210,뉴시스,clean,539
 20200210,뉴시스,gender,6
 20200210,더팩트,clean,17
-20200210,데일리안,clean,26
+20200210,데일리안,clean,27
 20200210,동아사이언스,clean,2
 20200210,동아일보,clean,70
 20200210,동아일보,gender,2
@@ -9845,7 +9727,6 @@ date,cp_name,tag,count
 20200210,연합뉴스,gender,2
 20200210,연합뉴스,metoo,1
 20200210,연합뉴스,profession,1
-20200210,연합뉴스 보도자료,clean,93
 20200210,연합뉴스TV,clean,118
 20200210,오마이뉴스,clean,68
 20200210,우먼센스,clean,1
@@ -9883,10 +9764,9 @@ date,cp_name,tag,count
 20200211,SBS funE,clean,3
 20200211,YTN,clean,182
 20200211,YTN,molka,1
-20200211,bnt뉴스,clean,1
 20200211,ize,clean,1
 20200211,경향신문,clean,98
-20200211,국민일보,clean,88
+20200211,국민일보,clean,89
 20200211,국민일보,gender,2
 20200211,기자협회보,clean,2
 20200211,노컷뉴스,clean,169
@@ -9926,10 +9806,9 @@ date,cp_name,tag,count
 20200211,아이뉴스24,clean,16
 20200211,엘르,clean,1
 20200211,연합뉴스,bearing,1
-20200211,연합뉴스,clean,715
+20200211,연합뉴스,clean,716
 20200211,연합뉴스,gender,5
 20200211,연합뉴스,molka,2
-20200211,연합뉴스 보도자료,clean,67
 20200211,연합뉴스TV,bearing,1
 20200211,연합뉴스TV,clean,127
 20200211,오마이뉴스,clean,61
@@ -9968,7 +9847,6 @@ date,cp_name,tag,count
 20200212,SBS,clean,98
 20200212,SBS funE,clean,5
 20200212,YTN,clean,214
-20200212,bnt뉴스,clean,2
 20200212,경향신문,clean,100
 20200212,국민일보,clean,89
 20200212,국민일보,gender,1
@@ -9977,7 +9855,7 @@ date,cp_name,tag,count
 20200212,노컷뉴스,clean,179
 20200212,노컷뉴스,gender,1
 20200212,노컷뉴스,molka,1
-20200212,뉴스1,clean,672
+20200212,뉴스1,clean,674
 20200212,뉴스1,gender,3
 20200212,뉴스1,molka,1
 20200212,뉴스타파,clean,1
@@ -10013,20 +9891,18 @@ date,cp_name,tag,count
 20200212,시사저널,clean,10
 20200212,시티라이프,clean,1
 20200212,아레나,clean,1
-20200212,아시아경제,clean,149
+20200212,아시아경제,clean,151
 20200212,아이뉴스24,clean,23
 20200212,엘르,clean,2
 20200212,연합뉴스,clean,666
 20200212,연합뉴스,gender,3
 20200212,연합뉴스,molka,1
-20200212,연합뉴스 보도자료,bearing,1
-20200212,연합뉴스 보도자료,clean,88
 20200212,연합뉴스TV,clean,126
 20200212,연합뉴스TV,gender,2
 20200212,오마이뉴스,clean,71
 20200212,우먼센스,clean,1
 20200212,이데일리,clean,95
-20200212,일간스포츠,clean,4
+20200212,일간스포츠,clean,5
 20200212,전자신문,clean,16
 20200212,조선일보,bearing,1
 20200212,조선일보,clean,87
@@ -10102,13 +9978,12 @@ date,cp_name,tag,count
 20200213,시사IN,clean,4
 20200213,시사저널,clean,11
 20200213,아레나,clean,1
-20200213,아시아경제,clean,154
+20200213,아시아경제,clean,155
 20200213,아시아경제,gender,1
 20200213,아이뉴스24,clean,21
 20200213,연합뉴스,clean,759
 20200213,연합뉴스,gender,3
 20200213,연합뉴스,profession,1
-20200213,연합뉴스 보도자료,clean,80
 20200213,연합뉴스TV,clean,126
 20200213,오마이뉴스,clean,72
 20200213,우먼동아일보,clean,3
@@ -10130,7 +10005,7 @@ date,cp_name,tag,count
 20200213,한겨레,clean,61
 20200213,한국경제,clean,70
 20200213,한국일보,clean,107
-20200213,헤럴드경제,clean,116
+20200213,헤럴드경제,clean,117
 20200213,헤럴드경제,gender,6
 20200214,EBS,clean,9
 20200214,JTBC,clean,60
@@ -10144,7 +10019,6 @@ date,cp_name,tag,count
 20200214,SBS funE,clean,1
 20200214,YTN,clean,198
 20200214,YTN,gender,1
-20200214,bnt뉴스,clean,2
 20200214,경향신문,clean,75
 20200214,국민일보,clean,65
 20200214,국민일보,gender,1
@@ -10188,7 +10062,6 @@ date,cp_name,tag,count
 20200214,엘르,clean,2
 20200214,연합뉴스,clean,543
 20200214,연합뉴스,gender,2
-20200214,연합뉴스 보도자료,clean,84
 20200214,연합뉴스TV,clean,102
 20200214,오마이뉴스,clean,61
 20200214,우먼동아일보,clean,1
@@ -10249,7 +10122,6 @@ date,cp_name,tag,count
 20200215,엘르,clean,1
 20200215,연합뉴스,clean,252
 20200215,연합뉴스,gender,1
-20200215,연합뉴스 보도자료,clean,4
 20200215,연합뉴스TV,clean,70
 20200215,오마이뉴스,clean,19
 20200215,이데일리,clean,24
@@ -10305,7 +10177,6 @@ date,cp_name,tag,count
 20200216,아이뉴스24,clean,14
 20200216,엘르,clean,1
 20200216,연합뉴스,clean,312
-20200216,연합뉴스 보도자료,clean,1
 20200216,연합뉴스TV,clean,75
 20200216,오마이뉴스,clean,20
 20200216,우먼동아일보,clean,2
@@ -10340,7 +10211,7 @@ date,cp_name,tag,count
 20200217,경향신문,clean,93
 20200217,경향신문,gender,1
 20200217,국민일보,clean,99
-20200217,노컷뉴스,clean,155
+20200217,노컷뉴스,clean,156
 20200217,노컷뉴스,gender,2
 20200217,뉴스1,clean,633
 20200217,뉴스1,demonize,1
@@ -10359,7 +10230,7 @@ date,cp_name,tag,count
 20200217,마리끌레르,clean,1
 20200217,매일경제,clean,44
 20200217,매일경제,gender,1
-20200217,머니S,clean,91
+20200217,머니S,clean,92
 20200217,머니S,gender,1
 20200217,머니투데이,bearing,1
 20200217,머니투데이,clean,161
@@ -10381,13 +10252,12 @@ date,cp_name,tag,count
 20200217,시사저널,clean,9
 20200217,신동아,clean,2
 20200217,아레나,clean,1
-20200217,아시아경제,clean,151
+20200217,아시아경제,clean,154
 20200217,아시아경제,profession,1
 20200217,아이뉴스24,clean,21
-20200217,연합뉴스,clean,743
+20200217,연합뉴스,clean,746
 20200217,연합뉴스,gender,4
 20200217,연합뉴스,molka,1
-20200217,연합뉴스 보도자료,clean,76
 20200217,연합뉴스TV,clean,141
 20200217,오마이뉴스,clean,85
 20200217,우먼센스,clean,1
@@ -10430,7 +10300,6 @@ date,cp_name,tag,count
 20200218,SBS funE,clean,1
 20200218,YTN,clean,214
 20200218,YTN,gender,2
-20200218,bnt뉴스,clean,1
 20200218,경향신문,bearing,1
 20200218,경향신문,clean,116
 20200218,경향신문,gender,1
@@ -10459,7 +10328,7 @@ date,cp_name,tag,count
 20200218,마이데일리,clean,1
 20200218,매일경제,clean,35
 20200218,머니S,clean,72
-20200218,머니투데이,clean,172
+20200218,머니투데이,clean,173
 20200218,메종,clean,1
 20200218,문화일보,clean,60
 20200218,미디어오늘,clean,12
@@ -10478,10 +10347,8 @@ date,cp_name,tag,count
 20200218,아시아경제,clean,187
 20200218,아이뉴스24,clean,17
 20200218,엘르,clean,2
-20200218,연합뉴스,clean,712
+20200218,연합뉴스,clean,714
 20200218,연합뉴스,gender,6
-20200218,연합뉴스 보도자료,bearing,1
-20200218,연합뉴스 보도자료,clean,75
 20200218,연합뉴스TV,clean,125
 20200218,오마이뉴스,clean,74
 20200218,우먼동아일보,clean,2
@@ -10519,11 +10386,10 @@ date,cp_name,tag,count
 20200219,SBS,clean,101
 20200219,SBS funE,clean,2
 20200219,YTN,clean,207
-20200219,bnt뉴스,clean,1
 20200219,ize,clean,1
 20200219,경향신문,clean,124
 20200219,경향신문,gender,1
-20200219,국민일보,clean,115
+20200219,국민일보,clean,116
 20200219,국민일보,gender,1
 20200219,기자협회보,clean,4
 20200219,노컷뉴스,bearing,2
@@ -10543,7 +10409,7 @@ date,cp_name,tag,count
 20200219,뉴시스,profession,1
 20200219,더팩트,clean,32
 20200219,데일리e스포츠,clean,1
-20200219,데일리안,clean,48
+20200219,데일리안,clean,49
 20200219,동아사이언스,clean,6
 20200219,동아일보,clean,79
 20200219,동아일보,gender,4
@@ -10585,7 +10451,6 @@ date,cp_name,tag,count
 20200219,연합뉴스,clean,894
 20200219,연합뉴스,gender,3
 20200219,연합뉴스,profession,1
-20200219,연합뉴스 보도자료,clean,81
 20200219,연합뉴스TV,clean,95
 20200219,오마이뉴스,clean,85
 20200219,오마이뉴스,gender,1
@@ -10630,7 +10495,6 @@ date,cp_name,tag,count
 20200220,SBS,clean,93
 20200220,SBS,profession,1
 20200220,YTN,clean,229
-20200220,bnt뉴스,clean,1
 20200220,경향신문,clean,126
 20200220,경향신문,gender,4
 20200220,국민일보,clean,122
@@ -10656,7 +10520,7 @@ date,cp_name,tag,count
 20200220,마리끌레르,clean,1
 20200220,매일경제,clean,34
 20200220,매일경제,gender,1
-20200220,머니S,clean,123
+20200220,머니S,clean,125
 20200220,머니S,gender,2
 20200220,머니투데이,bearing,1
 20200220,머니투데이,clean,205
@@ -10689,7 +10553,6 @@ date,cp_name,tag,count
 20200220,연합뉴스,bearing,1
 20200220,연합뉴스,clean,876
 20200220,연합뉴스,gender,5
-20200220,연합뉴스 보도자료,clean,79
 20200220,연합뉴스TV,bearing,1
 20200220,연합뉴스TV,clean,139
 20200220,연합뉴스TV,gender,1
@@ -10709,7 +10572,7 @@ date,cp_name,tag,count
 20200220,쿠키뉴스,clean,202
 20200220,쿠키뉴스,gender,2
 20200220,파이낸셜뉴스,bearing,1
-20200220,파이낸셜뉴스,clean,157
+20200220,파이낸셜뉴스,clean,158
 20200220,프레시안,clean,109
 20200220,프레시안,profession,1
 20200220,한겨레,clean,83
@@ -10753,7 +10616,7 @@ date,cp_name,tag,count
 20200221,머니S,bearing,1
 20200221,머니S,clean,110
 20200221,머니S,gender,1
-20200221,머니투데이,clean,178
+20200221,머니투데이,clean,179
 20200221,메종,clean,1
 20200221,문화일보,clean,71
 20200221,문화일보,gender,1
@@ -10777,9 +10640,8 @@ date,cp_name,tag,count
 20200221,아이뉴스24,clean,16
 20200221,엘르,clean,3
 20200221,연합뉴스,bearing,1
-20200221,연합뉴스,clean,779
+20200221,연합뉴스,clean,781
 20200221,연합뉴스,gender,5
-20200221,연합뉴스 보도자료,clean,80
 20200221,연합뉴스TV,clean,107
 20200221,오마이뉴스,clean,99
 20200221,오토타임즈,clean,1
@@ -10799,7 +10661,7 @@ date,cp_name,tag,count
 20200221,쿠키뉴스,clean,173
 20200221,쿠키뉴스,gender,2
 20200221,파이낸셜뉴스,clean,133
-20200221,프레시안,clean,82
+20200221,프레시안,clean,83
 20200221,프레시안,gender,1
 20200221,한겨레,clean,76
 20200221,한겨레21,clean,3
@@ -10858,10 +10720,9 @@ date,cp_name,tag,count
 20200222,아시아경제,gender,1
 20200222,아이뉴스24,clean,4
 20200222,엘르,clean,2
-20200222,연합뉴스,clean,399
+20200222,연합뉴스,clean,400
 20200222,연합뉴스,gender,10
 20200222,연합뉴스,profession,1
-20200222,연합뉴스 보도자료,clean,3
 20200222,연합뉴스TV,clean,81
 20200222,오마이뉴스,clean,61
 20200222,우먼센스,clean,1
@@ -10941,9 +10802,8 @@ date,cp_name,tag,count
 20200223,아시아경제,clean,86
 20200223,아시아경제,gender,1
 20200223,아이뉴스24,clean,2
-20200223,연합뉴스,clean,546
+20200223,연합뉴스,clean,547
 20200223,연합뉴스,gender,7
-20200223,연합뉴스 보도자료,clean,1
 20200223,연합뉴스TV,clean,76
 20200223,오마이뉴스,clean,50
 20200223,우먼센스,clean,1
@@ -10982,7 +10842,6 @@ date,cp_name,tag,count
 20200224,MBN,molka,1
 20200224,SBS,clean,101
 20200224,YTN,clean,231
-20200224,bnt뉴스,clean,4
 20200224,경향신문,clean,129
 20200224,경향신문,gender,2
 20200224,국민일보,clean,114
@@ -10993,7 +10852,7 @@ date,cp_name,tag,count
 20200224,뉴스1,clean,879
 20200224,뉴스1,gender,15
 20200224,뉴스1,profession,1
-20200224,뉴시스,clean,788
+20200224,뉴시스,clean,789
 20200224,뉴시스,gender,13
 20200224,더팩트,clean,39
 20200224,데일리안,clean,49
@@ -11028,9 +10887,8 @@ date,cp_name,tag,count
 20200224,아이뉴스24,clean,17
 20200224,에스티엔,clean,1
 20200224,엘르,clean,2
-20200224,연합뉴스,clean,839
+20200224,연합뉴스,clean,842
 20200224,연합뉴스,gender,2
-20200224,연합뉴스 보도자료,clean,79
 20200224,연합뉴스TV,clean,150
 20200224,오마이뉴스,clean,103
 20200224,우먼동아일보,clean,1
@@ -11044,7 +10902,7 @@ date,cp_name,tag,count
 20200224,중앙일보,gender,2
 20200224,채널A,clean,32
 20200224,쿠키뉴스,clean,214
-20200224,파이낸셜뉴스,clean,171
+20200224,파이낸셜뉴스,clean,172
 20200224,프레시안,clean,114
 20200224,프레시안,gender,1
 20200224,한겨레,clean,100
@@ -11074,14 +10932,14 @@ date,cp_name,tag,count
 20200225,노컷뉴스,clean,219
 20200225,노컷뉴스,gender,4
 20200225,노컷뉴스,profession,1
-20200225,뉴스1,clean,944
+20200225,뉴스1,clean,945
 20200225,뉴스1,gender,26
 20200225,뉴스타파,clean,1
 20200225,뉴시스,clean,770
 20200225,뉴시스,gender,13
 20200225,더팩트,clean,28
 20200225,데일리안,bearing,1
-20200225,데일리안,clean,45
+20200225,데일리안,clean,46
 20200225,동아사이언스,clean,2
 20200225,동아일보,clean,97
 20200225,동아일보,gender,1
@@ -11116,10 +10974,9 @@ date,cp_name,tag,count
 20200225,아이뉴스24,clean,16
 20200225,아이뉴스24,gender,1
 20200225,엘르,clean,4
-20200225,연합뉴스,clean,862
+20200225,연합뉴스,clean,863
 20200225,연합뉴스,gender,12
 20200225,연합뉴스,metoo,1
-20200225,연합뉴스 보도자료,clean,95
 20200225,연합뉴스TV,clean,134
 20200225,오마이뉴스,clean,113
 20200225,우먼동아일보,clean,5
@@ -11157,7 +11014,6 @@ date,cp_name,tag,count
 20200226,SBS,clean,90
 20200226,SBS funE,clean,1
 20200226,YTN,clean,247
-20200226,bnt뉴스,clean,3
 20200226,경향신문,clean,143
 20200226,경향신문,gender,2
 20200226,국민일보,clean,151
@@ -11207,17 +11063,16 @@ date,cp_name,tag,count
 20200226,신동아,clean,1
 20200226,아레나,clean,1
 20200226,아시아경제,bearing,1
-20200226,아시아경제,clean,228
+20200226,아시아경제,clean,229
 20200226,아시아경제,gender,3
 20200226,아시아경제,molka,1
 20200226,아이뉴스24,clean,23
 20200226,엘르,clean,4
-20200226,연합뉴스,clean,960
+20200226,연합뉴스,clean,962
 20200226,연합뉴스,gender,14
 20200226,연합뉴스,metoo,1
 20200226,연합뉴스,molka,1
 20200226,연합뉴스,profession,3
-20200226,연합뉴스 보도자료,clean,98
 20200226,연합뉴스TV,clean,133
 20200226,연합뉴스TV,molka,1
 20200226,오마이뉴스,clean,134
@@ -11315,13 +11170,12 @@ date,cp_name,tag,count
 20200227,시티라이프,clean,4
 20200227,신동아,clean,1
 20200227,아레나,clean,2
-20200227,아시아경제,clean,209
+20200227,아시아경제,clean,211
 20200227,아시아경제,gender,7
 20200227,아이뉴스24,clean,20
 20200227,엘르,clean,2
 20200227,연합뉴스,clean,999
 20200227,연합뉴스,gender,7
-20200227,연합뉴스 보도자료,clean,101
 20200227,연합뉴스TV,clean,118
 20200227,오마이뉴스,clean,132
 20200227,오마이뉴스,gender,1
@@ -11340,7 +11194,7 @@ date,cp_name,tag,count
 20200227,채널A,clean,28
 20200227,쿠키뉴스,clean,230
 20200227,쿠키뉴스,gender,6
-20200227,파이낸셜뉴스,clean,212
+20200227,파이낸셜뉴스,clean,213
 20200227,파이낸셜뉴스,gender,1
 20200227,프레시안,clean,126
 20200227,프레시안,gender,2
@@ -11361,7 +11215,6 @@ date,cp_name,tag,count
 20200228,SBS,clean,97
 20200228,SBS funE,clean,1
 20200228,YTN,clean,253
-20200228,bnt뉴스,clean,2
 20200228,경향신문,clean,117
 20200228,경향신문,gender,2
 20200228,국민일보,clean,98
@@ -11409,7 +11262,6 @@ date,cp_name,tag,count
 20200228,연합뉴스,clean,891
 20200228,연합뉴스,gender,10
 20200228,연합뉴스,profession,1
-20200228,연합뉴스 보도자료,clean,93
 20200228,연합뉴스TV,clean,130
 20200228,오마이뉴스,clean,121
 20200228,오마이뉴스,gender,1
@@ -11484,9 +11336,8 @@ date,cp_name,tag,count
 20200229,아시아경제,gender,3
 20200229,아이뉴스24,clean,5
 20200229,엘르,clean,1
-20200229,연합뉴스,clean,387
+20200229,연합뉴스,clean,388
 20200229,연합뉴스,gender,4
-20200229,연합뉴스 보도자료,clean,11
 20200229,연합뉴스TV,clean,86
 20200229,오마이뉴스,clean,70
 20200229,우먼센스,clean,1
@@ -11562,7 +11413,6 @@ date,cp_name,tag,count
 20200301,연합뉴스,clean,568
 20200301,연합뉴스,gender,2
 20200301,연합뉴스,profession,1
-20200301,연합뉴스 보도자료,clean,2
 20200301,연합뉴스TV,clean,76
 20200301,오마이뉴스,clean,67
 20200301,우먼동아일보,clean,6
@@ -11594,7 +11444,6 @@ date,cp_name,tag,count
 20200302,SBS,clean,98
 20200302,SBS funE,clean,1
 20200302,YTN,clean,256
-20200302,bnt뉴스,clean,26
 20200302,ize,clean,1
 20200302,경향신문,clean,119
 20200302,경향신문,gender,3
@@ -11603,9 +11452,9 @@ date,cp_name,tag,count
 20200302,노컷뉴스,clean,228
 20200302,노컷뉴스,gender,8
 20200302,뉴스1,bearing,1
-20200302,뉴스1,clean,1152
+20200302,뉴스1,clean,1153
 20200302,뉴스1,gender,32
-20200302,뉴시스,clean,798
+20200302,뉴시스,clean,800
 20200302,뉴시스,gender,20
 20200302,더팩트,clean,34
 20200302,데일리안,clean,62
@@ -11615,7 +11464,7 @@ date,cp_name,tag,count
 20200302,마리끌레르,clean,2
 20200302,마이데일리,clean,1
 20200302,매일경제,clean,34
-20200302,머니S,clean,97
+20200302,머니S,clean,98
 20200302,머니S,gender,2
 20200302,머니투데이,clean,214
 20200302,머니투데이,gender,3
@@ -11635,15 +11484,13 @@ date,cp_name,tag,count
 20200302,시사IN,clean,3
 20200302,시사저널,clean,23
 20200302,신동아,clean,2
-20200302,아시아경제,clean,229
+20200302,아시아경제,clean,230
 20200302,아시아경제,gender,4
 20200302,아이뉴스24,clean,22
 20200302,엘르,clean,4
 20200302,연합뉴스,clean,988
 20200302,연합뉴스,gender,9
 20200302,연합뉴스,trivialize,1
-20200302,연합뉴스 보도자료,bearing,1
-20200302,연합뉴스 보도자료,clean,100
 20200302,연합뉴스TV,clean,145
 20200302,오마이뉴스,clean,142
 20200302,이데일리,clean,189
@@ -11657,7 +11504,7 @@ date,cp_name,tag,count
 20200302,코스모폴리탄,clean,1
 20200302,쿠키뉴스,clean,247
 20200302,쿠키뉴스,gender,2
-20200302,파이낸셜뉴스,clean,187
+20200302,파이낸셜뉴스,clean,188
 20200302,파이낸셜뉴스,gender,3
 20200302,프레시안,clean,122
 20200302,프레시안,gender,5
@@ -11681,7 +11528,6 @@ date,cp_name,tag,count
 20200303,SBS,gender,1
 20200303,SBS funE,clean,2
 20200303,YTN,clean,250
-20200303,bnt뉴스,clean,3
 20200303,경향신문,clean,103
 20200303,경향신문,gender,1
 20200303,국민일보,clean,139
@@ -11722,13 +11568,12 @@ date,cp_name,tag,count
 20200303,시사IN,clean,3
 20200303,시사저널,clean,12
 20200303,신동아,clean,8
-20200303,아시아경제,clean,221
+20200303,아시아경제,clean,223
 20200303,아시아경제,gender,2
 20200303,아이뉴스24,clean,18
 20200303,엘르,clean,2
-20200303,연합뉴스,clean,848
+20200303,연합뉴스,clean,852
 20200303,연합뉴스,gender,3
-20200303,연합뉴스 보도자료,clean,97
 20200303,연합뉴스TV,clean,124
 20200303,오마이뉴스,clean,119
 20200303,우먼동아일보,clean,8
@@ -11789,7 +11634,7 @@ date,cp_name,tag,count
 20200304,마리끌레르,profession,1
 20200304,매일경제,clean,59
 20200304,매일경제,gender,1
-20200304,머니S,clean,117
+20200304,머니S,clean,118
 20200304,머니투데이,clean,244
 20200304,머니투데이,gender,2
 20200304,메종,clean,1
@@ -11816,7 +11661,6 @@ date,cp_name,tag,count
 20200304,연합뉴스,bearing,1
 20200304,연합뉴스,clean,1073
 20200304,연합뉴스,gender,12
-20200304,연합뉴스 보도자료,clean,96
 20200304,연합뉴스TV,clean,139
 20200304,오마이뉴스,clean,121
 20200304,오마이뉴스,gender,1
@@ -11834,7 +11678,7 @@ date,cp_name,tag,count
 20200304,쿠키뉴스,bearing,1
 20200304,쿠키뉴스,clean,247
 20200304,쿠키뉴스,gender,3
-20200304,파이낸셜뉴스,clean,194
+20200304,파이낸셜뉴스,clean,195
 20200304,프레시안,bearing,1
 20200304,프레시안,clean,118
 20200304,프레시안,gender,6
@@ -11856,7 +11700,6 @@ date,cp_name,tag,count
 20200305,MBN,clean,52
 20200305,SBS,clean,77
 20200305,YTN,clean,256
-20200305,bnt뉴스,clean,2
 20200305,게임톡,gender,1
 20200305,경향신문,clean,117
 20200305,경향신문,gender,3
@@ -11881,7 +11724,7 @@ date,cp_name,tag,count
 20200305,리빙센스,clean,1
 20200305,마리끌레르,clean,1
 20200305,매일경제,clean,39
-20200305,머니S,clean,107
+20200305,머니S,clean,109
 20200305,머니S,gender,2
 20200305,머니투데이,clean,228
 20200305,머니투데이,gender,2
@@ -11890,7 +11733,7 @@ date,cp_name,tag,count
 20200305,문화일보,gender,1
 20200305,문화일보,metoo,1
 20200305,미디어오늘,clean,14
-20200305,서울경제,clean,107
+20200305,서울경제,clean,108
 20200305,서울신문,clean,182
 20200305,서울신문,gender,2
 20200305,서울신문,molka,1
@@ -11903,13 +11746,12 @@ date,cp_name,tag,count
 20200305,시사저널,clean,12
 20200305,신동아,clean,3
 20200305,아레나,clean,2
-20200305,아시아경제,clean,205
+20200305,아시아경제,clean,206
 20200305,아시아경제,gender,3
 20200305,아이뉴스24,clean,23
 20200305,엘르,clean,2
 20200305,연합뉴스,clean,924
 20200305,연합뉴스,gender,9
-20200305,연합뉴스 보도자료,clean,87
 20200305,연합뉴스TV,clean,131
 20200305,오마이뉴스,clean,124
 20200305,우먼동아일보,clean,7
@@ -11927,7 +11769,7 @@ date,cp_name,tag,count
 20200305,채널A,clean,34
 20200305,코스모폴리탄,clean,1
 20200305,쿠키뉴스,bearing,1
-20200305,쿠키뉴스,clean,212
+20200305,쿠키뉴스,clean,213
 20200305,쿠키뉴스,gender,2
 20200305,파이낸셜뉴스,clean,193
 20200305,프레시안,clean,121
@@ -11993,7 +11835,7 @@ date,cp_name,tag,count
 20200306,시사저널,clean,20
 20200306,신동아,clean,1
 20200306,아레나,clean,2
-20200306,아시아경제,clean,208
+20200306,아시아경제,clean,211
 20200306,아시아경제,gender,3
 20200306,아시아경제,metoo,2
 20200306,아시아경제,molka,1
@@ -12003,7 +11845,6 @@ date,cp_name,tag,count
 20200306,연합뉴스,gender,5
 20200306,연합뉴스,metoo,1
 20200306,연합뉴스,profession,2
-20200306,연합뉴스 보도자료,clean,86
 20200306,연합뉴스TV,clean,136
 20200306,오마이뉴스,bearing,1
 20200306,오마이뉴스,clean,129
@@ -12081,7 +11922,6 @@ date,cp_name,tag,count
 20200307,엘르,clean,2
 20200307,연합뉴스,clean,343
 20200307,연합뉴스,gender,5
-20200307,연합뉴스 보도자료,clean,3
 20200307,연합뉴스TV,clean,76
 20200307,연합뉴스TV,gender,1
 20200307,오마이뉴스,clean,62
@@ -12150,7 +11990,6 @@ date,cp_name,tag,count
 20200308,엘르,clean,1
 20200308,연합뉴스,clean,460
 20200308,연합뉴스,gender,7
-20200308,연합뉴스 보도자료,clean,2
 20200308,연합뉴스TV,clean,58
 20200308,오마이뉴스,clean,56
 20200308,오마이뉴스,gender,1
@@ -12185,7 +12024,6 @@ date,cp_name,tag,count
 20200309,SBS,clean,85
 20200309,SBS funE,clean,3
 20200309,YTN,clean,234
-20200309,bnt뉴스,clean,1
 20200309,ize,clean,1
 20200309,경향신문,clean,117
 20200309,경향신문,gender,6
@@ -12237,7 +12075,7 @@ date,cp_name,tag,count
 20200309,시사저널,clean,17
 20200309,시사저널,gender,1
 20200309,아레나,clean,1
-20200309,아시아경제,clean,218
+20200309,아시아경제,clean,219
 20200309,아시아경제,gender,3
 20200309,아시아경제,molka,1
 20200309,아이뉴스24,clean,13
@@ -12245,8 +12083,6 @@ date,cp_name,tag,count
 20200309,엘르,clean,2
 20200309,연합뉴스,clean,911
 20200309,연합뉴스,gender,6
-20200309,연합뉴스 보도자료,clean,82
-20200309,연합뉴스 보도자료,molka,1
 20200309,연합뉴스TV,clean,156
 20200309,오마이뉴스,clean,108
 20200309,오마이뉴스,gender,1
@@ -12291,14 +12127,13 @@ date,cp_name,tag,count
 20200310,SBS,clean,92
 20200310,SBS funE,clean,1
 20200310,YTN,clean,248
-20200310,bnt뉴스,clean,1
 20200310,경향신문,clean,138
 20200310,경향신문,gender,1
 20200310,국민일보,clean,162
 20200310,국민일보,gender,12
 20200310,노컷뉴스,clean,267
 20200310,뉴스1,bearing,1
-20200310,뉴스1,clean,858
+20200310,뉴스1,clean,859
 20200310,뉴스1,gender,47
 20200310,뉴스타파,clean,1
 20200310,뉴시스,clean,833
@@ -12338,15 +12173,13 @@ date,cp_name,tag,count
 20200310,시사저널,clean,20
 20200310,신동아,clean,1
 20200310,아레나,clean,1
-20200310,아시아경제,clean,232
+20200310,아시아경제,clean,233
 20200310,아시아경제,gender,2
 20200310,아이뉴스24,clean,21
 20200310,아이뉴스24,gender,1
 20200310,엘르,clean,1
 20200310,연합뉴스,clean,911
 20200310,연합뉴스,gender,12
-20200310,연합뉴스 보도자료,bearing,1
-20200310,연합뉴스 보도자료,clean,97
 20200310,연합뉴스TV,clean,144
 20200310,연합뉴스TV,profession,1
 20200310,오마이뉴스,clean,131
@@ -12364,7 +12197,7 @@ date,cp_name,tag,count
 20200310,중앙일보,gender,6
 20200310,지디넷코리아,clean,1
 20200310,채널A,clean,29
-20200310,쿠키뉴스,clean,254
+20200310,쿠키뉴스,clean,255
 20200310,쿠키뉴스,gender,1
 20200310,파이낸셜뉴스,clean,189
 20200310,파이낸셜뉴스,gender,1
@@ -12394,18 +12227,18 @@ date,cp_name,tag,count
 20200311,국민일보,gender,2
 20200311,국민일보,profession,1
 20200311,기자협회보,clean,7
-20200311,노컷뉴스,clean,242
+20200311,노컷뉴스,clean,243
 20200311,노컷뉴스,gender,4
 20200311,뉴스1,bearing,1
 20200311,뉴스1,clean,970
 20200311,뉴스1,gender,16
 20200311,뉴스1,trivialize,1
 20200311,뉴스타파,clean,2
-20200311,뉴시스,clean,875
+20200311,뉴시스,clean,876
 20200311,뉴시스,gender,12
 20200311,뉴시스,profession,1
 20200311,더팩트,clean,28
-20200311,데일리안,clean,67
+20200311,데일리안,clean,68
 20200311,동아사이언스,clean,2
 20200311,동아일보,clean,92
 20200311,동아일보,gender,3
@@ -12445,7 +12278,6 @@ date,cp_name,tag,count
 20200311,연합뉴스,clean,984
 20200311,연합뉴스,gender,13
 20200311,연합뉴스,metoo,1
-20200311,연합뉴스 보도자료,clean,101
 20200311,연합뉴스TV,clean,142
 20200311,오마이뉴스,clean,117
 20200311,우먼센스,clean,1
@@ -12462,7 +12294,7 @@ date,cp_name,tag,count
 20200311,채널A,clean,38
 20200311,쿠키뉴스,clean,240
 20200311,쿠키뉴스,gender,4
-20200311,파이낸셜뉴스,clean,251
+20200311,파이낸셜뉴스,clean,252
 20200311,파이낸셜뉴스,gender,1
 20200311,프레시안,clean,124
 20200311,프레시안,gender,2
@@ -12491,10 +12323,10 @@ date,cp_name,tag,count
 20200312,국민일보,gender,2
 20200312,국민일보,metoo,1
 20200312,국민일보,profession,1
-20200312,노컷뉴스,clean,235
+20200312,노컷뉴스,clean,236
 20200312,노컷뉴스,gender,2
 20200312,뉴스1,bearing,1
-20200312,뉴스1,clean,941
+20200312,뉴스1,clean,942
 20200312,뉴스1,gender,15
 20200312,뉴스1,metoo,2
 20200312,뉴스1,profession,1
@@ -12537,14 +12369,13 @@ date,cp_name,tag,count
 20200312,신동아,clean,1
 20200312,아레나,clean,1
 20200312,아시아경제,bearing,1
-20200312,아시아경제,clean,214
+20200312,아시아경제,clean,215
 20200312,아시아경제,gender,2
 20200312,아이뉴스24,clean,15
 20200312,엘르,clean,3
 20200312,연합뉴스,clean,980
 20200312,연합뉴스,gender,8
 20200312,연합뉴스,metoo,1
-20200312,연합뉴스 보도자료,clean,96
 20200312,연합뉴스TV,clean,127
 20200312,오마이뉴스,clean,129
 20200312,오마이뉴스,profession,1
@@ -12558,7 +12389,7 @@ date,cp_name,tag,count
 20200312,중앙일보,gender,1
 20200312,지디넷코리아,clean,1
 20200312,채널A,clean,32
-20200312,쿠키뉴스,clean,238
+20200312,쿠키뉴스,clean,239
 20200312,쿠키뉴스,gender,4
 20200312,파이낸셜뉴스,clean,197
 20200312,파이낸셜뉴스,gender,2
@@ -12573,7 +12404,7 @@ date,cp_name,tag,count
 20200312,한국일보,clean,163
 20200312,한국일보,gender,2
 20200312,한국일보,metoo,1
-20200312,헤럴드경제,clean,174
+20200312,헤럴드경제,clean,175
 20200312,헤럴드경제,gender,3
 20200313,EBS,clean,6
 20200313,JTBC,clean,57
@@ -12585,7 +12416,6 @@ date,cp_name,tag,count
 20200313,SBS,gender,1
 20200313,SBS funE,clean,4
 20200313,YTN,clean,233
-20200313,bnt뉴스,clean,1
 20200313,경향신문,clean,96
 20200313,경향신문,gender,1
 20200313,국민일보,clean,96
@@ -12634,10 +12464,9 @@ date,cp_name,tag,count
 20200313,아이뉴스24,clean,15
 20200313,아이뉴스24,gender,1
 20200313,엘르,clean,4
-20200313,연합뉴스,clean,821
+20200313,연합뉴스,clean,823
 20200313,연합뉴스,gender,5
 20200313,연합뉴스,profession,1
-20200313,연합뉴스 보도자료,clean,97
 20200313,연합뉴스TV,clean,116
 20200313,오마이뉴스,clean,107
 20200313,우먼센스,clean,1
@@ -12674,7 +12503,6 @@ date,cp_name,tag,count
 20200314,SBS,clean,56
 20200314,SBS funE,clean,1
 20200314,YTN,clean,161
-20200314,bnt뉴스,clean,3
 20200314,경향신문,clean,21
 20200314,경향신문,gender,1
 20200314,국민일보,clean,29
@@ -12714,7 +12542,6 @@ date,cp_name,tag,count
 20200314,엘르,clean,1
 20200314,연합뉴스,clean,311
 20200314,연합뉴스,gender,3
-20200314,연합뉴스 보도자료,clean,8
 20200314,연합뉴스TV,clean,74
 20200314,오마이뉴스,clean,58
 20200314,이데일리,clean,83
@@ -12786,7 +12613,6 @@ date,cp_name,tag,count
 20200315,엘르,clean,1
 20200315,연합뉴스,clean,475
 20200315,연합뉴스,gender,7
-20200315,연합뉴스 보도자료,clean,2
 20200315,연합뉴스TV,clean,69
 20200315,오마이뉴스,clean,43
 20200315,오토타임즈,clean,1
@@ -12822,7 +12648,6 @@ date,cp_name,tag,count
 20200316,MBN,clean,47
 20200316,SBS,clean,80
 20200316,YTN,clean,215
-20200316,bnt뉴스,clean,2
 20200316,ize,clean,1
 20200316,게임톡,clean,1
 20200316,경향신문,clean,122
@@ -12831,14 +12656,14 @@ date,cp_name,tag,count
 20200316,국민일보,gender,1
 20200316,국민일보,profession,1
 20200316,기자협회보,clean,1
-20200316,노컷뉴스,clean,240
+20200316,노컷뉴스,clean,241
 20200316,노컷뉴스,gender,1
 20200316,뉴스1,bearing,1
 20200316,뉴스1,clean,820
 20200316,뉴스1,gender,9
 20200316,뉴스타파,clean,1
 20200316,뉴시스,bearing,1
-20200316,뉴시스,clean,758
+20200316,뉴시스,clean,759
 20200316,뉴시스,gender,17
 20200316,더팩트,clean,22
 20200316,데일리안,clean,53
@@ -12866,7 +12691,7 @@ date,cp_name,tag,count
 20200316,서울신문,gender,2
 20200316,세계일보,clean,133
 20200316,세계일보,gender,3
-20200316,스타뉴스,clean,1
+20200316,스타뉴스,clean,2
 20200316,스포츠경향,clean,4
 20200316,스포츠동아,clean,4
 20200316,스포츠서울,clean,1
@@ -12883,7 +12708,6 @@ date,cp_name,tag,count
 20200316,연합뉴스,clean,862
 20200316,연합뉴스,gender,10
 20200316,연합뉴스,profession,1
-20200316,연합뉴스 보도자료,clean,93
 20200316,연합뉴스TV,clean,133
 20200316,오마이뉴스,clean,141
 20200316,우먼센스,clean,1
@@ -12901,7 +12725,7 @@ date,cp_name,tag,count
 20200316,쿠키뉴스,clean,195
 20200316,쿠키뉴스,gender,2
 20200316,파이낸셜뉴스,bearing,1
-20200316,파이낸셜뉴스,clean,177
+20200316,파이낸셜뉴스,clean,178
 20200316,프레시안,clean,116
 20200316,프레시안,molka,1
 20200316,한겨레,clean,84
@@ -12921,7 +12745,6 @@ date,cp_name,tag,count
 20200317,SBS,clean,101
 20200317,SBS funE,clean,2
 20200317,YTN,clean,242
-20200317,bnt뉴스,clean,1
 20200317,ize,clean,1
 20200317,경향신문,clean,131
 20200317,경향신문,gender,1
@@ -12970,13 +12793,12 @@ date,cp_name,tag,count
 20200317,시사저널,clean,28
 20200317,신동아,clean,2
 20200317,아레나,clean,1
-20200317,아시아경제,clean,196
+20200317,아시아경제,clean,197
 20200317,아시아경제,gender,1
 20200317,아이뉴스24,clean,18
 20200317,엘르,clean,2
-20200317,연합뉴스,clean,959
+20200317,연합뉴스,clean,960
 20200317,연합뉴스,gender,4
-20200317,연합뉴스 보도자료,clean,107
 20200317,연합뉴스TV,clean,127
 20200317,오마이뉴스,clean,138
 20200317,오토타임즈,clean,1
@@ -13014,7 +12836,6 @@ date,cp_name,tag,count
 20200318,SBS,clean,95
 20200318,YTN,clean,236
 20200318,YTN,gender,2
-20200318,bnt뉴스,clean,28
 20200318,경향신문,clean,142
 20200318,경향신문,gender,1
 20200318,국민일보,clean,155
@@ -13022,7 +12843,7 @@ date,cp_name,tag,count
 20200318,기자협회보,clean,13
 20200318,노컷뉴스,clean,242
 20200318,노컷뉴스,gender,3
-20200318,뉴스1,clean,877
+20200318,뉴스1,clean,878
 20200318,뉴스1,gender,7
 20200318,뉴시스,abuse,1
 20200318,뉴시스,clean,815
@@ -13062,13 +12883,12 @@ date,cp_name,tag,count
 20200318,시티라이프,clean,2
 20200318,신동아,clean,5
 20200318,아레나,clean,1
-20200318,아시아경제,clean,217
+20200318,아시아경제,clean,218
 20200318,아시아경제,gender,3
 20200318,아이뉴스24,clean,15
 20200318,엘르,clean,3
 20200318,연합뉴스,clean,945
 20200318,연합뉴스,gender,4
-20200318,연합뉴스 보도자료,clean,83
 20200318,연합뉴스TV,clean,129
 20200318,오마이뉴스,clean,131
 20200318,오마이뉴스,gender,1
@@ -13085,12 +12905,12 @@ date,cp_name,tag,count
 20200318,중앙일보,gender,2
 20200318,채널A,clean,29
 20200318,코스모폴리탄,clean,1
-20200318,쿠키뉴스,clean,253
+20200318,쿠키뉴스,clean,254
 20200318,쿠키뉴스,gender,1
 20200318,티브이데일리,clean,1
-20200318,파이낸셜뉴스,clean,193
+20200318,파이낸셜뉴스,clean,194
 20200318,파이낸셜뉴스,gender,1
-20200318,프레시안,clean,128
+20200318,프레시안,clean,129
 20200318,한겨레,clean,74
 20200318,한겨레,gender,1
 20200318,한국경제,clean,73
@@ -13106,7 +12926,6 @@ date,cp_name,tag,count
 20200319,SBS,clean,97
 20200319,SBS funE,clean,1
 20200319,YTN,clean,248
-20200319,bnt뉴스,clean,3
 20200319,경향신문,clean,133
 20200319,경향신문,gender,3
 20200319,국민일보,clean,142
@@ -13154,7 +12973,6 @@ date,cp_name,tag,count
 20200319,연합뉴스,clean,944
 20200319,연합뉴스,gender,6
 20200319,연합뉴스,metoo,2
-20200319,연합뉴스 보도자료,clean,94
 20200319,연합뉴스TV,clean,136
 20200319,오마이뉴스,clean,117
 20200319,우먼동아일보,clean,3
@@ -13193,7 +13011,6 @@ date,cp_name,tag,count
 20200320,SBS funE,clean,4
 20200320,YTN,clean,203
 20200320,YTN,demonize,1
-20200320,bnt뉴스,clean,12
 20200320,경향신문,clean,100
 20200320,경향신문,gender,2
 20200320,국민일보,clean,89
@@ -13219,7 +13036,7 @@ date,cp_name,tag,count
 20200320,매일경제,clean,41
 20200320,머니S,clean,121
 20200320,머니S,gender,3
-20200320,머니투데이,clean,144
+20200320,머니투데이,clean,145
 20200320,머니투데이,demonize,1
 20200320,머니투데이,gender,1
 20200320,머니투데이,metoo,1
@@ -13245,7 +13062,7 @@ date,cp_name,tag,count
 20200320,시사저널,clean,22
 20200320,신동아,clean,4
 20200320,아레나,clean,1
-20200320,아시아경제,clean,176
+20200320,아시아경제,clean,177
 20200320,아시아경제,demonize,1
 20200320,아시아경제,gender,4
 20200320,아이뉴스24,clean,20
@@ -13253,7 +13070,6 @@ date,cp_name,tag,count
 20200320,연합뉴스,clean,801
 20200320,연합뉴스,gender,13
 20200320,연합뉴스,metoo,1
-20200320,연합뉴스 보도자료,clean,98
 20200320,연합뉴스TV,clean,120
 20200320,오마이뉴스,clean,108
 20200320,우먼센스,clean,1
@@ -13268,9 +13084,9 @@ date,cp_name,tag,count
 20200320,중앙일보,demonize,1
 20200320,중앙일보,gender,3
 20200320,채널A,clean,27
-20200320,쿠키뉴스,clean,191
+20200320,쿠키뉴스,clean,193
 20200320,쿠키뉴스,gender,2
-20200320,파이낸셜뉴스,clean,154
+20200320,파이낸셜뉴스,clean,155
 20200320,파이낸셜뉴스,demonize,2
 20200320,파이낸셜뉴스,metoo,2
 20200320,프레시안,bearing,1
@@ -13281,7 +13097,7 @@ date,cp_name,tag,count
 20200320,한국경제,clean,61
 20200320,한국일보,clean,122
 20200320,한국일보,gender,1
-20200320,헤럴드경제,clean,152
+20200320,헤럴드경제,clean,153
 20200320,헤럴드경제,gender,3
 20200321,JTBC,clean,19
 20200321,KBS,clean,163
@@ -13327,7 +13143,6 @@ date,cp_name,tag,count
 20200321,엘르,clean,3
 20200321,연합뉴스,clean,321
 20200321,연합뉴스,gender,3
-20200321,연합뉴스 보도자료,clean,6
 20200321,연합뉴스TV,clean,66
 20200321,오마이뉴스,clean,42
 20200321,이데일리,clean,72
@@ -13398,7 +13213,6 @@ date,cp_name,tag,count
 20200322,엘르,clean,1
 20200322,연합뉴스,clean,425
 20200322,연합뉴스,gender,7
-20200322,연합뉴스 보도자료,clean,1
 20200322,연합뉴스TV,clean,77
 20200322,오마이뉴스,clean,55
 20200322,이데일리,clean,58
@@ -13451,10 +13265,10 @@ date,cp_name,tag,count
 20200323,뉴스1,gender,15
 20200323,뉴스타파,clean,1
 20200323,뉴시스,bearing,1
-20200323,뉴시스,clean,811
+20200323,뉴시스,clean,812
 20200323,뉴시스,gender,14
 20200323,더팩트,clean,21
-20200323,데일리안,clean,51
+20200323,데일리안,clean,52
 20200323,동아사이언스,clean,2
 20200323,동아일보,clean,80
 20200323,디지털타임스,clean,16
@@ -13491,10 +13305,9 @@ date,cp_name,tag,count
 20200323,아이뉴스24,gender,1
 20200323,엘르,clean,2
 20200323,연합뉴스,bearing,1
-20200323,연합뉴스,clean,910
+20200323,연합뉴스,clean,911
 20200323,연합뉴스,gender,11
 20200323,연합뉴스,metoo,2
-20200323,연합뉴스 보도자료,clean,89
 20200323,연합뉴스TV,clean,131
 20200323,오마이뉴스,clean,133
 20200323,우먼센스,clean,1
@@ -13535,7 +13348,6 @@ date,cp_name,tag,count
 20200324,SBS,clean,75
 20200324,SBS funE,clean,1
 20200324,YTN,clean,212
-20200324,bnt뉴스,clean,1
 20200324,게임톡,clean,1
 20200324,경향신문,clean,109
 20200324,경향신문,gender,1
@@ -13547,7 +13359,7 @@ date,cp_name,tag,count
 20200324,노컷뉴스,clean,237
 20200324,노컷뉴스,demonize,1
 20200324,노컷뉴스,gender,3
-20200324,뉴스1,clean,907
+20200324,뉴스1,clean,908
 20200324,뉴스1,gender,17
 20200324,뉴시스,clean,880
 20200324,뉴시스,gender,12
@@ -13590,7 +13402,7 @@ date,cp_name,tag,count
 20200324,시사저널,metoo,1
 20200324,신동아,clean,4
 20200324,아레나,clean,1
-20200324,아시아경제,clean,218
+20200324,아시아경제,clean,219
 20200324,아시아경제,demonize,1
 20200324,아시아경제,gender,3
 20200324,아이뉴스24,clean,16
@@ -13598,14 +13410,13 @@ date,cp_name,tag,count
 20200324,연합뉴스,clean,1017
 20200324,연합뉴스,gender,11
 20200324,연합뉴스,metoo,1
-20200324,연합뉴스 보도자료,clean,85
 20200324,연합뉴스TV,clean,125
 20200324,오마이뉴스,abuse,1
 20200324,오마이뉴스,clean,125
 20200324,우먼동아일보,clean,4
 20200324,우먼센스,clean,1
 20200324,이데일리,abuse,1
-20200324,이데일리,clean,158
+20200324,이데일리,clean,159
 20200324,일간스포츠,clean,4
 20200324,전자신문,clean,24
 20200324,조선일보,clean,158
@@ -13646,7 +13457,6 @@ date,cp_name,tag,count
 20200325,YTN,abuse,1
 20200325,YTN,clean,234
 20200325,YTN,demonize,1
-20200325,bnt뉴스,clean,1
 20200325,경향신문,clean,129
 20200325,경향신문,demonize,2
 20200325,경향신문,gender,1
@@ -13708,16 +13518,15 @@ date,cp_name,tag,count
 20200325,시티라이프,clean,1
 20200325,신동아,clean,2
 20200325,아레나,clean,1
-20200325,아시아경제,clean,210
+20200325,아시아경제,clean,211
 20200325,아시아경제,demonize,3
 20200325,아시아경제,gender,2
 20200325,아시아경제,metoo,1
 20200325,아이뉴스24,clean,17
 20200325,엘르,clean,5
-20200325,연합뉴스,clean,960
+20200325,연합뉴스,clean,964
 20200325,연합뉴스,demonize,2
 20200325,연합뉴스,gender,6
-20200325,연합뉴스 보도자료,clean,99
 20200325,연합뉴스TV,clean,127
 20200325,연합뉴스TV,demonize,3
 20200325,연합뉴스TV,gender,1
@@ -13752,7 +13561,7 @@ date,cp_name,tag,count
 20200325,한국경제,clean,82
 20200325,한국일보,clean,165
 20200325,한국일보,gender,2
-20200325,헤럴드경제,clean,176
+20200325,헤럴드경제,clean,179
 20200325,헤럴드경제,demonize,3
 20200325,헤럴드경제,gender,3
 20200325,헤럴드경제,trivialize,1
@@ -13791,7 +13600,7 @@ date,cp_name,tag,count
 20200326,뉴스1,gender,34
 20200326,뉴스1,profession,1
 20200326,뉴스타파,clean,1
-20200326,뉴시스,clean,946
+20200326,뉴시스,clean,947
 20200326,뉴시스,gender,12
 20200326,더팩트,clean,26
 20200326,더팩트,gender,1
@@ -13841,7 +13650,6 @@ date,cp_name,tag,count
 20200326,연합뉴스,clean,1175
 20200326,연합뉴스,gender,15
 20200326,연합뉴스,molka,1
-20200326,연합뉴스 보도자료,clean,97
 20200326,연합뉴스TV,clean,109
 20200326,오마이뉴스,clean,114
 20200326,우먼동아일보,clean,5
@@ -13942,14 +13750,13 @@ date,cp_name,tag,count
 20200327,아시아경제,gender,1
 20200327,아이뉴스24,clean,10
 20200327,엘르,clean,4
-20200327,연합뉴스,clean,887
+20200327,연합뉴스,clean,888
 20200327,연합뉴스,gender,2
 20200327,연합뉴스,metoo,1
-20200327,연합뉴스 보도자료,clean,95
 20200327,연합뉴스TV,clean,126
 20200327,오마이뉴스,clean,102
 20200327,우먼센스,clean,1
-20200327,이데일리,clean,121
+20200327,이데일리,clean,122
 20200327,일간스포츠,clean,4
 20200327,전자신문,clean,8
 20200327,조선일보,clean,133
@@ -14019,7 +13826,6 @@ date,cp_name,tag,count
 20200328,엘르,clean,1
 20200328,연합뉴스,clean,332
 20200328,연합뉴스,gender,1
-20200328,연합뉴스 보도자료,clean,3
 20200328,연합뉴스TV,clean,67
 20200328,오마이뉴스,clean,39
 20200328,이데일리,clean,61
@@ -14093,7 +13899,6 @@ date,cp_name,tag,count
 20200329,아이뉴스24,clean,13
 20200329,연합뉴스,clean,529
 20200329,연합뉴스,gender,3
-20200329,연합뉴스 보도자료,clean,2
 20200329,연합뉴스TV,clean,78
 20200329,오마이뉴스,clean,57
 20200329,우먼동아일보,clean,5
@@ -14176,14 +13981,13 @@ date,cp_name,tag,count
 20200330,시사저널,clean,26
 20200330,신동아,clean,1
 20200330,아레나,clean,1
-20200330,아시아경제,clean,223
+20200330,아시아경제,clean,225
 20200330,아이뉴스24,clean,14
 20200330,엘르,clean,2
 20200330,연합뉴스,bearing,2
-20200330,연합뉴스,clean,843
+20200330,연합뉴스,clean,844
 20200330,연합뉴스,gender,5
 20200330,연합뉴스,metoo,1
-20200330,연합뉴스 보도자료,clean,86
 20200330,연합뉴스TV,clean,127
 20200330,오마이뉴스,clean,146
 20200330,오마이뉴스,demonize,1
@@ -14232,7 +14036,6 @@ date,cp_name,tag,count
 20200331,SBS funE,clean,4
 20200331,YTN,clean,203
 20200331,YTN,gender,1
-20200331,bnt뉴스,clean,2
 20200331,경향신문,clean,121
 20200331,경향신문,gender,1
 20200331,골닷컴,clean,1
@@ -14260,7 +14063,7 @@ date,cp_name,tag,count
 20200331,마니아리포트,clean,2
 20200331,마리끌레르,clean,2
 20200331,매일경제,clean,45
-20200331,머니S,clean,124
+20200331,머니S,clean,125
 20200331,머니S,gender,1
 20200331,머니투데이,clean,197
 20200331,머니투데이,gender,1
@@ -14269,7 +14072,7 @@ date,cp_name,tag,count
 20200331,문화일보,gender,1
 20200331,미디어오늘,clean,11
 20200331,베스트베이비,clean,1
-20200331,서울경제,clean,134
+20200331,서울경제,clean,135
 20200331,서울경제,gender,1
 20200331,서울신문,clean,177
 20200331,세계일보,clean,166
@@ -14283,14 +14086,13 @@ date,cp_name,tag,count
 20200331,시사저널,clean,22
 20200331,시사저널,gender,1
 20200331,신동아,clean,1
-20200331,아시아경제,clean,219
+20200331,아시아경제,clean,220
 20200331,아시아경제,gender,1
 20200331,아이뉴스24,clean,14
 20200331,엘르,clean,2
 20200331,연합뉴스,clean,1015
 20200331,연합뉴스,gender,7
 20200331,연합뉴스,molka,2
-20200331,연합뉴스 보도자료,clean,84
 20200331,연합뉴스TV,clean,111
 20200331,연합뉴스TV,gender,1
 20200331,오마이뉴스,abuse,1
@@ -14323,7 +14125,7 @@ date,cp_name,tag,count
 20200331,한국경제,trivialize,1
 20200331,한국일보,clean,162
 20200331,한국일보,gender,2
-20200331,헤럴드경제,clean,182
+20200331,헤럴드경제,clean,183
 20200331,헤럴드경제,gender,2
 20200401,EBS,clean,10
 20200401,JTBC,clean,69
@@ -14349,7 +14151,7 @@ date,cp_name,tag,count
 20200401,뉴스1,gender,7
 20200401,뉴스타파,clean,6
 20200401,뉴시스,bearing,1
-20200401,뉴시스,clean,868
+20200401,뉴시스,clean,869
 20200401,뉴시스,gender,10
 20200401,더팩트,clean,28
 20200401,데일리안,clean,53
@@ -14387,10 +14189,9 @@ date,cp_name,tag,count
 20200401,아이뉴스24,clean,14
 20200401,엘르,clean,4
 20200401,연합뉴스,bearing,1
-20200401,연합뉴스,clean,1063
+20200401,연합뉴스,clean,1066
 20200401,연합뉴스,gender,11
 20200401,연합뉴스,profession,1
-20200401,연합뉴스 보도자료,clean,95
 20200401,연합뉴스TV,clean,134
 20200401,오마이뉴스,clean,148
 20200401,우먼동아일보,clean,5
@@ -14430,7 +14231,6 @@ date,cp_name,tag,count
 20200402,SBS funE,clean,1
 20200402,YTN,clean,197
 20200402,YTN,molka,1
-20200402,bnt뉴스,clean,1
 20200402,경향신문,clean,126
 20200402,국민일보,bearing,1
 20200402,국민일보,clean,135
@@ -14439,7 +14239,7 @@ date,cp_name,tag,count
 20200402,노컷뉴스,clean,218
 20200402,노컷뉴스,gender,1
 20200402,노컷뉴스,profession,1
-20200402,뉴스1,clean,942
+20200402,뉴스1,clean,943
 20200402,뉴스1,gender,11
 20200402,뉴스타파,clean,1
 20200402,뉴시스,clean,830
@@ -14465,7 +14265,7 @@ date,cp_name,tag,count
 20200402,문화일보,clean,61
 20200402,문화일보,gender,2
 20200402,미디어오늘,clean,16
-20200402,서울경제,clean,102
+20200402,서울경제,clean,104
 20200402,서울경제,gender,1
 20200402,서울신문,clean,150
 20200402,서울신문,gender,3
@@ -14479,14 +14279,12 @@ date,cp_name,tag,count
 20200402,신동아,clean,4
 20200402,아레나,clean,1
 20200402,아시아경제,abuse,1
-20200402,아시아경제,clean,212
+20200402,아시아경제,clean,213
 20200402,아시아경제,gender,2
 20200402,아이뉴스24,clean,20
 20200402,엘르,clean,3
-20200402,연합뉴스,clean,1191
+20200402,연합뉴스,clean,1193
 20200402,연합뉴스,gender,6
-20200402,연합뉴스 보도자료,bearing,1
-20200402,연합뉴스 보도자료,clean,65
 20200402,연합뉴스TV,clean,115
 20200402,오마이뉴스,clean,125
 20200402,우먼동아일보,clean,9
@@ -14527,7 +14325,6 @@ date,cp_name,tag,count
 20200403,SBS funE,clean,1
 20200403,YTN,clean,219
 20200403,YTN,molka,1
-20200403,bnt뉴스,clean,5
 20200403,경향신문,clean,100
 20200403,경향신문,gender,1
 20200403,경향신문,molka,1
@@ -14584,7 +14381,6 @@ date,cp_name,tag,count
 20200403,연합뉴스,bearing,1
 20200403,연합뉴스,clean,903
 20200403,연합뉴스,gender,4
-20200403,연합뉴스 보도자료,clean,73
 20200403,연합뉴스TV,clean,115
 20200403,오마이뉴스,clean,105
 20200403,우먼동아일보,clean,5
@@ -14602,7 +14398,7 @@ date,cp_name,tag,count
 20200403,채널A,clean,25
 20200403,채널A,molka,1
 20200403,코스모폴리탄,clean,1
-20200403,쿠키뉴스,clean,175
+20200403,쿠키뉴스,clean,176
 20200403,쿠키뉴스,gender,3
 20200403,파이낸셜뉴스,clean,166
 20200403,파이낸셜뉴스,gender,1
@@ -14653,8 +14449,7 @@ date,cp_name,tag,count
 20200404,신동아,clean,4
 20200404,아시아경제,clean,84
 20200404,아이뉴스24,clean,4
-20200404,연합뉴스,clean,375
-20200404,연합뉴스 보도자료,clean,11
+20200404,연합뉴스,clean,376
 20200404,연합뉴스TV,clean,62
 20200404,오마이뉴스,clean,44
 20200404,우먼동아일보,clean,3
@@ -14729,7 +14524,6 @@ date,cp_name,tag,count
 20200405,엘르,clean,1
 20200405,연합뉴스,clean,674
 20200405,연합뉴스,gender,2
-20200405,연합뉴스 보도자료,clean,2
 20200405,연합뉴스TV,clean,72
 20200405,연합뉴스TV,demonize,1
 20200405,오마이뉴스,clean,62
@@ -14765,11 +14559,10 @@ date,cp_name,tag,count
 20200406,SBS funE,clean,2
 20200406,YTN,clean,209
 20200406,YTN,gender,2
-20200406,bnt뉴스,clean,3
 20200406,경향신문,clean,123
 20200406,국민일보,clean,147
 20200406,기자협회보,clean,1
-20200406,노컷뉴스,clean,235
+20200406,노컷뉴스,clean,236
 20200406,노컷뉴스,gender,1
 20200406,뉴스1,bearing,1
 20200406,뉴스1,clean,784
@@ -14821,7 +14614,6 @@ date,cp_name,tag,count
 20200406,연합뉴스,clean,964
 20200406,연합뉴스,gender,7
 20200406,연합뉴스,molka,1
-20200406,연합뉴스 보도자료,clean,74
 20200406,연합뉴스TV,clean,135
 20200406,오마이뉴스,clean,118
 20200406,우먼동아일보,clean,3
@@ -14863,19 +14655,18 @@ date,cp_name,tag,count
 20200407,SBS funE,clean,1
 20200407,SBS funE,gender,1
 20200407,YTN,clean,203
-20200407,bnt뉴스,clean,1
 20200407,경향신문,clean,117
 20200407,경향신문,gender,1
 20200407,국민일보,clean,131
 20200407,국민일보,porn,1
 20200407,노컷뉴스,bearing,1
-20200407,노컷뉴스,clean,212
+20200407,노컷뉴스,clean,213
 20200407,노컷뉴스,gender,1
 20200407,뉴스1,clean,822
 20200407,뉴스1,gender,7
 20200407,뉴스타파,clean,4
 20200407,뉴시스,bearing,3
-20200407,뉴시스,clean,804
+20200407,뉴시스,clean,805
 20200407,뉴시스,gender,7
 20200407,뉴시스,molka,1
 20200407,더팩트,clean,36
@@ -14919,7 +14710,6 @@ date,cp_name,tag,count
 20200407,연합뉴스,clean,928
 20200407,연합뉴스,gender,6
 20200407,연합뉴스,molka,1
-20200407,연합뉴스 보도자료,clean,88
 20200407,연합뉴스TV,clean,120
 20200407,연합뉴스TV,gender,2
 20200407,오마이뉴스,clean,148
@@ -14928,7 +14718,7 @@ date,cp_name,tag,count
 20200407,이데일리,clean,143
 20200407,이데일리,gender,1
 20200407,일간스포츠,clean,6
-20200407,전자신문,clean,21
+20200407,전자신문,clean,22
 20200407,조선일보,clean,154
 20200407,조선일보,gender,3
 20200407,주간동아,clean,2
@@ -14946,7 +14736,7 @@ date,cp_name,tag,count
 20200407,한국일보,clean,138
 20200407,한국일보,gender,1
 20200407,헤럴드경제,bearing,1
-20200407,헤럴드경제,clean,178
+20200407,헤럴드경제,clean,179
 20200407,헤럴드경제,gender,1
 20200407,헤럴드경제,molka,1
 20200408,EBS,clean,6
@@ -14960,14 +14750,13 @@ date,cp_name,tag,count
 20200408,MBN,gender,1
 20200408,SBS,clean,103
 20200408,YTN,clean,226
-20200408,bnt뉴스,clean,1
 20200408,경향신문,clean,132
 20200408,경향신문,gender,3
 20200408,국민일보,clean,136
 20200408,국민일보,gender,3
 20200408,국민일보,molka,1
 20200408,기자협회보,clean,9
-20200408,노컷뉴스,clean,261
+20200408,노컷뉴스,clean,262
 20200408,노컷뉴스,gender,1
 20200408,뉴스1,clean,831
 20200408,뉴스1,gender,13
@@ -14987,7 +14776,7 @@ date,cp_name,tag,count
 20200408,마니아리포트,clean,2
 20200408,마리끌레르,clean,2
 20200408,매일경제,clean,33
-20200408,머니S,clean,106
+20200408,머니S,clean,107
 20200408,머니투데이,clean,206
 20200408,머니투데이,gender,5
 20200408,머니투데이,molka,1
@@ -15020,8 +14809,6 @@ date,cp_name,tag,count
 20200408,연합뉴스,gender,8
 20200408,연합뉴스,molka,2
 20200408,연합뉴스,profession,1
-20200408,연합뉴스 보도자료,bearing,1
-20200408,연합뉴스 보도자료,clean,100
 20200408,연합뉴스TV,clean,126
 20200408,연합뉴스TV,gender,2
 20200408,오마이뉴스,clean,149
@@ -15043,7 +14830,7 @@ date,cp_name,tag,count
 20200408,쿠키뉴스,clean,245
 20200408,쿠키뉴스,gender,4
 20200408,쿠키뉴스,profession,1
-20200408,파이낸셜뉴스,clean,203
+20200408,파이낸셜뉴스,clean,204
 20200408,한겨레,clean,85
 20200408,한겨레,gender,3
 20200408,한겨레21,clean,2
@@ -15051,7 +14838,7 @@ date,cp_name,tag,count
 20200408,한국경제,gender,1
 20200408,한국일보,clean,172
 20200408,한국일보,gender,3
-20200408,헤럴드경제,clean,183
+20200408,헤럴드경제,clean,184
 20200408,헤럴드경제,gender,5
 20200408,헤럴드경제,molka,2
 20200409,EBS,clean,6
@@ -15067,7 +14854,6 @@ date,cp_name,tag,count
 20200409,SBS funE,clean,1
 20200409,YTN,clean,225
 20200409,YTN,gender,3
-20200409,bnt뉴스,clean,1
 20200409,경향신문,clean,125
 20200409,경향신문,gender,4
 20200409,국민일보,clean,136
@@ -15077,7 +14863,7 @@ date,cp_name,tag,count
 20200409,노컷뉴스,gender,2
 20200409,노컷뉴스,molka,1
 20200409,뉴스1,bearing,1
-20200409,뉴스1,clean,929
+20200409,뉴스1,clean,930
 20200409,뉴스1,gender,15
 20200409,뉴스엔,clean,5
 20200409,뉴스타파,clean,1
@@ -15095,7 +14881,7 @@ date,cp_name,tag,count
 20200409,리빙센스,clean,1
 20200409,마니아리포트,clean,1
 20200409,매일경제,clean,43
-20200409,머니S,clean,114
+20200409,머니S,clean,115
 20200409,머니투데이,clean,228
 20200409,머니투데이,gender,1
 20200409,메종,clean,1
@@ -15127,10 +14913,8 @@ date,cp_name,tag,count
 20200409,아이뉴스24,clean,24
 20200409,아이뉴스24,gender,1
 20200409,엘르,clean,1
-20200409,연합뉴스,clean,1108
+20200409,연합뉴스,clean,1109
 20200409,연합뉴스,gender,12
-20200409,연합뉴스 보도자료,bearing,1
-20200409,연합뉴스 보도자료,clean,87
 20200409,연합뉴스TV,clean,122
 20200409,오마이뉴스,clean,177
 20200409,우먼동아일보,clean,5
@@ -15149,7 +14933,7 @@ date,cp_name,tag,count
 20200409,쿠키뉴스,clean,208
 20200409,쿠키뉴스,gender,7
 20200409,쿠키뉴스,profession,1
-20200409,파이낸셜뉴스,clean,183
+20200409,파이낸셜뉴스,clean,184
 20200409,파이낸셜뉴스,gender,2
 20200409,한겨레,clean,117
 20200409,한겨레,gender,1
@@ -15173,7 +14957,6 @@ date,cp_name,tag,count
 20200410,SBS funE,clean,4
 20200410,YTN,clean,196
 20200410,YTN,gender,3
-20200410,bnt뉴스,clean,1
 20200410,ize,clean,1
 20200410,경향신문,clean,103
 20200410,국민일보,clean,95
@@ -15183,7 +14966,7 @@ date,cp_name,tag,count
 20200410,뉴스1,clean,845
 20200410,뉴스1,gender,8
 20200410,뉴스타파,clean,3
-20200410,뉴시스,clean,756
+20200410,뉴시스,clean,757
 20200410,뉴시스,gender,3
 20200410,뉴시스,molka,1
 20200410,더팩트,clean,32
@@ -15203,7 +14986,7 @@ date,cp_name,tag,count
 20200410,메종,clean,1
 20200410,문화일보,clean,80
 20200410,미디어오늘,clean,12
-20200410,서울경제,clean,110
+20200410,서울경제,clean,111
 20200410,서울경제,gender,2
 20200410,서울신문,clean,141
 20200410,서울신문,gender,1
@@ -15217,14 +15000,13 @@ date,cp_name,tag,count
 20200410,시사저널,clean,14
 20200410,신동아,clean,5
 20200410,아레나,clean,1
-20200410,아시아경제,clean,176
+20200410,아시아경제,clean,177
 20200410,아시아경제,molka,1
 20200410,아이뉴스24,clean,14
 20200410,에스티엔,clean,1
 20200410,엘르,clean,1
 20200410,연합뉴스,clean,1055
 20200410,연합뉴스,gender,5
-20200410,연합뉴스 보도자료,clean,87
 20200410,연합뉴스TV,clean,128
 20200410,연합뉴스TV,gender,1
 20200410,오마이뉴스,clean,133
@@ -15242,7 +15024,7 @@ date,cp_name,tag,count
 20200410,중앙일보,gender,3
 20200410,채널A,clean,31
 20200410,코스모폴리탄,clean,1
-20200410,쿠키뉴스,clean,195
+20200410,쿠키뉴스,clean,197
 20200410,쿠키뉴스,gender,2
 20200410,파이낸셜뉴스,clean,140
 20200410,한겨레,clean,61
@@ -15251,64 +15033,64 @@ date,cp_name,tag,count
 20200410,한국경제,clean,73
 20200410,한국일보,clean,128
 20200410,한국일보,gender,1
-20200410,헤럴드경제,clean,136
+20200410,헤럴드경제,clean,137
 20200410,헤럴드경제,gender,3
 20200411,JTBC,clean,2
-20200411,KBS,clean,70
+20200411,KBS,clean,74
 20200411,KBS,gender,1
 20200411,MBC,abuse,1
-20200411,MBC,clean,44
+20200411,MBC,clean,47
 20200411,MBN,clean,7
 20200411,SBS,clean,30
 20200411,SBS funE,clean,1
-20200411,YTN,clean,99
-20200411,경향신문,clean,14
-20200411,국민일보,clean,25
+20200411,YTN,clean,103
+20200411,YTN,gender,1
+20200411,경향신문,clean,20
+20200411,국민일보,clean,28
 20200411,국민일보,gender,1
-20200411,노컷뉴스,clean,36
-20200411,뉴스1,clean,221
-20200411,뉴스타파,clean,2
-20200411,뉴시스,clean,208
+20200411,노컷뉴스,clean,43
+20200411,뉴스1,clean,263
+20200411,뉴스타파,clean,3
+20200411,뉴시스,clean,227
 20200411,뉴시스,gender,3
 20200411,뉴시스,profession,1
-20200411,더팩트,clean,14
-20200411,데일리안,clean,17
+20200411,더팩트,clean,15
+20200411,데일리안,clean,18
 20200411,동아사이언스,clean,1
-20200411,동아일보,clean,45
+20200411,동아일보,clean,46
 20200411,동아일보,gender,1
-20200411,매일경제,clean,8
-20200411,머니S,clean,18
-20200411,머니투데이,clean,91
+20200411,매일경제,clean,9
+20200411,머니S,clean,21
+20200411,머니투데이,clean,97
 20200411,문화일보,clean,3
 20200411,미디어오늘,clean,8
 20200411,서울경제,clean,18
-20200411,서울신문,clean,42
-20200411,세계일보,clean,36
+20200411,서울신문,clean,45
+20200411,세계일보,clean,42
 20200411,시사IN,clean,3
-20200411,시사저널,clean,2
+20200411,시사저널,clean,3
 20200411,신동아,clean,2
-20200411,아시아경제,clean,27
+20200411,아시아경제,clean,32
 20200411,아이뉴스24,clean,4
-20200411,연합뉴스,clean,263
-20200411,연합뉴스 보도자료,clean,3
-20200411,연합뉴스TV,clean,51
-20200411,오마이뉴스,clean,22
+20200411,연합뉴스,clean,294
+20200411,연합뉴스TV,clean,58
+20200411,오마이뉴스,clean,25
 20200411,우먼동아일보,clean,3
-20200411,이데일리,clean,58
+20200411,이데일리,clean,63
 20200411,이데일리,gender,3
 20200411,일간스포츠,clean,5
 20200411,전자신문,clean,1
-20200411,조선일보,clean,65
+20200411,조선일보,clean,67
 20200411,중앙SUNDAY,clean,19
 20200411,중앙SUNDAY,demonize,1
 20200411,중앙SUNDAY,molka,1
 20200411,중앙SUNDAY,profession,1
-20200411,중앙일보,clean,43
-20200411,쿠키뉴스,clean,38
+20200411,중앙일보,clean,47
+20200411,쿠키뉴스,clean,39
 20200411,쿠키뉴스,profession,1
-20200411,파이낸셜뉴스,clean,51
-20200411,한겨레,clean,11
+20200411,파이낸셜뉴스,clean,59
+20200411,한겨레,clean,12
 20200411,한겨레,gender,1
 20200411,한국경제,clean,8
-20200411,한국일보,clean,38
-20200411,헤럴드경제,clean,12
+20200411,한국일보,clean,41
+20200411,헤럴드경제,clean,13
