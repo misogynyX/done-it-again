@@ -9,13 +9,12 @@ import fire
 import analyze
 import stats
 
-
-SRC_DIR = 'news/docs/data'
+SRC_DIR = 'data'
 DATA_DIR = 'docs/_data'
 
 FIELDS = [
-    'article_id', 'cp_name', 'title', 'description', 'authors',
-    'keywords', 'date', 'url', 'tags',
+    'article_id', 'cp_name', 'title', 'description', 'authors', 'keywords',
+    'date', 'url', 'tags'
 ]
 
 
@@ -88,24 +87,28 @@ class CLI:
         print('Creating stats_best_tags.csv...')
         best_cps = stats.best_cps(table, min_count=200)
         with open(os.path.join(DATA_DIR, 'stats_best_cps.csv'), 'w') as f:
-            fields = ['cp_name', 'cp_name_masked', 'clean', 'bad', 'total',
-                      'ratio']
+            fields = [
+                'cp_name', 'cp_name_masked', 'clean', 'bad', 'total', 'ratio'
+            ]
             csvw = csv.DictWriter(f, fields)
             csvw.writeheader()
-            csvw.writerows({**c, 'cp_name_masked': stats.mask(c['cp_name'])}
-                           for c in best_cps)
+            csvw.writerows({
+                **c, 'cp_name_masked': stats.mask(c['cp_name'])
+            } for c in best_cps)
 
         # 최근 6개월 이내에 가장 부적절한 표현이 담긴 기사의 비율이 높은
         # 언론사 집계 (단, 최근 6개월 이내에 기사가 200개 이상인 경우만)
         print('Creating stats_worst_tags.csv...')
         worst_cps = stats.worst_cps(table, min_count=200)
         with open(os.path.join(DATA_DIR, 'stats_worst_cps.csv'), 'w') as f:
-            fields = ['cp_name', 'cp_name_masked', 'clean', 'bad', 'total',
-                      'ratio']
+            fields = [
+                'cp_name', 'cp_name_masked', 'clean', 'bad', 'total', 'ratio'
+            ]
             csvw = csv.DictWriter(f, fields)
             csvw.writeheader()
-            csvw.writerows({**c, 'cp_name_masked': stats.mask(c['cp_name'])}
-                           for c in worst_cps)
+            csvw.writerows({
+                **c, 'cp_name_masked': stats.mask(c['cp_name'])
+            } for c in worst_cps)
 
     def test(self, tag):
         """기사 전체 중 특정 분류에 속하는 기사만 출력. 개발 중 테스트용"""
@@ -120,13 +123,10 @@ class CLI:
         os.makedirs(DATA_DIR, exist_ok=True)
         return articles
 
-
     def _get_articles(self):
         """Yields all articles in SRC_DIR"""
-        filenames = (
-            fn for fn in sorted(os.listdir(SRC_DIR))
-            if fn.endswith('.csv')
-        )
+        filenames = (fn for fn in sorted(os.listdir(SRC_DIR))
+                     if fn.endswith('.csv'))
         for filename in filenames:
             date = filename[:-4]
             with open(os.path.join(SRC_DIR, filename), 'r') as f:
@@ -149,4 +149,3 @@ class CLI:
 
 if __name__ == '__main__':
     fire.Fire(CLI())
-
