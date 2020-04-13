@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 mkdir -p data
 
-echo "Downloading files from S3..."
+echo "Downloading recent files from S3..."
 recent_files=`aws s3 ls ${AWS_S3_BUCKET}/news/ | awk '{print $4}' | sort | tail -n 180`
 while IFS= read -r line; do
   if [ ! -f data/${line} ]; then
