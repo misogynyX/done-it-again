@@ -32,13 +32,8 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
       run: poetry run ./update.sh
-    - name: Commit
-      run: |
-        git add docs/_data
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -m '자동: 새로 추가된 뉴스 분석' || true
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs
