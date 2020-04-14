@@ -142,7 +142,7 @@ class CLI:
             yield analyze.analyze_article(article, overrides)
 
     def _load_override_rules(self):
-        with open(os.path.join(DATA_DIR, 'overrides.csv'), 'r') as f:
+        with open('overrides.csv', 'r') as f:
             csvr = csv.DictReader(f)
             return {r['article_id']: r['rules'].split(' ') for r in csvr}
 
