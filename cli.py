@@ -73,7 +73,7 @@ class CLI:
             csvw.writeheader()
             csvw.writerows(daily)
 
-        # 최근 6개월 이내에 가장 빈도가 높은 태그 집계
+        # 가장 빈도가 높은 태그 집계
         print('Creating stats_freq_tags.csv...')
         freq_tags = stats.frequent_tags(table)
         with open(os.path.join(DATA_DIR, 'stats_freq_tags.csv'), 'w') as f:
@@ -82,8 +82,8 @@ class CLI:
             csvw.writeheader()
             csvw.writerows(freq_tags)
 
-        # 최근 6개월 이내에 가장 부적절한 표현이 담긴 기사의 비율이 낮은
-        # 언론사 집계 (단, 최근 6개월 이내에 기사가 200개 이상인 경우만)
+        # 가장 부적절한 표현이 담긴 기사의 비율이 낮은 언론사 집계
+        # (단, 기사가 200개 이상인 경우만)
         print('Creating stats_best_tags.csv...')
         best_cps = stats.best_cps(table, min_count=200)
         with open(os.path.join(DATA_DIR, 'stats_best_cps.csv'), 'w') as f:
@@ -96,8 +96,8 @@ class CLI:
                 **c, 'cp_name_masked': stats.mask(c['cp_name'])
             } for c in best_cps)
 
-        # 최근 6개월 이내에 가장 부적절한 표현이 담긴 기사의 비율이 높은
-        # 언론사 집계 (단, 최근 6개월 이내에 기사가 200개 이상인 경우만)
+        # 가장 부적절한 표현이 담긴 기사의 비율이 높은 언론사 집계
+        # (단, 기사가 200개 이상인 경우만)
         print('Creating stats_worst_tags.csv...')
         worst_cps = stats.worst_cps(table, min_count=200)
         with open(os.path.join(DATA_DIR, 'stats_worst_cps.csv'), 'w') as f:
