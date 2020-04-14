@@ -12,7 +12,7 @@ on:
     - '**.sass'
     - '**.js'
     - '**.sh'
-    - 'docs/_data/overrides.csv'
+    - 'overrides.csv'
     - 'docs/_data/tag_defs.yaml'
 jobs:
   build:
