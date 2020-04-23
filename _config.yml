@@ -1,0 +1,10 @@
+title: "언론이 또"
+email: "kkyueing@gmail.com"
+description: >-
+  언론이 또
+baseurl: "/"
+url: "https://again.misogynyx.com"
+
+theme: minima
+plugins:
+  - jekyll-feed
