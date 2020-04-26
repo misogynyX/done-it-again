@@ -13,6 +13,12 @@ jobs:
     - uses: actions/checkout@v2
     - name: Update data
       run: ./update.sh
+    - name: Build
+      uses: actions/setup-node@v1
+      run: >
+        npm i
+        npm run build
+        cp CNAME public/
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
