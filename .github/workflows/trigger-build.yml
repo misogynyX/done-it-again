@@ -1,0 +1,14 @@
+name: Trigger scheduled update
+
+on:
+  schedule:
+    - cron: "40 * * * *"
+  push:
+    branches:
+    - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Trigger
+      run: curl -X POST -d {} ${{ secrets.NETLIFY_HOOK }}
