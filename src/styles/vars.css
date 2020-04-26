@@ -1,0 +1,24 @@
+:root {
+  --color: #aaaaaa;
+  --bg-color: #000000;
+  --highlight-color: #ffffff;
+  --link-color: #ffffff;
+
+  --point-color: #a81a1a;
+  --bad-color: #a81a1a;
+  --good-color: #157e23;
+
+  --font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  :root {
+    --font-size: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    --font-size: 13px;
+  }
+}

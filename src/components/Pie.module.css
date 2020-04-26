@@ -1,0 +1,13 @@
+@import "../styles/vars.css";
+
+.root {
+}
+
+.bg {
+  fill: #333;
+}
+
+.fg {
+  transform: rotate(-0.25turn);
+  fill: var(--point-color);
+}

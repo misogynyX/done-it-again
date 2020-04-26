@@ -1,0 +1,7 @@
+.root > section {
+  margin-bottom: 6rem;
+}
+
+.root > section > p {
+  font-size: 1.1rem;
+}

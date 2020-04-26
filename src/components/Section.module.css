@@ -1,0 +1,34 @@
+.root {
+  margin: 0 0 6rem 0;
+}
+
+.guide {
+  font-size: 1.1em;
+}
+
+.stats {
+  font-size: 1.1em;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-track-color: #333;
+  scrollbar-color: #666;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+
+  margin: 1rem 0;
+  padding: 1rem 0;
+  height: 25rem;
+  list-style-type: none;
+}
+
+.stats svg {
+  float: left;
+  display: block;
+  width: 2.6em;
+  height: 2.6em;
+  padding: 0.4em 0.4em 0 0;
+}

@@ -1,0 +1,17 @@
+.root {
+  margin: 0;
+  padding: 3rem 1rem 2.5rem;
+  background-color: #111;
+  border-top: #333;
+
+  font-size: 0.85rem;
+}
+
+.root ul {
+  padding-left: 1.5em;
+}
+
+.copyright {
+  margin-top: 5em;
+  text-align: center;
+}
