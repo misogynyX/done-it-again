@@ -1,0 +1,24 @@
+@import '../styles/vars.css';
+
+.root {
+  margin-top: 4rem;
+  margin-bottom: 0.2rem;
+}
+
+.root h1 {
+  font-size: 7rem;
+  border-bottom: 4px solid var(--point-color);
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .root h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .root h1 {
+    font-size: 4rem;
+  }
+}

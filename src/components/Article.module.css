@@ -1,0 +1,52 @@
+.root {
+  position: relative;
+  flex: 0 0 auto;
+  width: 16rem;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 1rem 0 0;
+  padding: 1.2rem 1rem;
+  border: 1px solid #333;
+  box-shadow: 1px 1px 3px #222;
+  scroll-snap-align: start;
+}
+
+.meta {
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+.cp-name {
+  display: inline-block;
+  border: 1px solid currentColor;
+  padding: 1px 4px 0;
+  margin-right: 0.4em;
+  border-radius: 2px;
+}
+
+.authors {
+  display: inline;
+  margin-right: 0.4em;
+}
+
+.date {
+  display: inline;
+}
+
+.title {
+  margin-bottom: 0.5em;
+}
+
+.description {
+}
+
+.more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4em;
+  line-height: 4em;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(20,20,20,0) 0%, rgba(20,20,20,0.5) 15%, #141414 70%);
+}

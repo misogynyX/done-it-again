@@ -1,0 +1,45 @@
+.daily-stats {
+  text-align: right;
+  font-size: 0.85rem;
+}
+
+.daily-stats strong {
+  color: #5c8eff;
+}
+
+.quote {
+  margin: 4rem 0 4rem 40%;
+  font-style: italic;
+}
+
+.quote p {
+  margin: 1.5rem 0;
+}
+
+.quote cite {
+  display: block;
+  text-align: right;
+}
+
+.brief {
+  font-size: 1.2rem;
+}
+
+.title {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 600px) {
+  .quote {
+    margin-left: 25%;
+  }
+
+  .brief {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
