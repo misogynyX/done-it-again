@@ -2,6 +2,8 @@
 
 https://again.misogynyx.com 웹사이트
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/497bc07b-11d9-4eba-ab64-e13d902c6650/deploy-status)](https://app.netlify.com/sites/again-misogynyx/deploys)
+
 ## 데이터 흐름
 
 1. https://github.com/misogynyx/news-crawler 에서 전체 뉴스 데이터를 수집하여
