@@ -9,6 +9,7 @@ data/
 ## gatsby files
 .cache/
 public
+graphql-types.ts
 
 # IDEs
 *.swp
