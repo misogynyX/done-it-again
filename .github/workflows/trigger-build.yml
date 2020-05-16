@@ -2,7 +2,7 @@ name: Trigger scheduled update
 
 on:
   schedule:
-    - cron: "40 */6 * * *"
+    - cron: "40 */8 * * *"
   push:
     branches:
     - master
