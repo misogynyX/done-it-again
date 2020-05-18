@@ -26,6 +26,7 @@ const Article = (props: Props) => {
       <h4 className={styles.title}>
         <a
           href={article.url}
+          data-tag={tagDef.tag}
           target="_blank"
           rel="noopener noreferrer"
           dangerouslySetInnerHTML={{ __html: replaceHighlights(article.title, tagDef.tag) }}
@@ -35,7 +36,7 @@ const Article = (props: Props) => {
         className={styles.description}
         dangerouslySetInnerHTML={{ __html: replaceHighlights(article.description, tagDef.tag) }}
       />
-      <a className={styles.more} href={article.url} target="_blank" rel="noopener noreferrer">
+      <a className={styles.more} data-tag={tagDef.tag} href={article.url} target="_blank" rel="noopener noreferrer">
         더 읽기
       </a>
     </li>
