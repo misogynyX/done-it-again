@@ -41,5 +41,13 @@ module.exports = {
     `gatsby-transformer-csv`,
     `gatsby-transformer-yaml`,
     `gatsby-transformer-remark`,
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-WCLWH4M",
+        includeInDevelopment: true,
+        defaultDataLayer: { platform: "gatsby" },
+      },
+    },
   ],
 }
