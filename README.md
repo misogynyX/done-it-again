@@ -1,6 +1,6 @@
 # 언론이 또
 
-https://again.misogynyx.com 웹사이트!
+https://again.misogynyx.com 웹사이트
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/497bc07b-11d9-4eba-ab64-e13d902c6650/deploy-status)](https://app.netlify.com/sites/again-misogynyx/deploys)
 
