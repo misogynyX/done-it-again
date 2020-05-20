@@ -19,6 +19,7 @@ https://again.misogynyx.com 웹사이트
 다음 명령을 실행한 후 http://localhost:8000/ 에 접속하세요.
 
 ```bash
+./update.sh  # S3에서 분석 결과 데이터 받아오기
 npm i  # NodeJS 패키지 설치
 npm run develop  # 개발 서버 실행
 ```
