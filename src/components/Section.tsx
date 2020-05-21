@@ -6,7 +6,7 @@ import Pie from "./Pie"
 import Mark from "./Mark"
 
 interface Props {
-  group: ArticleGroup
+  group: ArticleGroup;
 }
 
 const Section = (props: Props) => {

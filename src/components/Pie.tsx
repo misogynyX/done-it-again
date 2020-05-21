@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./Pie.module.css"
 
 interface Props {
-  ratio: number
+  ratio: number;
 }
 
 const Pie = (props: Props) => {

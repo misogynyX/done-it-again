@@ -3,8 +3,8 @@ import React from "react"
 import styles from "./Article.module.css"
 
 interface Props {
-  article: Article
-  tagDef: TagDef
+  article: Article;
+  tagDef: TagDef;
 }
 
 function replaceHighlights(text: string, tag: string): string {

@@ -2,8 +2,8 @@ import React from "react"
 import HallOfFameRank from "./HallOfFameRank"
 
 interface Props {
-  worstCps: CpStats[]
-  bestCps: CpStats[]
+  worstCps: CpStats[];
+  bestCps: CpStats[];
 }
 
 const HallOfFame = (props: Props) => {

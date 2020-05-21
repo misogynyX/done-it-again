@@ -4,7 +4,7 @@ import styles from "./SectionList.module.css"
 import Section from "./Section"
 
 interface Props {
-  articleGroups: ArticleGroup[]
+  articleGroups: ArticleGroup[];
 }
 
 const SectionList = (props: Props) => {

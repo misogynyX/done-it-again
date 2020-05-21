@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./Intro.module.css"
 
 interface Props {
-  dailyStats: DailyStats
+  dailyStats: DailyStats;
 }
 
 const Intro = (props: Props) => {

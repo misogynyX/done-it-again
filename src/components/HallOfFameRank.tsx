@@ -4,9 +4,9 @@ import Bar from "./Bar"
 import styles from "./HallOfFameRank.module.css"
 
 interface Props {
-  kind: string
-  max: number
-  cps: CpStats[]
+  kind: string;
+  max: number;
+  cps: CpStats[];
 }
 
 const HallOfFameRank = (props: Props) => {

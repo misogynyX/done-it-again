@@ -2,11 +2,11 @@ import React from "react"
 import styles from "./Bar.module.css"
 
 interface Props {
-  name: string
-  rank: number
-  total: number
-  count: number
-  max: number
+  name: string;
+  rank: number;
+  total: number;
+  count: number;
+  max: number;
 }
 
 const Bar = (props: Props) => {
