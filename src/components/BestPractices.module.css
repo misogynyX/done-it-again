@@ -1,7 +1,24 @@
-.root > section {
-  margin-bottom: 6rem;
+.root>section {
+    margin-bottom: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-.root > section > p {
-  font-size: 1.1rem;
+.root>section>section {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.root h3 {
+    border-top: 6px solid var(--point-color);
+    border-left: 0;
+    margin-bottom: 1rem;
+}
+
+.root>section>p {
+    font-size: 1.1rem;
 }
