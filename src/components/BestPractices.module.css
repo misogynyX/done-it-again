@@ -1,29 +1,32 @@
 @media screen and (min-width: 700px) {
-    .root>section {
-        margin-bottom: 6rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    .root>section>section {
-        flex-basis: 30%;
-        flex-direction: column;
-        margin: 0.5rem;
-    }
-    .root h3 {
-        border-top: 4px solid var(--point-color);
-        border-left: 0;
-        margin-bottom: 1rem;
-        padding: 0;
-        font-size: 1.65rem;
-        height: 5rem;
-    }
+  .root ul {
+    margin: 0 0 6rem;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .root li {
+    flex-basis: 30%;
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+  .root h3 {
+    border-top: 4px solid var(--point-color);
+    border-left: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    font-size: 1.65rem;
+    height: 5rem;
+  }
 }
 
-.root>section {
-    margin-bottom: 6rem;
+.root section {
+  margin-bottom: 6rem;
 }
 
-.root>section>p {
-    font-size: 1.1rem;
+.root p {
+  font-size: 1.1rem;
 }
+
