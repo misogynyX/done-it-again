@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 
+import NavBar from "../components/NavBar"
 import Intro from "../components/Intro"
 import SectionList from "../components/SectionList"
 import HallOfFame from "../components/HallOfFame"
@@ -86,6 +87,13 @@ const Index = ({ data }) => {
     <Layout>
       <SEO title="홈" />
       <Intro dailyStats={dailyStats} />
+      <NavBar items={[
+        {key: '/', label: '홈'},
+        {key: 'articles', label: '기사모음'},
+        {key: 'hallOfFame', label: '(불)명예의 전당'},
+        {key: 'bestPractices', label: '가이드라인'},
+      ]}
+      />
       <SectionList articleGroups={groups} />
       <HallOfFame worstCps={worstCps} bestCps={bestCps} />
       <BestPractices />

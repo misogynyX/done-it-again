@@ -1,12 +1,12 @@
-@import './vars.css';
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@900&display=swap');
+@import "./vars.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@900&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 :root {
-  font-family: Dotum, '돋움', Helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-family: Dotum, "돋움", Helvetica, "Apple SD Gothic Neo", sans-serif;
   font-size: var(--font-size);
   line-height: 1.6;
 
@@ -19,12 +19,18 @@ body {
   padding: 0;
 }
 
-main > section {
+main > section,
+main > nav {
   margin-bottom: 8rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Noto Serif KR', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Serif KR", serif;
   font-weight: normal;
   margin: 0 0 1.5em;
 }
@@ -45,7 +51,8 @@ p {
   word-break: keep-all;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: var(--link-color);
   text-decoration: none;
 }
@@ -54,7 +61,8 @@ strong {
   color: var(--highlight-color);
 }
 
-span.good, span.bad {
+span.good,
+span.bad {
   padding: 1px 3px;
   border-radius: 2px;
   font-weight: bold;

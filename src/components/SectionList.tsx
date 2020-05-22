@@ -11,7 +11,7 @@ const SectionList = (props: Props) => {
   const groups = props.articleGroups
 
   return (
-    <section className={styles.root}>
+    <section id="articles" className={styles.root}>
       <h2>기사 모음</h2>
       <ul>
         {groups.map(group => (

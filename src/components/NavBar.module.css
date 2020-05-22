@@ -1,0 +1,30 @@
+@import "../styles/vars.css";
+
+.root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(30, 0, 0, 0.7);
+  border-bottom: 1px solid var(--point-color);
+}
+
+.root ul {
+  display: flex;
+  padding: 0 0.5em;
+  max-width: 60rem;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.root a {
+  display: block;
+  line-height: 3em;
+  height: 3em;
+  padding: 0 0.7em;
+}
+
+.active {
+  background-color: var(--point-color);
+}
