@@ -29,7 +29,7 @@ const HallOfFameRank = (props: Props) => {
       <ol className={styles.chart}>
         {props.cps.map((cp, i) => (
           <li key={i + 1}>
-            <Bar name={cp.cp_name} rank={i + 1} total={cp.total} count={cp.bad} max={props.max} />
+            <Bar name={cp.cp_name} rank={i + 1} total={cp.total} count={cp.bad} max={props.max} kind={props.kind} />
           </li>
         ))}
       </ol>
