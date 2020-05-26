@@ -7,6 +7,7 @@ interface Props {
   total: number;
   count: number;
   max: number;
+  kind: string;
 }
 
 const Bar = (props: Props) => {
@@ -17,7 +18,7 @@ const Bar = (props: Props) => {
   return (
     <div className={styles.root}>
       <span className={styles.barContainer}>
-        <span className={styles.bar} style={{ width: barPercent ? `${barPercent}%` : `1px` }} />
+        <span className={props.kind === "bad" ? styles.bad : styles.good} style={{ width: barPercent ? `${barPercent}%` : `1px` }} />
       </span>
       <span style={{ position: "absolute" }}>
         <span className={styles.rank}>{props.rank}.</span>

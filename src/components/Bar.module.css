@@ -39,11 +39,18 @@
   height: 100%;
 }
 
-.bar {
+.bar-container > span {
   position: absolute;
   display: block;
   top: 0;
   bottom: 0;
   left: 0;
+}
+
+.bad {
   background-color: var(--bad-color);
+}
+
+.good {
+  background-color: var(--good-color);
 }
