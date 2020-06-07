@@ -3,8 +3,21 @@ import styles from "./Footer.module.css"
 
 const Footer = () => (
   <footer className={styles.root}>
-    <p>문의, 제안, 오류신고:</p>
+
+    <p>Contact</p>
     <ul>
+      <li>
+      
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfteYkDdjcPiZAwgNCHj5af6NG_4sN7NayE5KITHDJWTKJrgw/viewform" target="_blank" rel="noopener noreferrer"> 
+      새로운 단어나 표현 제안하기 💡 
+    </a>
+      </li>
+      <li>
+      
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgTisseNnvx_uAIMUhf6Fy2ZVe9l42YAzk28Evo8tsYKV2ww/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"> 
+      잘못된 기사 분류 신고하기 ⚠️ 
+      </a>
+      </li>
       <li>
         트위터{" "}
         <a href="https://twitter.com/newsgim12" target="_blank" rel="noopener noreferrer">
@@ -16,7 +29,7 @@ const Footer = () => (
       </li>
     </ul>
 
-    <p>안내:</p>
+    <p>안내</p>
     <ul>
       <li>이 사이트의 모든 정보는 공익을 위한 목적으로 제공됩니다.</li>
       <li>
