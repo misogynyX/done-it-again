@@ -16,6 +16,9 @@ const Footer = () => (
       잘못된 기사 분류 신고하기 ⚠️ 
         </a>
       </li>
+    </ul>
+    
+    <ul>
       <li>
         트위터{" "}
         <a href="https://twitter.com/newsgim12" target="_blank" rel="noopener noreferrer">
