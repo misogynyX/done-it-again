@@ -7,16 +7,14 @@ const Footer = () => (
     <p>Contact</p>
     <ul>
       <li>
-      
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfteYkDdjcPiZAwgNCHj5af6NG_4sN7NayE5KITHDJWTKJrgw/viewform" target="_blank" rel="noopener noreferrer"> 
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfteYkDdjcPiZAwgNCHj5af6NG_4sN7NayE5KITHDJWTKJrgw/viewform" target="_blank" rel="noopener noreferrer"> 
       새로운 단어나 표현 제안하기 💡 
-    </a>
+        </a>
       </li>
       <li>
-      
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgTisseNnvx_uAIMUhf6Fy2ZVe9l42YAzk28Evo8tsYKV2ww/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"> 
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgTisseNnvx_uAIMUhf6Fy2ZVe9l42YAzk28Evo8tsYKV2ww/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"> 
       잘못된 기사 분류 신고하기 ⚠️ 
-      </a>
+        </a>
       </li>
       <li>
         트위터{" "}
