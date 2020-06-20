@@ -3,6 +3,7 @@ import styles from "./Footer.module.css"
 
 const Footer = () => (
   <footer className={styles.root}>
+    <div>
 
     <p>Contact</p>
     <ul>
@@ -39,6 +40,7 @@ const Footer = () => (
       </li>
     </ul>
     <p className={styles.copyright}>&copy; {new Date().getFullYear()} misogynyx.com</p>
+    </div>
   </footer>
 )
 
