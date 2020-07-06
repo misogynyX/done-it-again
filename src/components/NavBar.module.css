@@ -1,6 +1,9 @@
 @import "../styles/vars.css";
 
 .root {
+}
+
+.items {
   position: fixed;
   top: 0;
   left: 0;
@@ -10,7 +13,7 @@
   border-bottom: 1px solid var(--point-color);
 }
 
-.root ul {
+.items ul {
   display: flex;
   padding: 0 0.5em;
   max-width: 60rem;
@@ -18,7 +21,7 @@
   list-style-type: none;
 }
 
-.root a {
+.items a {
   display: block;
   line-height: 3em;
   height: 3em;
@@ -27,4 +30,39 @@
 
 .active {
   background-color: var(--point-color);
+}
+
+.button {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .button {
+    z-index: 1;
+    display: block;
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border: 1px solid #000;
+    background-color: var(--point-color);
+  }
+
+  .items {
+    display: none;
+
+    top: initial;
+    left: initial;
+    right: 3rem;
+    bottom: 3rem;
+
+    background-color: rgba(30, 0, 0, 0.9);
+    border-bottom-width: 0;
+  }
+
+  .items ul {
+    display: block;
+  }
 }
