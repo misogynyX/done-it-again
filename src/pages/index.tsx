@@ -85,7 +85,7 @@ const Index = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="홈" />
+      <SEO title="언론이 또" />
       <Intro dailyStats={dailyStats} />
       <NavBar items={[
         {key: '/', label: '홈'},
