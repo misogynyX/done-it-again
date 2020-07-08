@@ -10,7 +10,7 @@ const HallOfFame = (props: Props) => {
   const max = props.worstCps[0].ratio
 
   return (
-    <section>
+    <section id="hallOfFame">
       <h2>(불)명예의 전당</h2>
       <HallOfFameRank kind="bad" cps={props.worstCps} max={max} />
       <HallOfFameRank kind="good" cps={props.bestCps} max={max} />

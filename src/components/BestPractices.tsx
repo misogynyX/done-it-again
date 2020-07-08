@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./BestPractices.module.css"
 
 const BestPractices = () => (
-  <section className={styles.root}>
+  <section id="bestPractices" className={styles.root}>
     <h2>가이드라인</h2>
     <ul>
       <li>

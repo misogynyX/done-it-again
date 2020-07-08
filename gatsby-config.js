@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `언론이또 v2`,
+    title: `언론이또`,
     description: `언론의 여성혐오적 표현들`,
     siteUrl: `https://again.misogynyx.com`,
     author: `@misogynyx`,

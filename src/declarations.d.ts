@@ -42,6 +42,8 @@ type TagFrequency = {
   ratio: number;
 }
 
+declare module "react-scrollspy-nav";
+
 declare module "*.css" {
   const content: { [className: string]: string }
   export = content
