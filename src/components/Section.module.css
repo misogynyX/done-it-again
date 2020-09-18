@@ -12,23 +12,22 @@
 
 .articles {
   display: flex;
+  height: 25rem;
   flex-wrap: nowrap;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  list-style-type: none;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  scrollbar-track-color: #333;
   scrollbar-color: #666;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-
-  margin: 1rem 0;
-  padding: 1rem 0;
-  height: 25rem;
-  list-style-type: none;
+  scrollbar-track-color: #333;
 }
 
 .stats svg {
-  float: left;
   display: block;
   width: 2.6em;
   height: 2.6em;
   padding: 0.4em 0.4em 0 0;
+  float: left;
 }

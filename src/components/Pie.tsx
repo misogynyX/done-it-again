@@ -1,11 +1,11 @@
-import React from "react"
 import styles from "./Pie.module.css"
+import React from "react"
 
 interface Props {
-  ratio: number;
+  ratio: number
 }
 
-const Pie = (props: Props) => {
+const Pie = (props: Props): React.ReactElement => {
   const ratio = Math.max(props.ratio, 0.01)
   const x = Math.cos(2 * Math.PI * ratio)
   const y = Math.sin(2 * Math.PI * ratio)

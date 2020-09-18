@@ -1,42 +1,52 @@
-import React, {useState} from "react"
 import styles from "./NavBar.module.css"
+import React, { useState } from "react"
 
 interface Item {
-  key: string;
-  label: string;
+  key: string
+  label: string
 }
 
 interface Props {
-  items: Item[];
+  items: Item[]
 }
 
-const NavBar = (props: Props) => {
+const NavBar = (props: Props): React.ReactElement => {
   const isSSR = typeof window === "undefined"
   const [menuActivated, setMenuActivated] = useState(false)
 
-  return isSSR ? <></> : (
+  return isSSR ? (
+    <></>
+  ) : (
     <nav className={styles.root}>
-      <svg className={styles.button} style={menuActivated ? {} : {display: 'block'}} viewBox="0 0 10 10" onClick={() => setMenuActivated(!menuActivated)}>
+      <svg
+        className={styles.button}
+        style={menuActivated ? {} : { display: "block" }}
+        viewBox="0 0 10 10"
+        onClick={() => setMenuActivated(!menuActivated)}
+      >
         <line x1="3" y1="3.5" x2="7" y2="3.5" stroke="#FFF" strokeWidth="0.6" />
         <line x1="3" y1="5" x2="7" y2="5" stroke="#FFF" strokeWidth="0.6" />
         <line x1="3" y1="6.5" x2="7" y2="6.5" stroke="#FFF" strokeWidth="0.6" />
       </svg>
-      <div className={styles.items} style={menuActivated ? {display: 'block'} : {}}>
+      <div className={styles.items} style={menuActivated ? { display: "block" } : {}}>
         <ScrollspyNav
-          scrollTargetIds={props.items.map(item => item.key).filter(key => key !== '/')}
+          scrollTargetIds={props.items.map((item) => item.key).filter((key) => key !== "/")}
           offset={-100}
           scrollDuration={300}
           className={styles.root}
           activeNavClass={styles.active}
         >
           <ul>
-            {
-              props.items.map(item => (
-                <li key={ item.key }>
-                  <a href={item.key === '/' ? '/' : '#' + item.key} onClick={() => setMenuActivated(false)}>{ item.label }</a>
-                </li>)
-              )
-            }
+            {props.items.map((item) => (
+              <li key={item.key}>
+                <a
+                  href={item.key === "/" ? "/" : "#" + item.key}
+                  onClick={() => setMenuActivated(false)}
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
           </ul>
         </ScrollspyNav>
       </div>
@@ -45,16 +55,16 @@ const NavBar = (props: Props) => {
 }
 
 interface ScrollspyNavProps {
-  scrollTargetIds: string[];
-  activeNavClass: string;
-  scrollDuration?: number;
-  headerBackground?: string;
-  offset?: number;
-  children: any;
-  className: string;
+  scrollTargetIds: string[]
+  activeNavClass: string
+  scrollDuration?: number
+  headerBackground?: string
+  offset?: number
+  children: any
+  className: string
 }
 
-class ScrollspyNav extends React.Component<ScrollspyNavProps, {}, {}> {
+class ScrollspyNav extends React.Component<ScrollspyNavProps, unknown, unknown> {
   props: ScrollspyNavProps
 
   private scrollTargetIds: string[]
@@ -80,18 +90,24 @@ class ScrollspyNav extends React.Component<ScrollspyNavProps, {}, {}> {
     let scrollSectionOffsetTop: number
     this.scrollTargetIds.forEach((sectionID, index) => {
       const sectionEl = document.getElementById(sectionID)
-      if(!sectionEl) throw new Error()
+      if (!sectionEl) throw new Error()
 
       scrollSectionOffsetTop = sectionEl.offsetTop
 
-      if (window.pageYOffset - this.offset >= scrollSectionOffsetTop && window.pageYOffset < scrollSectionOffsetTop + sectionEl.scrollHeight) {
+      if (
+        window.pageYOffset - this.offset >= scrollSectionOffsetTop &&
+        window.pageYOffset < scrollSectionOffsetTop + sectionEl.scrollHeight
+      ) {
         this.getNavLinkElement(sectionID).classList.add(this.activeNavClass)
         this.clearOtherNavLinkActiveStyle(sectionID)
       } else {
         this.getNavLinkElement(sectionID).classList.remove(this.activeNavClass)
       }
 
-      if (window.innerHeight + window.pageYOffset >= document.body.scrollHeight && index === this.scrollTargetIds.length - 1) {
+      if (
+        window.innerHeight + window.pageYOffset >= document.body.scrollHeight &&
+        index === this.scrollTargetIds.length - 1
+      ) {
         this.getNavLinkElement(sectionID).classList.add(this.activeNavClass)
         this.clearOtherNavLinkActiveStyle(sectionID)
       }
@@ -99,10 +115,10 @@ class ScrollspyNav extends React.Component<ScrollspyNavProps, {}, {}> {
   }
 
   easeInOutQuad(current_time: number, start: number, change: number, duration: number): number {
-      current_time /= duration/2
-      if (current_time < 1) return change/2*current_time*current_time + start
-      current_time--
-      return -change/2 * (current_time*(current_time-2) - 1) + start
+    current_time /= duration / 2
+    if (current_time < 1) return (change / 2) * current_time * current_time + start
+    current_time--
+    return (-change / 2) * (current_time * (current_time - 2) - 1) + start
   }
 
   scrollTo(start: number, to: number, duration: number): void {
@@ -111,12 +127,12 @@ class ScrollspyNav extends React.Component<ScrollspyNavProps, {}, {}> {
     let currentTime = 0
 
     const animateScroll = () => {
-        currentTime += increment
-        const val = this.easeInOutQuad(currentTime, start, change, duration)
-        window.scrollTo(0, val)
-        if(currentTime < duration) {
-            setTimeout(animateScroll, increment)
-        }
+      currentTime += increment
+      const val = this.easeInOutQuad(currentTime, start, change, duration)
+      window.scrollTo(0, val)
+      if (currentTime < duration) {
+        setTimeout(animateScroll, increment)
+      }
     }
 
     animateScroll()
@@ -124,7 +140,7 @@ class ScrollspyNav extends React.Component<ScrollspyNavProps, {}, {}> {
 
   getNavLinkElement(sectionID: string): HTMLElement {
     const el = document.querySelector<HTMLElement>(`a[href='#${sectionID}']`)
-    if(!el) throw new Error()
+    if (!el) throw new Error()
     return el
   }
 
@@ -147,19 +163,23 @@ class ScrollspyNav extends React.Component<ScrollspyNavProps, {}, {}> {
     }
 
     const listEl = document.querySelector("div[data-nav='list']")
-    if(!listEl) throw new Error()
+    if (!listEl) throw new Error()
 
     const aEls = listEl.querySelectorAll("a") || []
-    aEls.forEach( (navLink) => {
+    aEls.forEach((navLink) => {
       navLink.addEventListener("click", (event) => {
         event.preventDefault()
-        const sectionID = navLink.getAttribute("href")?.substr(1) || ''
+        const sectionID = navLink.getAttribute("href")?.substr(1) || ""
 
-        if(sectionID) {
+        if (sectionID) {
           const sectionEl = document.getElementById(sectionID)
           if (sectionEl) {
             const scrollTargetPosition = sectionEl.offsetTop
-            this.scrollTo(window.pageYOffset, scrollTargetPosition + this.offset, this.scrollDuration)
+            this.scrollTo(
+              window.pageYOffset,
+              scrollTargetPosition + this.offset,
+              this.scrollDuration,
+            )
           }
         } else {
           this.scrollTo(window.pageYOffset, 0, this.scrollDuration)
@@ -175,11 +195,7 @@ class ScrollspyNav extends React.Component<ScrollspyNavProps, {}, {}> {
   }
 
   render() {
-    return(
-      <div data-nav="list">
-        { this.props.children }
-      </div>
-    )
+    return <div data-nav="list">{this.props.children}</div>
   }
 }
 

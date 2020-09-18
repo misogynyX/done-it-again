@@ -1,10 +1,9 @@
+import styles from "./Article.module.css"
 import React from "react"
 
-import styles from "./Article.module.css"
-
 interface Props {
-  article: Article;
-  tagDef: TagDef;
+  article: Article
+  tagDef: TagDef
 }
 
 function replaceHighlights(text: string, tag: string): string {
@@ -13,7 +12,7 @@ function replaceHighlights(text: string, tag: string): string {
   })
 }
 
-const Article = (props: Props) => {
+const Article = (props: Props): React.ReactElement => {
   const { article, tagDef } = props
 
   return (
@@ -36,7 +35,13 @@ const Article = (props: Props) => {
         className={styles.description}
         dangerouslySetInnerHTML={{ __html: replaceHighlights(article.description, tagDef.tag) }}
       />
-      <a className={styles.more} data-tag={tagDef.tag} href={article.url} target="_blank" rel="noopener noreferrer">
+      <a
+        className={styles.more}
+        data-tag={tagDef.tag}
+        href={article.url}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         더 읽기
       </a>
     </li>

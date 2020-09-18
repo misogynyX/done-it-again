@@ -6,17 +6,16 @@
 }
 
 :root {
+  background-color: var(--bg-color);
+  color: var(--color);
   font-family: Dotum, "돋움", Helvetica, "Apple SD Gothic Neo", sans-serif;
   font-size: var(--font-size);
   line-height: 1.6;
-
-  color: var(--color);
-  background-color: var(--bg-color);
 }
 
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 main > section,
@@ -30,9 +29,9 @@ h3,
 h4,
 h5,
 h6 {
+  margin: 0 0 1.5em;
   font-family: "Noto Serif KR", serif;
   font-weight: normal;
-  margin: 0 0 1.5em;
 }
 
 h2 {
@@ -41,9 +40,9 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
   padding: 0 1rem 0.1rem;
   border-left: 6px solid var(--point-color);
+  font-size: 2rem;
 }
 
 p {
@@ -65,10 +64,10 @@ span.good,
 span.bad {
   padding: 1px 3px;
   border-radius: 2px;
-  font-weight: bold;
-  word-break: keep-all;
-  white-space: nowrap;
   color: #fff;
+  font-weight: bold;
+  white-space: nowrap;
+  word-break: keep-all;
 }
 
 span.good {

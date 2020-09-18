@@ -1,13 +1,11 @@
 :root {
-  --color: #aaaaaa;
-  --bg-color: #000000;
-  --highlight-color: #ffffff;
-  --link-color: #ffffff;
-
+  --color: #aaa;
+  --bg-color: #000;
+  --highlight-color: #fff;
+  --link-color: #fff;
   --point-color: #a81a1a;
   --bad-color: #a81a1a;
   --good-color: #157e23;
-
   --font-size: 16px;
 }
 

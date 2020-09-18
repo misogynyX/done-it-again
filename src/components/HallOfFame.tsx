@@ -1,12 +1,12 @@
-import React from "react"
 import HallOfFameRank from "./HallOfFameRank"
+import React from "react"
 
 interface Props {
-  worstCps: CpStats[];
-  bestCps: CpStats[];
+  worstCps: CpStats[]
+  bestCps: CpStats[]
 }
 
-const HallOfFame = (props: Props) => {
+const HallOfFame = (props: Props): React.ReactElement => {
   const max = props.worstCps[0].ratio
 
   return (

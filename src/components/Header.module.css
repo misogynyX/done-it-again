@@ -6,9 +6,9 @@
 }
 
 .root h1 {
-  font-size: 7rem;
   border-bottom: 4px solid var(--point-color);
   margin: 0;
+  font-size: 7rem;
 }
 
 @media (max-width: 600px) {

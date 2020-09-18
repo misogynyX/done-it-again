@@ -1,9 +1,9 @@
-import React from "react"
-import { Helmet } from "react-helmet"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
+import React from "react"
+import { Helmet } from "react-helmet"
 
-const Post = ({ data }) => {
+const Post = ({ data }: { [index: string]: any }): React.ReactElement => {
   const post = data.markdownRemark
   const siteUrl = data.site.siteMetadata.siteUrl
 

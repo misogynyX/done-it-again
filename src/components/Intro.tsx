@@ -1,11 +1,11 @@
-import React from "react"
 import styles from "./Intro.module.css"
+import React from "react"
 
 interface Props {
-  dailyStats: DailyStats;
+  dailyStats: DailyStats
 }
 
-const Intro = (props: Props) => {
+const Intro = (props: Props): React.ReactElement => {
   const { date, total, bad } = props.dailyStats
   const month = parseInt(date.substr(4, 2), 10)
   const day = parseInt(date.substr(6, 2), 10)
@@ -13,15 +13,16 @@ const Intro = (props: Props) => {
   return (
     <section className={styles.root}>
       <div className={styles.dailyStats}>
-        {month}월 {day}일에 수집된 기사 <strong>{total}건</strong> 중 부적절한 표현 <strong>{bad}건</strong>
+        {month}월 {day}일에 수집된 기사 <strong>{total}건</strong> 중 부적절한 표현{" "}
+        <strong>{bad}건</strong>
       </div>
       <blockquote className={styles.quote}>
         <p>
-          &ldquo;성폭력 사건의 보도는 ‘성폭력 근절’이라는 공공성을 갖추어야 한다. 성폭력에 대한 잘못된 통념을 재생산 할
-          수 있는 보도를 해서는 안 된다. <br />
+          &ldquo;성폭력 사건의 보도는 ‘성폭력 근절’이라는 공공성을 갖추어야 한다. 성폭력에 대한
+          잘못된 통념을 재생산 할 수 있는 보도를 해서는 안 된다. <br />
           <br />
-          성폭력은 명백한 폭력이다. 성폭력을 가해자의 변명을 인용해 설명하거나 희화화, 선정적으로 보도해서는 안
-          된다.&rdquo;
+          성폭력은 명백한 폭력이다. 성폭력을 가해자의 변명을 인용해 설명하거나 희화화, 선정적으로
+          보도해서는 안 된다.&rdquo;
         </p>
 
         <cite>

@@ -1,16 +1,16 @@
-import React from "react"
 import styles from "./Bar.module.css"
+import React from "react"
 
 interface Props {
-  name: string;
-  rank: number;
-  total: number;
-  count: number;
-  max: number;
-  kind: string;
+  name: string
+  rank: number
+  total: number
+  count: number
+  max: number
+  kind: string
 }
 
-const Bar = (props: Props) => {
+const Bar = (props: Props): React.ReactElement => {
   const ratio = props.count / props.total
   const percent = Math.round(ratio * 10000) / 100 || 0
   const barPercent = (ratio / props.max) * 100 || 0
@@ -18,7 +18,10 @@ const Bar = (props: Props) => {
   return (
     <div className={styles.root}>
       <span className={styles.barContainer}>
-        <span className={props.kind === "bad" ? styles.bad : styles.good} style={{ width: barPercent ? `${barPercent}%` : `1px` }} />
+        <span
+          className={props.kind === "bad" ? styles.bad : styles.good}
+          style={{ width: barPercent ? `${barPercent}%` : `1px` }}
+        />
       </span>
       <span style={{ position: "absolute" }}>
         <span className={styles.rank}>{props.rank}.</span>
