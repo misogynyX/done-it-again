@@ -3,37 +3,37 @@
   "private": true,
   "description": "https://again.misogynyx.com/",
   "version": "0.1.0",
-  "author": "kkyueing <kkyueing@gmail.com>",
+  "author": "newsgim21 <newsgim12@gmail.com>",
   "dependencies": {
     "cssnano": "^4.1.10",
-    "gatsby": "^2.22.4",
-    "gatsby-plugin-google-tagmanager": "^2.3.3",
-    "gatsby-plugin-manifest": "^2.4.8",
+    "gatsby": "^2.24.63",
+    "gatsby-plugin-google-tagmanager": "^2.3.12",
+    "gatsby-plugin-manifest": "^2.4.30",
     "gatsby-plugin-netlify-cache": "^1.2.0",
-    "gatsby-plugin-offline": "^3.2.6",
-    "gatsby-plugin-postcss": "^2.3.2",
-    "gatsby-plugin-react-helmet": "^3.3.2",
-    "gatsby-source-filesystem": "^2.3.7",
-    "gatsby-transformer-csv": "^2.3.2",
-    "gatsby-transformer-remark": "^2.8.12",
-    "gatsby-transformer-yaml": "^2.4.2",
-    "postcss-custom-properties": "^9.1.1",
+    "gatsby-plugin-offline": "^3.2.28",
+    "gatsby-plugin-postcss": "^2.3.12",
+    "gatsby-plugin-react-helmet": "^3.3.11",
+    "gatsby-source-filesystem": "^2.3.30",
+    "gatsby-transformer-csv": "^2.3.11",
+    "gatsby-transformer-remark": "^2.8.35",
+    "gatsby-transformer-yaml": "^2.4.12",
+    "postcss-custom-properties": "^10.0.0",
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.7.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.0.0",
+    "react-helmet": "^6.1.0",
     "react-scrollspy-nav": "^1.2.4"
   },
   "devDependencies": {
-    "@types/react-helmet": "^5.0.16",
-    "@typescript-eslint/eslint-plugin": "^2.34.0",
-    "@typescript-eslint/parser": "^2.34.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.20.0",
-    "gatsby-plugin-typescript": "^2.4.3",
+    "@types/react-helmet": "^6.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.20.6",
+    "gatsby-plugin-typescript": "^2.4.20",
     "gatsby-plugin-typescript-checker": "^1.1.1",
-    "typescript": "^3.9.3"
+    "typescript": "^4.0.2"
   },
   "license": "ISC",
   "scripts": {
@@ -47,9 +47,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/misogynyX/done-it-again-2"
+    "url": "https://github.com/misogynyX/done-it-again"
   },
   "bugs": {
-    "url": "https://github.com/misogynyX/done-it-again-2/issues"
+    "url": "https://github.com/misogynyX/done-it-again/issues"
   }
 }
